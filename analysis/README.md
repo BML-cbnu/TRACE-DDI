@@ -1,8 +1,3 @@
-Here’s the complete fixed Markdown for your analysis/README.md — with all trees and lists properly fenced, ensuring correct rendering in VS Code, GitHub, and Markdown previewers.
-
-⸻
-
-
 # Analysis
 
 This directory provides a **complete and modular pipeline** for subgraph-based analysis of drug–drug interactions (DDIs).  
