@@ -141,7 +141,6 @@ Each results_foldk.txt includes:
 Tips & Troubleshooting
 	•	Ensure consistent drug IDs across ddi_*.tsv, smiles_*.tsv, and vec*.csv.
 	•	For large datasets, increase num_workers in DataLoader.
-	•	Ignore harmless torchmetrics pkg_resources warnings.
 	•	Monitor GPU memory and utilization with pynvml.
 
 ⸻
