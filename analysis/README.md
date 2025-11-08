@@ -164,9 +164,3 @@ Empty outputs? Relax MIN_GROUP_SIZE or MIN_SHARE_RATIO.
 Unreadable labels? Provide --hetionet_nodes for name mapping.
 
 ⸻
-
-Citation
-
-If this analysis pipeline is used in academic work, please cite the TRACE-DDI project and include the commit hash of CS_analysis.py.
-
----
