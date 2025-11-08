@@ -68,6 +68,8 @@ Important Notes
 
 ⸻
 
+
+```markdown
 ## Key Arguments
 
 | Argument | Description | Default |
@@ -92,7 +94,6 @@ Important Notes
 | `--gat_alpha` | Negative slope of GAT LeakyReLU | `0.3086` |
 | `--case_sensitive` | Preserve case in SMILES tokens | `off` |
 | `--n_splits` | Number of cross-validation folds | `5` |
-
 ⸻
 
 Pipeline Overview
