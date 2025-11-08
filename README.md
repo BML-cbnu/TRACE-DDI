@@ -117,7 +117,7 @@ Pipeline Overview
 	•	Tokenize SMILES using regex-based tokenizer.
 	•	Construct fixed-size adjacency matrices.
 	3.	Model Composition (utils/model.py)
-	•	Transformer encoder for SMILES (no positional encoding).
+	•	Transformer encoder for SMILES.
 	•	Multi-head GAT with decayed sinusoidal positional embedding.
 	•	Combine SMILES, GAT, and compound vectors → classification head.
 	4.	Training & Evaluation (utils/train_eval.py)
