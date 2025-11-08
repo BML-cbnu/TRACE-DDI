@@ -1,6 +1,5 @@
 ⸻
 
-
 # TRACE-DDI
 
 **TRACE-DDI** is a Transformer–GAT hybrid framework for **drug–drug interaction (DDI) prediction**.  
@@ -74,35 +73,32 @@ Notes
 ⸻
 
 Key Arguments
-
-Argument	Description	Default
---num_epochs	Number of training epochs	100
---batch_size	Batch size	32
---lr	Learning rate	0.00076
---log_dir	Directory for logs and plots	./logs/
---model_save_dir	Directory for checkpoints	./saved_models/
---result_dir	Directory for evaluation reports	./results/
---ddi_data_path	Path to DDI TSV	(required)
---smiles_data_path	Path to SMILES TSV	(required)
---compound_vector_path	Path to compound vector CSV	(required)
---embedding_dim	SMILES embedding dimension	64
---d_model	Transformer model dimension	128
---nhead	Number of attention heads	4
---num_encoder_layers	Number of Transformer encoder layers	3
---dim_feedforward	Feed-forward (FFN) dimension	512
---hidden_dim	Hidden dimension of classifier	256
---classifier_dropout	Dropout rate in classifier head	0.0
---gat_dropout	Dropout rate in GAT layer	0.0145
---gat_alpha	Negative slope of GAT LeakyReLU	0.3086
---case_sensitive	Preserve case in SMILES tokens	off
---n_splits	Number of cross-validation folds	5
-
+	•	--num_epochs: Number of training epochs (default: 100)
+	•	--batch_size: Batch size (default: 32)
+	•	--lr: Learning rate (default: 0.00076)
+	•	--log_dir: Directory for logs and plots (default: ./logs/)
+	•	--model_save_dir: Directory for checkpoints (default: ./saved_models/)
+	•	--result_dir: Directory for evaluation reports (default: ./results/)
+	•	--ddi_data_path: Path to DDI TSV (required)
+	•	--smiles_data_path: Path to SMILES TSV (required)
+	•	--compound_vector_path: Path to compound vector CSV (required)
+	•	--embedding_dim: SMILES embedding dimension (default: 64)
+	•	--d_model: Transformer model dimension (default: 128)
+	•	--nhead: Number of attention heads (default: 4)
+	•	--num_encoder_layers: Number of Transformer encoder layers (default: 3)
+	•	--dim_feedforward: Feed-forward (FFN) dimension (default: 512)
+	•	--hidden_dim: Hidden dimension of classifier (default: 256)
+	•	--classifier_dropout: Dropout rate in classifier head (default: 0.0)
+	•	--gat_dropout: Dropout rate in GAT layer (default: 0.0145)
+	•	--gat_alpha: Negative slope of GAT LeakyReLU (default: 0.3086)
+	•	--case_sensitive: Preserve case in SMILES tokens (default: off)
+	•	--n_splits: Number of cross-validation folds (default: 5)
 
 ⸻
 
 Pipeline Overview
 	1.	Logging & Reproducibility
-Logging initialized at INFO level; random seeds fixed.
+	•	Logging initialized at INFO level; random seeds fixed.
 	2.	Data Preparation (utils/data.py)
 	•	Load DDI and SMILES tables.
 	•	Encode interaction labels.
@@ -113,7 +109,7 @@ Logging initialized at INFO level; random seeds fixed.
 	•	Multi-head GAT with decayed sinusoidal positional embedding.
 	•	Combine SMILES, GAT, and compound vectors → classification head.
 	4.	Training & Evaluation (utils/train_eval.py)
-	•	Stratified K-Fold split (default 5 folds).
+	•	Stratified K-Fold split (default: 5 folds).
 	•	Label distribution visualization per fold.
 	•	EarlyStopping & ModelCheckpoint based on val_acc.
 	•	Save checkpoints and evaluation reports per fold.
@@ -138,3 +134,5 @@ Tips & Troubleshooting
 	•	For large datasets, increase num_workers in DataLoader.
 	•	Ignore harmless torchmetrics pkg_resources warnings.
 	•	Monitor GPU memory and utilization with pynvml.
+
+⸻
