@@ -27,7 +27,7 @@ See /preprocessing for details.
 ⸻
 
 Repository Structure
-
+'''
 repo-root/
 │
 ├── trace-ddi.py                  # Main launcher
@@ -36,8 +36,7 @@ repo-root/
     ├── data.py                   # Data loading, tokenization, adjacency, dataset
     ├── model.py                  # Transformer, GAT, and classifier modules
     └── train_eval.py             # Stratified K-Fold training, evaluation, saving
-
-
+'''
 ⸻
 
 Best-Parameter Command
@@ -115,13 +114,14 @@ Pipeline Overview
 	•	Save encoder/full checkpoints and evaluation reports.
 
 ⸻
-
+'''
 Example Outputs
 
 result_TRACE/
 ├── log/
 ├── savedModel/
 └── results_fold1.txt
+'''
 
 Each results_foldk.txt includes:
 	•	Accuracy, Precision, Recall, and F1 (weighted average)
