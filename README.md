@@ -52,8 +52,8 @@ python trace-ddi.py \
   --log_dir path/to/your/result_TRACE/log/ \
   --model_save_dir path/to/your/result_TRACE/savedModel/ \
   --result_dir path/to/your/result_TRACE/ \
-  --ddi_data_path path/to/your/data/ddi_01.tsv \
-  --smiles_data_path path/to/your/data/smiles_01.tsv \
+  --ddi_data_path path/to/your/data/ddi.tsv \
+  --smiles_data_path path/to/your/data/smiles.tsv \
   --compound_vector_path path/to/your/data/vec20_conv.csv \
   --embedding_dim 256 \
   --d_model 128 \
