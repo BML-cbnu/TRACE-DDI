@@ -5,9 +5,6 @@
 **TRACE-DDI** is a Transformer–GAT hybrid framework for **drug–drug interaction (DDI) prediction**.  
 It integrates **SMILES-based Transformer encoders**, **graph attention networks (GAT)**, and **pre-computed compound vectors** (e.g., knowledge-graph embeddings).
 
-This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) that reproduces the original experiment structure—  
-generating per-fold logs, checkpoints, and evaluation reports with consistent timing and naming conventions.
-
 ⸻
 
 ## Workflow Overview
