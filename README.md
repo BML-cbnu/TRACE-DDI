@@ -13,7 +13,7 @@ generating per-fold logs, checkpoints, and evaluation reports with consistent ti
 ## Workflow Overview
 
 <p align="center">
-  <img src="assets/workflow_ddi.jpg" alt="TRACE-DDI Workflow" width="720"/>
+  <img src="asset/workflow_ddi.jpg" alt="TRACE-DDI Workflow" width="720"/>
 </p>
 
 *Figure: End-to-end TRACE-DDI pipeline overview.*
