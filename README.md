@@ -136,5 +136,3 @@ Tips & Troubleshooting
 	•	GPU memory usage and temperature can be monitored via pynvml.
 
 ⸻
-
-This version is concise, technically consistent, and free of any spelling or grammatical errors — ready for direct upload to GitHub.
