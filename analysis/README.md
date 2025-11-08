@@ -40,7 +40,6 @@ TSV file with integer columns: drug1, drug2, interaction
 	•	Optional mapping resources
 	•	drkg/nodes.tsv: DRKG node_num → node_name
 	•	hetionet/nodes.tsv: DRKG node_id → human-readable name
-(for example, filtered-hetionet-v1.0-nodes.tsv renamed to hetionet/nodes.tsv)
 
 Use absolute paths to avoid ambiguity.
 
