@@ -1,33 +1,32 @@
-⸻
+# TRACE-DDI
 
-TRACE-DDI
-
-TRACE-DDI is a Transformer–GAT hybrid framework for drug–drug interaction (DDI) prediction.
+TRACE-DDI is a Transformer–GAT hybrid framework for drug–drug interaction (DDI) prediction.  
 It integrates SMILES-based Transformer encoders, graph attention (GAT) networks, and pre-computed compound vectors (e.g., knowledge-graph embeddings).
 
-This repository provides a modular implementation (trace-ddi.py + utils/*) that reproduces the original experiment structure — generating per-fold logs, checkpoints, and evaluation reports with the same timing and naming conventions.
+This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) that reproduces the original experiment structure—generating per-fold logs, checkpoints, and evaluation reports with the same timing and naming conventions.
 
-⸻
+---
 
-Environment Setup
+## Environment Setup
 
-Requirements
-	•	Python ≥ 3.9 (tested on 3.10–3.12)
-	•	PyTorch ≥ 2.1 (CUDA recommended)
-	•	PyTorch Lightning ≥ 2.0
-	•	scikit-learn, pandas, numpy, matplotlib
-	•	(Optional) pynvml for GPU monitoring
+**Requirements**
+- Python ≥ 3.9 (tested on 3.10–3.12)
+- PyTorch ≥ 2.1 (CUDA recommended)
+- PyTorch Lightning ≥ 2.0
+- scikit-learn, pandas, numpy, matplotlib
+- (Optional) `pynvml` for GPU monitoring
 
-⸻
+---
 
-Data Format
+## Data Format
 
-See /preprocessing for details.
+See `/preprocessing` for details.
 
-⸻
+---
 
-Repository Structure
+## Repository Structure
 
+```bash
 repo-root/
 │
 ├── trace-ddi.py                  # Main launcher
@@ -92,7 +91,6 @@ Argument	Description	Default
 --gat_alpha	Negative slope of GAT LeakyReLU	0.3086
 --case_sensitive	Preserve case in SMILES tokens	off
 --n_splits	Number of cross-validation folds	5
-
 
 ⸻
 
