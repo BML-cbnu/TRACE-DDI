@@ -1,9 +1,13 @@
+⸻
+
+
 # TRACE-DDI
 
-TRACE-DDI is a Transformer–GAT hybrid framework for drug–drug interaction (DDI) prediction.  
-It integrates SMILES-based Transformer encoders, graph attention (GAT) networks, and pre-computed compound vectors (e.g., knowledge-graph embeddings).
+**TRACE-DDI** is a Transformer–GAT hybrid framework for **drug–drug interaction (DDI) prediction**.  
+It integrates **SMILES-based Transformer encoders**, **graph attention networks (GAT)**, and **pre-computed compound vectors** (e.g., knowledge-graph embeddings).
 
-This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) that reproduces the original experiment structure—generating per-fold logs, checkpoints, and evaluation reports with the same timing and naming conventions.
+This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) that reproduces the original experiment structure—  
+generating per-fold logs, checkpoints, and evaluation reports with consistent timing and naming conventions.
 
 ---
 
@@ -14,13 +18,14 @@ This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) t
 - PyTorch ≥ 2.1 (CUDA recommended)
 - PyTorch Lightning ≥ 2.0
 - scikit-learn, pandas, numpy, matplotlib
-- (Optional) `pynvml` for GPU monitoring
+- *(Optional)* `pynvml` for GPU monitoring
 
 ---
 
 ## Data Format
 
-See `/preprocessing` for details.
+See `/preprocessing` for preprocessing scripts and format specifications.  
+Each data file (TSV/CSV) must include aligned drug identifiers across SMILES and embedding tables.
 
 ---
 
@@ -61,52 +66,57 @@ python trace-ddi.py \
   --gat_dropout 0.0107 \
   --gat_alpha 0.3738
 
-Important Notes
-	•	Use --nhead (not --num_heads) for multi-head attention. Both are accepted, but --nhead is canonical.
-	•	Tensor Core GPUs (e.g., RTX 4090) automatically set torch.set_float32_matmul_precision('high') for faster training.
-	•	All logs, checkpoints, and reports are saved per fold.
+Notes
+	•	Use --nhead (not --num_heads) for multi-head attention.
+	•	Tensor Core GPUs (e.g., RTX 4090) automatically set torch.set_float32_matmul_precision('high').
+	•	All logs, checkpoints, and reports are saved per fold under the specified directories.
 
 ⸻
 
-⸻
+Key Arguments
 
-## Key Arguments
-
-| Argument | Description | Default |
-|-----------|-------------|----------|
-| `--num_epochs` | Number of training epochs | `100` |
-| `--batch_size` | Batch size | `32` |
-| `--lr` | Learning rate | `0.00076` |
-| `--log_dir` | Directory for logs and plots | `./logs/` |
-| `--model_save_dir` | Directory for checkpoints | `./saved_models/` |
-| `--result_dir` | Directory for evaluation reports | `./results/` |
-| `--ddi_data_path` | Path to DDI TSV | *(required)* |
-| `--smiles_data_path` | Path to SMILES TSV | *(required)* |
-| `--compound_vector_path` | Path to compound vector CSV | *(required)* |
-| `--embedding_dim` | SMILES embedding dimension | `64` |
-| `--d_model` | Transformer model dimension | `128` |
-| `--nhead` | Number of attention heads | `4` |
-| `--num_encoder_layers` | Number of Transformer encoder layers | `3` |
-| `--dim_feedforward` | Feed-forward (FFN) dimension | `512` |
-| `--hidden_dim` | Hidden dimension of classifier | `256` |
-| `--classifier_dropout` | Dropout rate in classifier head | `0.0` |
-| `--gat_dropout` | Dropout rate in GAT layer | `0.0145` |
-| `--gat_alpha` | Negative slope of GAT LeakyReLU | `0.3086` |
-| `--case_sensitive` | Preserve case in SMILES tokens | `off` |
-| `--n_splits` | Number of cross-validation folds | `5` |
+Argument	Description	Default
+--num_epochs	Number of training epochs	100
+--batch_size	Batch size	32
+--lr	Learning rate	0.00076
+--log_dir	Directory for logs and plots	./logs/
+--model_save_dir	Directory for checkpoints	./saved_models/
+--result_dir	Directory for evaluation reports	./results/
+--ddi_data_path	Path to DDI TSV	(required)
+--smiles_data_path	Path to SMILES TSV	(required)
+--compound_vector_path	Path to compound vector CSV	(required)
+--embedding_dim	SMILES embedding dimension	64
+--d_model	Transformer model dimension	128
+--nhead	Number of attention heads	4
+--num_encoder_layers	Number of Transformer encoder layers	3
+--dim_feedforward	Feed-forward (FFN) dimension	512
+--hidden_dim	Hidden dimension of classifier	256
+--classifier_dropout	Dropout rate in classifier head	0.0
+--gat_dropout	Dropout rate in GAT layer	0.0145
+--gat_alpha	Negative slope of GAT LeakyReLU	0.3086
+--case_sensitive	Preserve case in SMILES tokens	off
+--n_splits	Number of cross-validation folds	5
 
 
 ⸻
 
 Pipeline Overview
 	1.	Logging & Reproducibility
-Logging initialized at INFO level.
+Logging initialized at INFO level; random seeds fixed.
 	2.	Data Preparation (utils/data.py)
-Load DDI and SMILES tables → Encode interaction labels → Tokenize SMILES → Build adjacency matrices.
+	•	Load DDI and SMILES tables.
+	•	Encode interaction labels.
+	•	Tokenize SMILES using regex-based tokenizer.
+	•	Construct fixed-size adjacency matrices.
 	3.	Model Composition (utils/model.py)
-Transformer encoder (no PE) + multi-head GAT + compound vectors → classification head.
+	•	Transformer encoder for SMILES (no positional encoding).
+	•	Multi-head GAT with decayed sinusoidal positional embedding.
+	•	Combine SMILES, GAT, and compound vectors → classification head.
 	4.	Training & Evaluation (utils/train_eval.py)
-Stratified K-Fold (default 5 folds), label visualization, early stopping, and checkpointing.
+	•	Stratified K-Fold split (default 5 folds).
+	•	Label distribution visualization per fold.
+	•	EarlyStopping & ModelCheckpoint based on val_acc.
+	•	Save checkpoints and evaluation reports per fold.
 
 ⸻
 
@@ -124,9 +134,7 @@ Each results_foldk.txt includes:
 ⸻
 
 Tips & Troubleshooting
-	•	Ensure that drug IDs match across ddi_*.tsv, smiles_*.tsv, and the index of vec*.csv.
+	•	Ensure consistent drug IDs across ddi_*.tsv, smiles_*.tsv, and vec*.csv.
 	•	For large datasets, increase num_workers in DataLoader.
-	•	Ignore harmless torchmetrics warnings.
-	•	Monitor GPU memory via pynvml.
-
-⸻
+	•	Ignore harmless torchmetrics pkg_resources warnings.
+	•	Monitor GPU memory and utilization with pynvml.
