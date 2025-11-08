@@ -8,6 +8,18 @@ It integrates **SMILES-based Transformer encoders**, **graph attention networks 
 This repository provides a modular implementation (`trace-ddi.py` + `utils/*`) that reproduces the original experiment structure—  
 generating per-fold logs, checkpoints, and evaluation reports with consistent timing and naming conventions.
 
+⸻
+
+## Workflow Overview
+
+<p align="center">
+  <img src="assets/workflow_ddi.jpg" alt="TRACE-DDI Workflow" width="720"/>
+</p>
+
+*Figure: End-to-end TRACE-DDI pipeline overview.*
+
+⸻
+
 ---
 
 ## Environment Setup
