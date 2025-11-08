@@ -70,69 +70,27 @@ Important Notes
 
 Key Arguments
 
-Argument
-Description
-Default
---num_epochs
-Number of training epochs
-100
---batch_size
-Batch size
-32
---lr
-Learning rate
-0.00076
---log_dir
-Directory for logs and plots
-./logs/
---model_save_dir
-Directory for checkpoints
-./saved_models/
---result_dir
-Directory for evaluation reports
-./results/
---ddi_data_path
-Path to DDI TSV
-(required)
---smiles_data_path
-Path to SMILES TSV
-(required)
---compound_vector_path
-Path to compound vector CSV
-(required)
---embedding_dim
-SMILES embedding dimension
-64
---d_model
-Transformer model dimension
-128
---nhead
-Number of attention heads
-4
---num_encoder_layers
-Number of Transformer encoder layers
-3
---dim_feedforward
-Feed-forward (FFN) dimension
-512
---hidden_dim
-Hidden dimension of classifier
-256
---classifier_dropout
-Dropout rate in classifier head
-0.0
---gat_dropout
-Dropout rate in GAT layer
-0.0145
---gat_alpha
-Negative slope of GAT LeakyReLU
-0.3086
---case_sensitive
-Preserve case in SMILES tokens
-off
---n_splits
-Number of cross-validation folds
-5
+Argument	Description	Default
+--num_epochs	Number of training epochs	100
+--batch_size	Batch size	32
+--lr	Learning rate	0.00076
+--log_dir	Directory for logs and plots	./logs/
+--model_save_dir	Directory for checkpoints	./saved_models/
+--result_dir	Directory for evaluation reports	./results/
+--ddi_data_path	Path to DDI TSV	(required)
+--smiles_data_path	Path to SMILES TSV	(required)
+--compound_vector_path	Path to compound vector CSV	(required)
+--embedding_dim	SMILES embedding dimension	64
+--d_model	Transformer model dimension	128
+--nhead	Number of attention heads	4
+--num_encoder_layers	Number of Transformer encoder layers	3
+--dim_feedforward	Feed-forward (FFN) dimension	512
+--hidden_dim	Hidden dimension of classifier	256
+--classifier_dropout	Dropout rate in classifier head	0.0
+--gat_dropout	Dropout rate in GAT layer	0.0145
+--gat_alpha	Negative slope of GAT LeakyReLU	0.3086
+--case_sensitive	Preserve case in SMILES tokens	off
+--n_splits	Number of cross-validation folds	5
 
 ⸻
 
