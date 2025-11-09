@@ -1,0 +1,3375 @@
+id	name	kind
+Compound::DB00014	Goserelin	Compound
+Compound::DB00035	Desmopressin	Compound
+Compound::DB00050	Cetrorelix	Compound
+Compound::DB00091	Cyclosporine	Compound
+Compound::DB00093	Felypressin	Compound
+Compound::DB00104	Octreotide	Compound
+Compound::DB00115	Cyanocobalamin	Compound
+Compound::DB00116	Tetrahydrofolic acid	Compound
+Compound::DB00117	L-Histidine	Compound
+Compound::DB00118	S-Adenosylmethionine	Compound
+Compound::DB00119	Pyruvic acid	Compound
+Compound::DB00120	L-Phenylalanine	Compound
+Compound::DB00121	Biotin	Compound
+Compound::DB00122	Choline	Compound
+Compound::DB00123	L-Lysine	Compound
+Compound::DB00125	L-Arginine	Compound
+Compound::DB00126	Vitamin C	Compound
+Compound::DB00127	Spermine	Compound
+Compound::DB00128	L-Aspartic Acid	Compound
+Compound::DB00129	L-Ornithine	Compound
+Compound::DB00130	L-Glutamine	Compound
+Compound::DB00131	Adenosine monophosphate	Compound
+Compound::DB00132	Alpha-Linolenic Acid	Compound
+Compound::DB00133	L-Serine	Compound
+Compound::DB00134	L-Methionine	Compound
+Compound::DB00135	L-Tyrosine	Compound
+Compound::DB00136	Calcitriol	Compound
+Compound::DB00137	Xanthophyll	Compound
+Compound::DB00138	L-Cystine	Compound
+Compound::DB00139	Succinic acid	Compound
+Compound::DB00140	Riboflavin	Compound
+Compound::DB00141	N-Acetyl-D-glucosamine	Compound
+Compound::DB00143	Glutathione	Compound
+Compound::DB00144	Phosphatidylserine	Compound
+Compound::DB00145	Glycine	Compound
+Compound::DB00146	Calcidiol	Compound
+Compound::DB00147	Pyridoxal	Compound
+Compound::DB00148	Creatine	Compound
+Compound::DB00149	L-Leucine	Compound
+Compound::DB00150	L-Tryptophan	Compound
+Compound::DB00151	L-Cysteine	Compound
+Compound::DB00152	Thiamine	Compound
+Compound::DB00153	Ergocalciferol	Compound
+Compound::DB00154	Dihomo-gamma-linolenic acid	Compound
+Compound::DB00155	L-Citrulline	Compound
+Compound::DB00156	L-Threonine	Compound
+Compound::DB00158	Folic Acid	Compound
+Compound::DB00159	Icosapent	Compound
+Compound::DB00160	L-Alanine	Compound
+Compound::DB00161	L-Valine	Compound
+Compound::DB00162	Vitamin A	Compound
+Compound::DB00163	Vitamin E	Compound
+Compound::DB00165	Pyridoxine	Compound
+Compound::DB00166	Lipoic Acid	Compound
+Compound::DB00167	L-Isoleucine	Compound
+Compound::DB00168	Aspartame	Compound
+Compound::DB00169	Cholecalciferol	Compound
+Compound::DB00170	Menadione	Compound
+Compound::DB00171	Adenosine triphosphate	Compound
+Compound::DB00172	L-Proline	Compound
+Compound::DB00173	Adenine	Compound
+Compound::DB00174	L-Asparagine	Compound
+Compound::DB00175	Pravastatin	Compound
+Compound::DB00176	Fluvoxamine	Compound
+Compound::DB00177	Valsartan	Compound
+Compound::DB00178	Ramipril	Compound
+Compound::DB00179	Masoprocol	Compound
+Compound::DB00180	Flunisolide	Compound
+Compound::DB00181	Baclofen	Compound
+Compound::DB00182	Amphetamine	Compound
+Compound::DB00183	Pentagastrin	Compound
+Compound::DB00184	Nicotine	Compound
+Compound::DB00185	Cevimeline	Compound
+Compound::DB00186	Lorazepam	Compound
+Compound::DB00187	Esmolol	Compound
+Compound::DB00188	Bortezomib	Compound
+Compound::DB00189	Ethchlorvynol	Compound
+Compound::DB00190	Carbidopa	Compound
+Compound::DB00191	Phentermine	Compound
+Compound::DB00192	Indecainide	Compound
+Compound::DB00193	Tramadol	Compound
+Compound::DB00194	Vidarabine	Compound
+Compound::DB00195	Betaxolol	Compound
+Compound::DB00196	Fluconazole	Compound
+Compound::DB00198	Oseltamivir	Compound
+Compound::DB00199	Erythromycin	Compound
+Compound::DB00200	Hydroxocobalamin	Compound
+Compound::DB00201	Caffeine	Compound
+Compound::DB00202	Succinylcholine	Compound
+Compound::DB00203	Sildenafil	Compound
+Compound::DB00204	Dofetilide	Compound
+Compound::DB00205	Pyrimethamine	Compound
+Compound::DB00206	Reserpine	Compound
+Compound::DB00207	Azithromycin	Compound
+Compound::DB00208	Ticlopidine	Compound
+Compound::DB00209	Trospium	Compound
+Compound::DB00210	Adapalene	Compound
+Compound::DB00211	Midodrine	Compound
+Compound::DB00212	Remikiren	Compound
+Compound::DB00213	Pantoprazole	Compound
+Compound::DB00214	Torasemide	Compound
+Compound::DB00215	Citalopram	Compound
+Compound::DB00216	Eletriptan	Compound
+Compound::DB00217	Bethanidine	Compound
+Compound::DB00218	Moxifloxacin	Compound
+Compound::DB00219	Oxyphenonium	Compound
+Compound::DB00220	Nelfinavir	Compound
+Compound::DB00221	Isoetarine	Compound
+Compound::DB00222	Glimepiride	Compound
+Compound::DB00223	Diflorasone	Compound
+Compound::DB00224	Indinavir	Compound
+Compound::DB00225	Gadodiamide	Compound
+Compound::DB00226	Guanadrel	Compound
+Compound::DB00227	Lovastatin	Compound
+Compound::DB00228	Enflurane	Compound
+Compound::DB00229	Cefotiam	Compound
+Compound::DB00230	Pregabalin	Compound
+Compound::DB00231	Temazepam	Compound
+Compound::DB00232	Methyclothiazide	Compound
+Compound::DB00233	Aminosalicylic Acid	Compound
+Compound::DB00234	Reboxetine	Compound
+Compound::DB00235	Milrinone	Compound
+Compound::DB00236	Pipobroman	Compound
+Compound::DB00237	Butabarbital	Compound
+Compound::DB00238	Nevirapine	Compound
+Compound::DB00239	Oxiconazole	Compound
+Compound::DB00240	Alclometasone	Compound
+Compound::DB00241	Butalbital	Compound
+Compound::DB00242	Cladribine	Compound
+Compound::DB00243	Ranolazine	Compound
+Compound::DB00244	Mesalazine	Compound
+Compound::DB00245	Benzatropine	Compound
+Compound::DB00246	Ziprasidone	Compound
+Compound::DB00247	Methysergide	Compound
+Compound::DB00248	Cabergoline	Compound
+Compound::DB00249	Idoxuridine	Compound
+Compound::DB00250	Dapsone	Compound
+Compound::DB00251	Terconazole	Compound
+Compound::DB00252	Phenytoin	Compound
+Compound::DB00253	Medrysone	Compound
+Compound::DB00254	Doxycycline	Compound
+Compound::DB00255	Diethylstilbestrol	Compound
+Compound::DB00256	Lymecycline	Compound
+Compound::DB00257	Clotrimazole	Compound
+Compound::DB00258	Calcium Acetate	Compound
+Compound::DB00259	Sulfanilamide	Compound
+Compound::DB00260	Cycloserine	Compound
+Compound::DB00261	Anagrelide	Compound
+Compound::DB00262	Carmustine	Compound
+Compound::DB00263	Sulfisoxazole	Compound
+Compound::DB00264	Metoprolol	Compound
+Compound::DB00265	Crotamiton	Compound
+Compound::DB00266	Dicoumarol	Compound
+Compound::DB00267	Cefmenoxime	Compound
+Compound::DB00268	Ropinirole	Compound
+Compound::DB00270	Isradipine	Compound
+Compound::DB00271	Diatrizoate	Compound
+Compound::DB00272	Betazole	Compound
+Compound::DB00273	Topiramate	Compound
+Compound::DB00274	Cefmetazole	Compound
+Compound::DB00275	Olmesartan	Compound
+Compound::DB00276	Amsacrine	Compound
+Compound::DB00277	Theophylline	Compound
+Compound::DB00278	Argatroban	Compound
+Compound::DB00279	Liothyronine	Compound
+Compound::DB00280	Disopyramide	Compound
+Compound::DB00281	Lidocaine	Compound
+Compound::DB00282	Pamidronate	Compound
+Compound::DB00283	Clemastine	Compound
+Compound::DB00284	Acarbose	Compound
+Compound::DB00285	Venlafaxine	Compound
+Compound::DB00286	Conjugated Estrogens	Compound
+Compound::DB00287	Travoprost	Compound
+Compound::DB00288	Amcinonide	Compound
+Compound::DB00289	Atomoxetine	Compound
+Compound::DB00290	Bleomycin	Compound
+Compound::DB00291	Chlorambucil	Compound
+Compound::DB00292	Etomidate	Compound
+Compound::DB00293	Raltitrexed	Compound
+Compound::DB00294	Etonogestrel	Compound
+Compound::DB00295	Morphine	Compound
+Compound::DB00296	Ropivacaine	Compound
+Compound::DB00297	Bupivacaine	Compound
+Compound::DB00298	Dapiprazole	Compound
+Compound::DB00299	Penciclovir	Compound
+Compound::DB00300	Tenofovir	Compound
+Compound::DB00301	Flucloxacillin	Compound
+Compound::DB00302	Tranexamic Acid	Compound
+Compound::DB00303	Ertapenem	Compound
+Compound::DB00304	Desogestrel	Compound
+Compound::DB00305	Mitomycin	Compound
+Compound::DB00306	Talbutal	Compound
+Compound::DB00307	Bexarotene	Compound
+Compound::DB00308	Ibutilide	Compound
+Compound::DB00309	Vindesine	Compound
+Compound::DB00310	Chlorthalidone	Compound
+Compound::DB00312	Pentobarbital	Compound
+Compound::DB00313	Valproic Acid	Compound
+Compound::DB00314	Capreomycin	Compound
+Compound::DB00315	Zolmitriptan	Compound
+Compound::DB00316	Acetaminophen	Compound
+Compound::DB00317	Gefitinib	Compound
+Compound::DB00318	Codeine	Compound
+Compound::DB00319	Piperacillin	Compound
+Compound::DB00320	Dihydroergotamine	Compound
+Compound::DB00321	Amitriptyline	Compound
+Compound::DB00322	Floxuridine	Compound
+Compound::DB00323	Tolcapone	Compound
+Compound::DB00324	Fluorometholone	Compound
+Compound::DB00325	Nitroprusside	Compound
+Compound::DB00326	Calcium Gluceptate	Compound
+Compound::DB00327	Hydromorphone	Compound
+Compound::DB00328	Indomethacin	Compound
+Compound::DB00330	Ethambutol	Compound
+Compound::DB00331	Metformin	Compound
+Compound::DB00332	Ipratropium bromide	Compound
+Compound::DB00333	Methadone	Compound
+Compound::DB00334	Olanzapine	Compound
+Compound::DB00335	Atenolol	Compound
+Compound::DB00336	Nitrofural	Compound
+Compound::DB00337	Pimecrolimus	Compound
+Compound::DB00338	Omeprazole	Compound
+Compound::DB00339	Pyrazinamide	Compound
+Compound::DB00340	Metixene	Compound
+Compound::DB00341	Cetirizine	Compound
+Compound::DB00343	Diltiazem	Compound
+Compound::DB00344	Protriptyline	Compound
+Compound::DB00345	Aminohippurate	Compound
+Compound::DB00346	Alfuzosin	Compound
+Compound::DB00347	Trimethadione	Compound
+Compound::DB00348	Nitisinone	Compound
+Compound::DB00349	Clobazam	Compound
+Compound::DB00350	Minoxidil	Compound
+Compound::DB00351	Megestrol acetate	Compound
+Compound::DB00352	Tioguanine	Compound
+Compound::DB00353	Methylergometrine	Compound
+Compound::DB00354	Buclizine	Compound
+Compound::DB00355	Aztreonam	Compound
+Compound::DB00356	Chlorzoxazone	Compound
+Compound::DB00357	Aminoglutethimide	Compound
+Compound::DB00358	Mefloquine	Compound
+Compound::DB00359	Sulfadiazine	Compound
+Compound::DB00360	Tetrahydrobiopterin	Compound
+Compound::DB00361	Vinorelbine	Compound
+Compound::DB00362	Anidulafungin	Compound
+Compound::DB00363	Clozapine	Compound
+Compound::DB00364	Sucralfate	Compound
+Compound::DB00366	Doxylamine	Compound
+Compound::DB00367	Levonorgestrel	Compound
+Compound::DB00368	Norepinephrine	Compound
+Compound::DB00369	Cidofovir	Compound
+Compound::DB00370	Mirtazapine	Compound
+Compound::DB00371	Meprobamate	Compound
+Compound::DB00373	Timolol	Compound
+Compound::DB00374	Treprostinil	Compound
+Compound::DB00375	Colestipol	Compound
+Compound::DB00376	Trihexyphenidyl	Compound
+Compound::DB00377	Palonosetron	Compound
+Compound::DB00378	Dydrogesterone	Compound
+Compound::DB00379	Mexiletine	Compound
+Compound::DB00380	Dexrazoxane	Compound
+Compound::DB00381	Amlodipine	Compound
+Compound::DB00383	Oxyphencyclimine	Compound
+Compound::DB00384	Triamterene	Compound
+Compound::DB00385	Valrubicin	Compound
+Compound::DB00387	Procyclidine	Compound
+Compound::DB00388	Phenylephrine	Compound
+Compound::DB00389	Carbimazole	Compound
+Compound::DB00390	Digoxin	Compound
+Compound::DB00391	Sulpiride	Compound
+Compound::DB00392	Ethopropazine	Compound
+Compound::DB00393	Nimodipine	Compound
+Compound::DB00394	Beclomethasone	Compound
+Compound::DB00395	Carisoprodol	Compound
+Compound::DB00396	Progesterone	Compound
+Compound::DB00397	Phenylpropanolamine	Compound
+Compound::DB00398	Sorafenib	Compound
+Compound::DB00399	Zoledronate	Compound
+Compound::DB00400	Griseofulvin	Compound
+Compound::DB00401	Nisoldipine	Compound
+Compound::DB00402	Eszopiclone	Compound
+Compound::DB00403	Ceruletide	Compound
+Compound::DB00404	Alprazolam	Compound
+Compound::DB00405	Dexbrompheniramine	Compound
+Compound::DB00406	Gentian Violet	Compound
+Compound::DB00407	Ardeparin	Compound
+Compound::DB00408	Loxapine	Compound
+Compound::DB00409	Remoxipride	Compound
+Compound::DB00410	Mupirocin	Compound
+Compound::DB00411	Carbachol	Compound
+Compound::DB00412	Rosiglitazone	Compound
+Compound::DB00413	Pramipexole	Compound
+Compound::DB00415	Ampicillin	Compound
+Compound::DB00417	Penicillin V	Compound
+Compound::DB00418	Secobarbital	Compound
+Compound::DB00419	Miglustat	Compound
+Compound::DB00420	Promazine	Compound
+Compound::DB00421	Spironolactone	Compound
+Compound::DB00422	Methylphenidate	Compound
+Compound::DB00423	Methocarbamol	Compound
+Compound::DB00424	Hyoscyamine	Compound
+Compound::DB00425	Zolpidem	Compound
+Compound::DB00426	Famciclovir	Compound
+Compound::DB00427	Triprolidine	Compound
+Compound::DB00428	Streptozocin	Compound
+Compound::DB00429	Carboprost Tromethamine	Compound
+Compound::DB00430	Cefpiramide	Compound
+Compound::DB00431	Lindane	Compound
+Compound::DB00432	Trifluridine	Compound
+Compound::DB00433	Prochlorperazine	Compound
+Compound::DB00434	Cyproheptadine	Compound
+Compound::DB00435	Nitric Oxide	Compound
+Compound::DB00436	Bendroflumethiazide	Compound
+Compound::DB00437	Allopurinol	Compound
+Compound::DB00438	Ceftazidime	Compound
+Compound::DB00440	Trimethoprim	Compound
+Compound::DB00441	Gemcitabine	Compound
+Compound::DB00442	Entecavir	Compound
+Compound::DB00443	Betamethasone	Compound
+Compound::DB00444	Teniposide	Compound
+Compound::DB00445	Epirubicin	Compound
+Compound::DB00446	Chloramphenicol	Compound
+Compound::DB00448	Lansoprazole	Compound
+Compound::DB00449	Dipivefrin	Compound
+Compound::DB00450	Droperidol	Compound
+Compound::DB00451	Levothyroxine	Compound
+Compound::DB00452	Framycetin	Compound
+Compound::DB00453	Clomocycline	Compound
+Compound::DB00454	Pethidine	Compound
+Compound::DB00455	Loratadine	Compound
+Compound::DB00456	Cefalotin	Compound
+Compound::DB00457	Prazosin	Compound
+Compound::DB00458	Imipramine	Compound
+Compound::DB00459	Acitretin	Compound
+Compound::DB00460	Verteporfin	Compound
+Compound::DB00461	Nabumetone	Compound
+Compound::DB00462	Methylscopolamine bromide	Compound
+Compound::DB00464	Sodium Tetradecyl Sulfate	Compound
+Compound::DB00465	Ketorolac	Compound
+Compound::DB00467	Enoxacin	Compound
+Compound::DB00468	Quinine	Compound
+Compound::DB00469	Tenoxicam	Compound
+Compound::DB00470	Dronabinol	Compound
+Compound::DB00471	Montelukast	Compound
+Compound::DB00472	Fluoxetine	Compound
+Compound::DB00473	Hexylcaine	Compound
+Compound::DB00474	Methohexital	Compound
+Compound::DB00475	Chlordiazepoxide	Compound
+Compound::DB00476	Duloxetine	Compound
+Compound::DB00477	Chlorpromazine	Compound
+Compound::DB00478	Rimantadine	Compound
+Compound::DB00479	Amikacin	Compound
+Compound::DB00480	Lenalidomide	Compound
+Compound::DB00481	Raloxifene	Compound
+Compound::DB00482	Celecoxib	Compound
+Compound::DB00483	Gallamine Triethiodide	Compound
+Compound::DB00484	Brimonidine	Compound
+Compound::DB00485	Dicloxacillin	Compound
+Compound::DB00486	Nabilone	Compound
+Compound::DB00487	Pefloxacin	Compound
+Compound::DB00488	Altretamine	Compound
+Compound::DB00489	Sotalol	Compound
+Compound::DB00490	Buspirone	Compound
+Compound::DB00491	Miglitol	Compound
+Compound::DB00492	Fosinopril	Compound
+Compound::DB00493	Cefotaxime	Compound
+Compound::DB00494	Entacapone	Compound
+Compound::DB00495	Zidovudine	Compound
+Compound::DB00496	Darifenacin	Compound
+Compound::DB00497	Oxycodone	Compound
+Compound::DB00498	Phenindione	Compound
+Compound::DB00499	Flutamide	Compound
+Compound::DB00500	Tolmetin	Compound
+Compound::DB00501	Cimetidine	Compound
+Compound::DB00502	Haloperidol	Compound
+Compound::DB00503	Ritonavir	Compound
+Compound::DB00504	Levallorphan	Compound
+Compound::DB00507	Nitazoxanide	Compound
+Compound::DB00508	Triflupromazine	Compound
+Compound::DB00509	Dextrothyroxine	Compound
+Compound::DB00511	Acetyldigitoxin	Compound
+Compound::DB00512	Vancomycin	Compound
+Compound::DB00513	Aminocaproic Acid	Compound
+Compound::DB00514	Dextromethorphan	Compound
+Compound::DB00515	Cisplatin	Compound
+Compound::DB00516	Bentoquatam	Compound
+Compound::DB00517	Anisotropine Methylbromide	Compound
+Compound::DB00518	Albendazole	Compound
+Compound::DB00519	Trandolapril	Compound
+Compound::DB00520	Caspofungin	Compound
+Compound::DB00521	Carteolol	Compound
+Compound::DB00523	Alitretinoin	Compound
+Compound::DB00524	Metolazone	Compound
+Compound::DB00525	Tolnaftate	Compound
+Compound::DB00526	Oxaliplatin	Compound
+Compound::DB00527	Cinchocaine	Compound
+Compound::DB00528	Lercanidipine	Compound
+Compound::DB00529	Foscarnet	Compound
+Compound::DB00530	Erlotinib	Compound
+Compound::DB00531	Cyclophosphamide	Compound
+Compound::DB00534	Chlormerodrin	Compound
+Compound::DB00535	Cefdinir	Compound
+Compound::DB00536	Guanidine	Compound
+Compound::DB00537	Ciprofloxacin	Compound
+Compound::DB00538	Gadoversetamide	Compound
+Compound::DB00539	Toremifene	Compound
+Compound::DB00540	Nortriptyline	Compound
+Compound::DB00541	Vincristine	Compound
+Compound::DB00542	Benazepril	Compound
+Compound::DB00543	Amoxapine	Compound
+Compound::DB00544	Fluorouracil	Compound
+Compound::DB00545	Pyridostigmine	Compound
+Compound::DB00546	Adinazolam	Compound
+Compound::DB00547	Desoximetasone	Compound
+Compound::DB00548	Azelaic Acid	Compound
+Compound::DB00549	Zafirlukast	Compound
+Compound::DB00550	Propylthiouracil	Compound
+Compound::DB00551	Acetohydroxamic Acid	Compound
+Compound::DB00552	Pentostatin	Compound
+Compound::DB00553	Methoxsalen	Compound
+Compound::DB00554	Piroxicam	Compound
+Compound::DB00555	Lamotrigine	Compound
+Compound::DB00556	Perflutren	Compound
+Compound::DB00557	Hydroxyzine	Compound
+Compound::DB00558	Zanamivir	Compound
+Compound::DB00559	Bosentan	Compound
+Compound::DB00560	Tigecycline	Compound
+Compound::DB00561	Doxapram	Compound
+Compound::DB00562	Benzthiazide	Compound
+Compound::DB00563	Methotrexate	Compound
+Compound::DB00564	Carbamazepine	Compound
+Compound::DB00565	Cisatracurium Besylate	Compound
+Compound::DB00566	Succimer	Compound
+Compound::DB00567	Cephalexin	Compound
+Compound::DB00568	Cinnarizine	Compound
+Compound::DB00569	Fondaparinux sodium	Compound
+Compound::DB00570	Vinblastine	Compound
+Compound::DB00571	Propranolol	Compound
+Compound::DB00572	Atropine	Compound
+Compound::DB00573	Fenoprofen	Compound
+Compound::DB00575	Clonidine	Compound
+Compound::DB00576	Sulfamethizole	Compound
+Compound::DB00577	Valaciclovir	Compound
+Compound::DB00578	Carbenicillin	Compound
+Compound::DB00579	Mazindol	Compound
+Compound::DB00581	Lactulose	Compound
+Compound::DB00582	Voriconazole	Compound
+Compound::DB00583	L-Carnitine	Compound
+Compound::DB00584	Enalapril	Compound
+Compound::DB00585	Nizatidine	Compound
+Compound::DB00586	Diclofenac	Compound
+Compound::DB00587	Cinalukast	Compound
+Compound::DB00588	Fluticasone Propionate	Compound
+Compound::DB00589	Lisuride	Compound
+Compound::DB00590	Doxazosin	Compound
+Compound::DB00591	Fluocinolone Acetonide	Compound
+Compound::DB00592	Piperazine	Compound
+Compound::DB00593	Ethosuximide	Compound
+Compound::DB00594	Amiloride	Compound
+Compound::DB00595	Oxytetracycline	Compound
+Compound::DB00596	Halobetasol Propionate	Compound
+Compound::DB00597	Gadoteridol	Compound
+Compound::DB00598	Labetalol	Compound
+Compound::DB00599	Thiopental	Compound
+Compound::DB00600	Monobenzone	Compound
+Compound::DB00601	Linezolid	Compound
+Compound::DB00602	Ivermectin	Compound
+Compound::DB00603	Medroxyprogesterone Acetate	Compound
+Compound::DB00604	Cisapride	Compound
+Compound::DB00605	Sulindac	Compound
+Compound::DB00606	Cyclothiazide	Compound
+Compound::DB00607	Nafcillin	Compound
+Compound::DB00608	Chloroquine	Compound
+Compound::DB00609	Ethionamide	Compound
+Compound::DB00610	Metaraminol	Compound
+Compound::DB00611	Butorphanol	Compound
+Compound::DB00612	Bisoprolol	Compound
+Compound::DB00613	Amodiaquine	Compound
+Compound::DB00614	Furazolidone	Compound
+Compound::DB00615	Rifabutin	Compound
+Compound::DB00616	Candoxatril	Compound
+Compound::DB00617	Paramethadione	Compound
+Compound::DB00618	Demeclocycline	Compound
+Compound::DB00619	Imatinib	Compound
+Compound::DB00620	Triamcinolone	Compound
+Compound::DB00621	Oxandrolone	Compound
+Compound::DB00622	Nicardipine	Compound
+Compound::DB00623	Fluphenazine	Compound
+Compound::DB00624	Testosterone	Compound
+Compound::DB00625	Efavirenz	Compound
+Compound::DB00626	Bacitracin	Compound
+Compound::DB00627	Niacin	Compound
+Compound::DB00628	Clorazepate	Compound
+Compound::DB00629	Guanabenz	Compound
+Compound::DB00630	Alendronate	Compound
+Compound::DB00631	Clofarabine	Compound
+Compound::DB00632	Docosanol	Compound
+Compound::DB00633	Dexmedetomidine	Compound
+Compound::DB00634	Sulfacetamide	Compound
+Compound::DB00635	Prednisone	Compound
+Compound::DB00636	Clofibrate	Compound
+Compound::DB00637	Astemizole	Compound
+Compound::DB00638	Inulin	Compound
+Compound::DB00639	Butoconazole	Compound
+Compound::DB00640	Adenosine	Compound
+Compound::DB00641	Simvastatin	Compound
+Compound::DB00642	Pemetrexed	Compound
+Compound::DB00643	Mebendazole	Compound
+Compound::DB00644	Gonadorelin	Compound
+Compound::DB00645	Dyclonine	Compound
+Compound::DB00646	Nystatin	Compound
+Compound::DB00647	Dextropropoxyphene	Compound
+Compound::DB00648	Mitotane	Compound
+Compound::DB00649	Stavudine	Compound
+Compound::DB00650	Leucovorin	Compound
+Compound::DB00651	Dyphylline	Compound
+Compound::DB00652	Pentazocine	Compound
+Compound::DB00653	Magnesium Sulfate	Compound
+Compound::DB00654	Latanoprost	Compound
+Compound::DB00655	Estrone	Compound
+Compound::DB00656	Trazodone	Compound
+Compound::DB00657	Mecamylamine	Compound
+Compound::DB00658	Sevelamer	Compound
+Compound::DB00659	Acamprosate	Compound
+Compound::DB00660	Metaxalone	Compound
+Compound::DB00661	Verapamil	Compound
+Compound::DB00662	Trimethobenzamide	Compound
+Compound::DB00663	Flumethasone Pivalate	Compound
+Compound::DB00664	Sulfametopyrazine	Compound
+Compound::DB00665	Nilutamide	Compound
+Compound::DB00666	Nafarelin	Compound
+Compound::DB00667	Histamine Phosphate	Compound
+Compound::DB00668	Epinephrine	Compound
+Compound::DB00669	Sumatriptan	Compound
+Compound::DB00670	Pirenzepine	Compound
+Compound::DB00671	Cefixime	Compound
+Compound::DB00672	Chlorpropamide	Compound
+Compound::DB00673	Aprepitant	Compound
+Compound::DB00674	Galantamine	Compound
+Compound::DB00675	Tamoxifen	Compound
+Compound::DB00676	Benzyl Benzoate	Compound
+Compound::DB00677	Isoflurophate	Compound
+Compound::DB00678	Losartan	Compound
+Compound::DB00679	Thioridazine	Compound
+Compound::DB00680	Moricizine	Compound
+Compound::DB00681	Amphotericin B	Compound
+Compound::DB00682	Warfarin	Compound
+Compound::DB00683	Midazolam	Compound
+Compound::DB00684	Tobramycin	Compound
+Compound::DB00685	Trovafloxacin	Compound
+Compound::DB00686	Pentosan Polysulfate	Compound
+Compound::DB00687	Fludrocortisone	Compound
+Compound::DB00688	Mycophenolate mofetil	Compound
+Compound::DB00689	Cephaloglycin	Compound
+Compound::DB00690	Flurazepam	Compound
+Compound::DB00691	Moexipril	Compound
+Compound::DB00692	Phentolamine	Compound
+Compound::DB00693	Fluorescein	Compound
+Compound::DB00694	Daunorubicin	Compound
+Compound::DB00695	Furosemide	Compound
+Compound::DB00696	Ergotamine	Compound
+Compound::DB00697	Tizanidine	Compound
+Compound::DB00698	Nitrofurantoin	Compound
+Compound::DB00699	Nicergoline	Compound
+Compound::DB00700	Eplerenone	Compound
+Compound::DB00701	Amprenavir	Compound
+Compound::DB00703	Methazolamide	Compound
+Compound::DB00704	Naltrexone	Compound
+Compound::DB00705	Delavirdine	Compound
+Compound::DB00706	Tamsulosin	Compound
+Compound::DB00707	Porfimer	Compound
+Compound::DB00708	Sufentanil	Compound
+Compound::DB00709	Lamivudine	Compound
+Compound::DB00710	Ibandronate	Compound
+Compound::DB00711	Diethylcarbamazine	Compound
+Compound::DB00712	Flurbiprofen	Compound
+Compound::DB00713	Oxacillin	Compound
+Compound::DB00714	Apomorphine	Compound
+Compound::DB00715	Paroxetine	Compound
+Compound::DB00716	Nedocromil	Compound
+Compound::DB00717	Norethindrone	Compound
+Compound::DB00718	Adefovir Dipivoxil	Compound
+Compound::DB00719	Azatadine	Compound
+Compound::DB00720	Clodronate	Compound
+Compound::DB00721	Procaine	Compound
+Compound::DB00722	Lisinopril	Compound
+Compound::DB00723	Methoxamine	Compound
+Compound::DB00724	Imiquimod	Compound
+Compound::DB00725	Homatropine Methylbromide	Compound
+Compound::DB00726	Trimipramine	Compound
+Compound::DB00727	Nitroglycerin	Compound
+Compound::DB00728	Rocuronium	Compound
+Compound::DB00729	Diphemanil Methylsulfate	Compound
+Compound::DB00730	Thiabendazole	Compound
+Compound::DB00731	Nateglinide	Compound
+Compound::DB00732	Atracurium	Compound
+Compound::DB00733	Pralidoxime	Compound
+Compound::DB00734	Risperidone	Compound
+Compound::DB00735	Naftifine	Compound
+Compound::DB00736	Esomeprazole	Compound
+Compound::DB00737	Meclizine	Compound
+Compound::DB00738	Pentamidine	Compound
+Compound::DB00739	Hetacillin	Compound
+Compound::DB00740	Riluzole	Compound
+Compound::DB00741	Hydrocortisone	Compound
+Compound::DB00742	Mannitol	Compound
+Compound::DB00743	Gadobenate Dimeglumine	Compound
+Compound::DB00744	Zileuton	Compound
+Compound::DB00745	Modafinil	Compound
+Compound::DB00746	Deferoxamine	Compound
+Compound::DB00747	Scopolamine	Compound
+Compound::DB00748	Carbinoxamine	Compound
+Compound::DB00749	Etodolac	Compound
+Compound::DB00750	Prilocaine	Compound
+Compound::DB00751	Epinastine	Compound
+Compound::DB00752	Tranylcypromine	Compound
+Compound::DB00753	Isoflurane	Compound
+Compound::DB00754	Ethotoin	Compound
+Compound::DB00755	Tretinoin	Compound
+Compound::DB00756	Hexachlorophene	Compound
+Compound::DB00757	Dolasetron	Compound
+Compound::DB00758	Clopidogrel	Compound
+Compound::DB00759	Tetracycline	Compound
+Compound::DB00760	Meropenem	Compound
+Compound::DB00761	Potassium Chloride	Compound
+Compound::DB00762	Irinotecan	Compound
+Compound::DB00763	Methimazole	Compound
+Compound::DB00764	Mometasone	Compound
+Compound::DB00765	Metyrosine	Compound
+Compound::DB00766	Clavulanate	Compound
+Compound::DB00768	Olopatadine	Compound
+Compound::DB00769	Hydrocortamate	Compound
+Compound::DB00770	Alprostadil	Compound
+Compound::DB00771	Clidinium	Compound
+Compound::DB00772	Malathion	Compound
+Compound::DB00773	Etoposide	Compound
+Compound::DB00774	Hydroflumethiazide	Compound
+Compound::DB00775	Tirofiban	Compound
+Compound::DB00776	Oxcarbazepine	Compound
+Compound::DB00777	Propiomazine	Compound
+Compound::DB00778	Roxithromycin	Compound
+Compound::DB00779	Nalidixic Acid	Compound
+Compound::DB00780	Phenelzine	Compound
+Compound::DB00781	Polymyxin B Sulfate	Compound
+Compound::DB00782	Propantheline	Compound
+Compound::DB00783	Estradiol	Compound
+Compound::DB00784	Mefenamic acid	Compound
+Compound::DB00786	Marimastat	Compound
+Compound::DB00787	Aciclovir	Compound
+Compound::DB00788	Naproxen	Compound
+Compound::DB00789	Gadopentetate dimeglumine	Compound
+Compound::DB00790	Perindopril	Compound
+Compound::DB00791	Uracil mustard	Compound
+Compound::DB00792	Tripelennamine	Compound
+Compound::DB00793	Haloprogin	Compound
+Compound::DB00794	Primidone	Compound
+Compound::DB00795	Sulfasalazine	Compound
+Compound::DB00796	Candesartan	Compound
+Compound::DB00797	Tolazoline	Compound
+Compound::DB00798	Gentamicin	Compound
+Compound::DB00799	Tazarotene	Compound
+Compound::DB00800	Fenoldopam	Compound
+Compound::DB00801	Halazepam	Compound
+Compound::DB00802	Alfentanil	Compound
+Compound::DB00803	Colistin	Compound
+Compound::DB00804	Dicyclomine	Compound
+Compound::DB00805	Minaprine	Compound
+Compound::DB00806	Pentoxifylline	Compound
+Compound::DB00807	Proparacaine	Compound
+Compound::DB00808	Indapamide	Compound
+Compound::DB00809	Tropicamide	Compound
+Compound::DB00810	Biperiden	Compound
+Compound::DB00811	Ribavirin	Compound
+Compound::DB00812	Phenylbutazone	Compound
+Compound::DB00813	Fentanyl	Compound
+Compound::DB00814	Meloxicam	Compound
+Compound::DB00815	Sodium lauryl sulfate	Compound
+Compound::DB00816	Orciprenaline	Compound
+Compound::DB00817	Rosoxacin	Compound
+Compound::DB00818	Propofol	Compound
+Compound::DB00819	Acetazolamide	Compound
+Compound::DB00820	Tadalafil	Compound
+Compound::DB00821	Carprofen	Compound
+Compound::DB00822	Disulfiram	Compound
+Compound::DB00823	Ethynodiol	Compound
+Compound::DB00824	Enprofylline	Compound
+Compound::DB00825	Menthol	Compound
+Compound::DB00826	Natamycin	Compound
+Compound::DB00827	Cinoxacin	Compound
+Compound::DB00828	Fosfomycin	Compound
+Compound::DB00829	Diazepam	Compound
+Compound::DB00830	Phenmetrazine	Compound
+Compound::DB00831	Trifluoperazine	Compound
+Compound::DB00832	Phensuximide	Compound
+Compound::DB00833	Cefaclor	Compound
+Compound::DB00834	Mifepristone	Compound
+Compound::DB00835	Brompheniramine	Compound
+Compound::DB00836	Loperamide	Compound
+Compound::DB00837	Progabide	Compound
+Compound::DB00838	Clocortolone	Compound
+Compound::DB00839	Tolazamide	Compound
+Compound::DB00841	Dobutamine	Compound
+Compound::DB00842	Oxazepam	Compound
+Compound::DB00843	Donepezil	Compound
+Compound::DB00844	Nalbuphine	Compound
+Compound::DB00845	Clofazimine	Compound
+Compound::DB00846	Flurandrenolide	Compound
+Compound::DB00847	Cysteamine	Compound
+Compound::DB00849	Methylphenobarbital	Compound
+Compound::DB00850	Perphenazine	Compound
+Compound::DB00851	Dacarbazine	Compound
+Compound::DB00852	Pseudoephedrine	Compound
+Compound::DB00853	Temozolomide	Compound
+Compound::DB00854	Levorphanol	Compound
+Compound::DB00855	Aminolevulinic acid	Compound
+Compound::DB00856	Chlorphenesin	Compound
+Compound::DB00857	Terbinafine	Compound
+Compound::DB00858	Drostanolone	Compound
+Compound::DB00859	Penicillamine	Compound
+Compound::DB00860	Prednisolone	Compound
+Compound::DB00861	Diflunisal	Compound
+Compound::DB00862	Vardenafil	Compound
+Compound::DB00863	Ranitidine	Compound
+Compound::DB00864	Tacrolimus	Compound
+Compound::DB00865	Benzphetamine	Compound
+Compound::DB00866	Alprenolol	Compound
+Compound::DB00867	Ritodrine	Compound
+Compound::DB00868	Benzonatate	Compound
+Compound::DB00869	Dorzolamide	Compound
+Compound::DB00870	Suprofen	Compound
+Compound::DB00871	Terbutaline	Compound
+Compound::DB00872	Conivaptan	Compound
+Compound::DB00873	Loteprednol	Compound
+Compound::DB00874	Guaifenesin	Compound
+Compound::DB00875	Flupentixol	Compound
+Compound::DB00876	Eprosartan	Compound
+Compound::DB00877	Sirolimus	Compound
+Compound::DB00878	Chlorhexidine	Compound
+Compound::DB00879	Emtricitabine	Compound
+Compound::DB00880	Chlorothiazide	Compound
+Compound::DB00881	Quinapril	Compound
+Compound::DB00882	Clomifene	Compound
+Compound::DB00883	Isosorbide Dinitrate	Compound
+Compound::DB00884	Risedronate	Compound
+Compound::DB00885	Pemirolast	Compound
+Compound::DB00887	Bumetanide	Compound
+Compound::DB00888	Mechlorethamine	Compound
+Compound::DB00889	Granisetron	Compound
+Compound::DB00890	Dienestrol	Compound
+Compound::DB00891	Sulfapyridine	Compound
+Compound::DB00892	Oxybuprocaine	Compound
+Compound::DB00894	Testolactone	Compound
+Compound::DB00895	Benzylpenicilloyl Polylysine	Compound
+Compound::DB00896	Rimexolone	Compound
+Compound::DB00897	Triazolam	Compound
+Compound::DB00898	Ethanol	Compound
+Compound::DB00899	Remifentanil	Compound
+Compound::DB00900	Didanosine	Compound
+Compound::DB00902	Methdilazine	Compound
+Compound::DB00903	Ethacrynic acid	Compound
+Compound::DB00904	Ondansetron	Compound
+Compound::DB00905	Bimatoprost	Compound
+Compound::DB00906	Tiagabine	Compound
+Compound::DB00907	Cocaine	Compound
+Compound::DB00908	Quinidine	Compound
+Compound::DB00909	Zonisamide	Compound
+Compound::DB00910	Paricalcitol	Compound
+Compound::DB00911	Tinidazole	Compound
+Compound::DB00912	Repaglinide	Compound
+Compound::DB00913	Anileridine	Compound
+Compound::DB00914	Phenformin	Compound
+Compound::DB00915	Amantadine	Compound
+Compound::DB00916	Metronidazole	Compound
+Compound::DB00917	Dinoprostone	Compound
+Compound::DB00918	Almotriptan	Compound
+Compound::DB00919	Spectinomycin	Compound
+Compound::DB00920	Ketotifen	Compound
+Compound::DB00921	Buprenorphine	Compound
+Compound::DB00922	Levosimendan	Compound
+Compound::DB00923	Ceforanide	Compound
+Compound::DB00924	Cyclobenzaprine	Compound
+Compound::DB00925	Phenoxybenzamine	Compound
+Compound::DB00927	Famotidine	Compound
+Compound::DB00928	Azacitidine	Compound
+Compound::DB00929	Misoprostol	Compound
+Compound::DB00931	Methacycline	Compound
+Compound::DB00932	Tipranavir	Compound
+Compound::DB00933	Mesoridazine	Compound
+Compound::DB00934	Maprotiline	Compound
+Compound::DB00935	Oxymetazoline	Compound
+Compound::DB00936	Salicylic acid	Compound
+Compound::DB00937	Diethylpropion	Compound
+Compound::DB00938	Salmeterol	Compound
+Compound::DB00939	Meclofenamic acid	Compound
+Compound::DB00940	Methantheline	Compound
+Compound::DB00941	Hexafluronium	Compound
+Compound::DB00942	Cycrimine	Compound
+Compound::DB00943	Zalcitabine	Compound
+Compound::DB00944	Demecarium	Compound
+Compound::DB00945	Acetylsalicylic acid	Compound
+Compound::DB00946	Phenprocoumon	Compound
+Compound::DB00947	Fulvestrant	Compound
+Compound::DB00948	Mezlocillin	Compound
+Compound::DB00949	Felbamate	Compound
+Compound::DB00950	Fexofenadine	Compound
+Compound::DB00951	Isoniazid	Compound
+Compound::DB00952	Naratriptan	Compound
+Compound::DB00953	Rizatriptan	Compound
+Compound::DB00954	Dirithromycin	Compound
+Compound::DB00955	Netilmicin	Compound
+Compound::DB00956	Hydrocodone	Compound
+Compound::DB00957	Norgestimate	Compound
+Compound::DB00958	Carboplatin	Compound
+Compound::DB00959	Methylprednisolone	Compound
+Compound::DB00960	Pindolol	Compound
+Compound::DB00961	Mepivacaine	Compound
+Compound::DB00962	Zaleplon	Compound
+Compound::DB00963	Bromfenac	Compound
+Compound::DB00964	Apraclonidine	Compound
+Compound::DB00966	Telmisartan	Compound
+Compound::DB00967	Desloratadine	Compound
+Compound::DB00968	Methyldopa	Compound
+Compound::DB00969	Alosetron	Compound
+Compound::DB00970	Dactinomycin	Compound
+Compound::DB00971	Selenium Sulfide	Compound
+Compound::DB00972	Azelastine	Compound
+Compound::DB00973	Ezetimibe	Compound
+Compound::DB00974	Edetic Acid	Compound
+Compound::DB00975	Dipyridamole	Compound
+Compound::DB00976	Telithromycin	Compound
+Compound::DB00977	Ethinyl Estradiol	Compound
+Compound::DB00978	Lomefloxacin	Compound
+Compound::DB00979	Cyclopentolate	Compound
+Compound::DB00980	Ramelteon	Compound
+Compound::DB00981	Physostigmine	Compound
+Compound::DB00982	Isotretinoin	Compound
+Compound::DB00983	Formoterol	Compound
+Compound::DB00984	Nandrolone phenpropionate	Compound
+Compound::DB00985	Dimenhydrinate	Compound
+Compound::DB00986	Glycopyrrolate	Compound
+Compound::DB00987	Cytarabine	Compound
+Compound::DB00988	Dopamine	Compound
+Compound::DB00989	Rivastigmine	Compound
+Compound::DB00990	Exemestane	Compound
+Compound::DB00991	Oxaprozin	Compound
+Compound::DB00992	Methyl aminolevulinate	Compound
+Compound::DB00993	Azathioprine	Compound
+Compound::DB00994	Neomycin	Compound
+Compound::DB00995	Auranofin	Compound
+Compound::DB00996	Gabapentin	Compound
+Compound::DB00997	Doxorubicin	Compound
+Compound::DB00998	Frovatriptan	Compound
+Compound::DB00999	Hydrochlorothiazide	Compound
+Compound::DB01000	Cyclacillin	Compound
+Compound::DB01001	Salbutamol	Compound
+Compound::DB01002	Levobupivacaine	Compound
+Compound::DB01003	Cromoglicic acid	Compound
+Compound::DB01004	Ganciclovir	Compound
+Compound::DB01005	Hydroxyurea	Compound
+Compound::DB01006	Letrozole	Compound
+Compound::DB01007	Tioconazole	Compound
+Compound::DB01008	Busulfan	Compound
+Compound::DB01009	Ketoprofen	Compound
+Compound::DB01010	Edrophonium	Compound
+Compound::DB01011	Metyrapone	Compound
+Compound::DB01012	Cinacalcet	Compound
+Compound::DB01013	Clobetasol propionate	Compound
+Compound::DB01014	Balsalazide	Compound
+Compound::DB01015	Sulfamethoxazole	Compound
+Compound::DB01016	Glyburide	Compound
+Compound::DB01017	Minocycline	Compound
+Compound::DB01018	Guanfacine	Compound
+Compound::DB01019	Bethanechol	Compound
+Compound::DB01020	Isosorbide Mononitrate	Compound
+Compound::DB01021	Trichlormethiazide	Compound
+Compound::DB01022	Phylloquinone	Compound
+Compound::DB01023	Felodipine	Compound
+Compound::DB01024	Mycophenolic acid	Compound
+Compound::DB01025	Amlexanox	Compound
+Compound::DB01026	Ketoconazole	Compound
+Compound::DB01028	Methoxyflurane	Compound
+Compound::DB01029	Irbesartan	Compound
+Compound::DB01030	Topotecan	Compound
+Compound::DB01031	Ethinamate	Compound
+Compound::DB01032	Probenecid	Compound
+Compound::DB01033	Mercaptopurine	Compound
+Compound::DB01034	Cerulenin	Compound
+Compound::DB01035	Procainamide	Compound
+Compound::DB01036	Tolterodine	Compound
+Compound::DB01037	Selegiline	Compound
+Compound::DB01039	Fenofibrate	Compound
+Compound::DB01040	Hydroxystilbamidine Isethionate	Compound
+Compound::DB01041	Thalidomide	Compound
+Compound::DB01042	Melphalan	Compound
+Compound::DB01043	Memantine	Compound
+Compound::DB01044	Gatifloxacin	Compound
+Compound::DB01045	Rifampicin	Compound
+Compound::DB01046	Lubiprostone	Compound
+Compound::DB01047	Fluocinonide	Compound
+Compound::DB01048	Abacavir	Compound
+Compound::DB01049	Ergoloid mesylate	Compound
+Compound::DB01050	Ibuprofen	Compound
+Compound::DB01051	Novobiocin	Compound
+Compound::DB01053	Benzylpenicillin	Compound
+Compound::DB01054	Nitrendipine	Compound
+Compound::DB01055	Mimosine	Compound
+Compound::DB01056	Tocainide	Compound
+Compound::DB01057	Echothiophate	Compound
+Compound::DB01058	Praziquantel	Compound
+Compound::DB01059	Norfloxacin	Compound
+Compound::DB01060	Amoxicillin	Compound
+Compound::DB01061	Azlocillin	Compound
+Compound::DB01062	Oxybutynin	Compound
+Compound::DB01063	Acetophenazine	Compound
+Compound::DB01064	Isoprenaline	Compound
+Compound::DB01065	Melatonin	Compound
+Compound::DB01066	Cefditoren	Compound
+Compound::DB01067	Glipizide	Compound
+Compound::DB01068	Clonazepam	Compound
+Compound::DB01069	Promethazine	Compound
+Compound::DB01070	Dihydrotachysterol	Compound
+Compound::DB01071	Mequitazine	Compound
+Compound::DB01072	Atazanavir	Compound
+Compound::DB01073	Fludarabine	Compound
+Compound::DB01074	Perhexiline	Compound
+Compound::DB01075	Diphenhydramine	Compound
+Compound::DB01076	Atorvastatin	Compound
+Compound::DB01077	Etidronic acid	Compound
+Compound::DB01078	Deslanoside	Compound
+Compound::DB01080	Vigabatrin	Compound
+Compound::DB01081	Diphenoxylate	Compound
+Compound::DB01082	Streptomycin	Compound
+Compound::DB01083	Orlistat	Compound
+Compound::DB01084	Emedastine	Compound
+Compound::DB01085	Pilocarpine	Compound
+Compound::DB01086	Benzocaine	Compound
+Compound::DB01087	Primaquine	Compound
+Compound::DB01088	Iloprost	Compound
+Compound::DB01089	Deserpidine	Compound
+Compound::DB01090	Pentolinium	Compound
+Compound::DB01091	Butenafine	Compound
+Compound::DB01092	Ouabain	Compound
+Compound::DB01093	Dimethyl sulfoxide	Compound
+Compound::DB01094	Hesperetin	Compound
+Compound::DB01095	Fluvastatin	Compound
+Compound::DB01096	Oxamniquine	Compound
+Compound::DB01097	Leflunomide	Compound
+Compound::DB01098	Rosuvastatin	Compound
+Compound::DB01099	Flucytosine	Compound
+Compound::DB01100	Pimozide	Compound
+Compound::DB01101	Capecitabine	Compound
+Compound::DB01102	Arbutamine	Compound
+Compound::DB01103	Quinacrine	Compound
+Compound::DB01104	Sertraline	Compound
+Compound::DB01105	Sibutramine	Compound
+Compound::DB01106	Levocabastine	Compound
+Compound::DB01107	Methyprylon	Compound
+Compound::DB01108	Trilostane	Compound
+Compound::DB01110	Miconazole	Compound
+Compound::DB01111	Colistimethate	Compound
+Compound::DB01112	Cefuroxime	Compound
+Compound::DB01113	Papaverine	Compound
+Compound::DB01114	Chlorphenamine	Compound
+Compound::DB01115	Nifedipine	Compound
+Compound::DB01116	Trimethaphan	Compound
+Compound::DB01117	Atovaquone	Compound
+Compound::DB01118	Amiodarone	Compound
+Compound::DB01119	Diazoxide	Compound
+Compound::DB01120	Gliclazide	Compound
+Compound::DB01121	Phenacemide	Compound
+Compound::DB01122	Ambenonium	Compound
+Compound::DB01123	Proflavine	Compound
+Compound::DB01124	Tolbutamide	Compound
+Compound::DB01125	Anisindione	Compound
+Compound::DB01126	Dutasteride	Compound
+Compound::DB01127	Econazole	Compound
+Compound::DB01128	Bicalutamide	Compound
+Compound::DB01129	Rabeprazole	Compound
+Compound::DB01130	Prednicarbate	Compound
+Compound::DB01131	Proguanil	Compound
+Compound::DB01132	Pioglitazone	Compound
+Compound::DB01133	Tiludronate	Compound
+Compound::DB01135	Doxacurium chloride	Compound
+Compound::DB01136	Carvedilol	Compound
+Compound::DB01137	Levofloxacin	Compound
+Compound::DB01138	Sulfinpyrazone	Compound
+Compound::DB01139	Cefapirin	Compound
+Compound::DB01140	Cefadroxil	Compound
+Compound::DB01141	Micafungin	Compound
+Compound::DB01142	Doxepin	Compound
+Compound::DB01143	Amifostine	Compound
+Compound::DB01144	Diclofenamide	Compound
+Compound::DB01145	Sulfoxone	Compound
+Compound::DB01146	Diphenylpyraline	Compound
+Compound::DB01147	Cloxacillin	Compound
+Compound::DB01148	Flavoxate	Compound
+Compound::DB01149	Nefazodone	Compound
+Compound::DB01150	Cefprozil	Compound
+Compound::DB01151	Desipramine	Compound
+Compound::DB01153	Sertaconazole	Compound
+Compound::DB01154	Thiamylal	Compound
+Compound::DB01155	Gemifloxacin	Compound
+Compound::DB01156	Bupropion	Compound
+Compound::DB01157	Trimetrexate	Compound
+Compound::DB01158	Bretylium	Compound
+Compound::DB01159	Halothane	Compound
+Compound::DB01160	Dinoprost Tromethamine	Compound
+Compound::DB01161	Chloroprocaine	Compound
+Compound::DB01162	Terazosin	Compound
+Compound::DB01164	Calcium Chloride	Compound
+Compound::DB01165	Ofloxacin	Compound
+Compound::DB01166	Cilostazol	Compound
+Compound::DB01167	Itraconazole	Compound
+Compound::DB01168	Procarbazine	Compound
+Compound::DB01169	Arsenic trioxide	Compound
+Compound::DB01170	Guanethidine	Compound
+Compound::DB01171	Moclobemide	Compound
+Compound::DB01172	Kanamycin	Compound
+Compound::DB01173	Orphenadrine	Compound
+Compound::DB01174	Phenobarbital	Compound
+Compound::DB01175	Escitalopram	Compound
+Compound::DB01176	Cyclizine	Compound
+Compound::DB01177	Idarubicin	Compound
+Compound::DB01178	Chlormezanone	Compound
+Compound::DB01179	Podofilox	Compound
+Compound::DB01180	Rescinnamine	Compound
+Compound::DB01181	Ifosfamide	Compound
+Compound::DB01182	Propafenone	Compound
+Compound::DB01183	Naloxone	Compound
+Compound::DB01184	Domperidone	Compound
+Compound::DB01185	Fluoxymesterone	Compound
+Compound::DB01186	Pergolide	Compound
+Compound::DB01187	Iophendylate	Compound
+Compound::DB01188	Ciclopirox	Compound
+Compound::DB01189	Desflurane	Compound
+Compound::DB01190	Clindamycin	Compound
+Compound::DB01191	Dexfenfluramine	Compound
+Compound::DB01192	Oxymorphone	Compound
+Compound::DB01193	Acebutolol	Compound
+Compound::DB01194	Brinzolamide	Compound
+Compound::DB01195	Flecainide	Compound
+Compound::DB01196	Estramustine	Compound
+Compound::DB01197	Captopril	Compound
+Compound::DB01198	Zopiclone	Compound
+Compound::DB01199	Tubocurarine	Compound
+Compound::DB01200	Bromocriptine	Compound
+Compound::DB01201	Rifapentine	Compound
+Compound::DB01202	Levetiracetam	Compound
+Compound::DB01203	Nadolol	Compound
+Compound::DB01204	Mitoxantrone	Compound
+Compound::DB01205	Flumazenil	Compound
+Compound::DB01206	Lomustine	Compound
+Compound::DB01207	Ridogrel	Compound
+Compound::DB01208	Sparfloxacin	Compound
+Compound::DB01209	Dezocine	Compound
+Compound::DB01210	Levobunolol	Compound
+Compound::DB01211	Clarithromycin	Compound
+Compound::DB01212	Ceftriaxone	Compound
+Compound::DB01213	Fomepizole	Compound
+Compound::DB01214	Metipranolol	Compound
+Compound::DB01215	Estazolam	Compound
+Compound::DB01216	Finasteride	Compound
+Compound::DB01217	Anastrozole	Compound
+Compound::DB01218	Halofantrine	Compound
+Compound::DB01219	Dantrolene	Compound
+Compound::DB01220	Rifaximin	Compound
+Compound::DB01221	Ketamine	Compound
+Compound::DB01222	Budesonide	Compound
+Compound::DB01223	Aminophylline	Compound
+Compound::DB01224	Quetiapine	Compound
+Compound::DB01225	Enoxaparin	Compound
+Compound::DB01226	Mivacurium	Compound
+Compound::DB01227	Levomethadyl Acetate	Compound
+Compound::DB01228	Encainide	Compound
+Compound::DB01229	Paclitaxel	Compound
+Compound::DB01231	Diphenidol	Compound
+Compound::DB01232	Saquinavir	Compound
+Compound::DB01233	Metoclopramide	Compound
+Compound::DB01234	Dexamethasone	Compound
+Compound::DB01235	L-DOPA	Compound
+Compound::DB01236	Sevoflurane	Compound
+Compound::DB01237	Bromodiphenhydramine	Compound
+Compound::DB01238	Aripiprazole	Compound
+Compound::DB01239	Chlorprothixene	Compound
+Compound::DB01240	Epoprostenol	Compound
+Compound::DB01241	Gemfibrozil	Compound
+Compound::DB01242	Clomipramine	Compound
+Compound::DB01243	Chloroxine	Compound
+Compound::DB01244	Bepridil	Compound
+Compound::DB01245	Decamethonium	Compound
+Compound::DB01246	Alimemazine	Compound
+Compound::DB01247	Isocarboxazid	Compound
+Compound::DB01248	Docetaxel	Compound
+Compound::DB01249	Iodixanol	Compound
+Compound::DB01250	Olsalazine	Compound
+Compound::DB01251	Gliquidone	Compound
+Compound::DB01252	Mitiglinide	Compound
+Compound::DB01253	Ergonovine	Compound
+Compound::DB01254	Dasatinib	Compound
+Compound::DB01255	Lisdexamfetamine	Compound
+Compound::DB01256	Retapamulin	Compound
+Compound::DB01259	Lapatinib	Compound
+Compound::DB01260	Desonide	Compound
+Compound::DB01261	Sitagliptin	Compound
+Compound::DB01262	Decitabine	Compound
+Compound::DB01263	Posaconazole	Compound
+Compound::DB01264	Darunavir	Compound
+Compound::DB01265	Telbivudine	Compound
+Compound::DB01267	Paliperidone	Compound
+Compound::DB01268	Sunitinib	Compound
+Compound::DB01273	Varenicline	Compound
+Compound::DB01274	Arformoterol	Compound
+Compound::DB01275	Hydralazine	Compound
+Compound::DB01280	Nelarabine	Compound
+Compound::DB01282	Carbetocin	Compound
+Compound::DB01283	Lumiracoxib	Compound
+Compound::DB01288	Fenoterol	Compound
+Compound::DB01289	Glisoxepide	Compound
+Compound::DB01291	Pirbuterol	Compound
+Compound::DB01294	Bismuth Subsalicylate	Compound
+Compound::DB01295	Bevantolol	Compound
+Compound::DB01296	Glucosamine	Compound
+Compound::DB01297	Practolol	Compound
+Compound::DB01298	Sulfacytine	Compound
+Compound::DB01299	Sulfadoxine	Compound
+Compound::DB01301	Rolitetracycline	Compound
+Compound::DB01303	Oxtriphylline	Compound
+Compound::DB01319	Fosamprenavir	Compound
+Compound::DB01320	Fosphenytoin	Compound
+Compound::DB01321	Josamycin	Compound
+Compound::DB01324	Polythiazide	Compound
+Compound::DB01325	Quinethazone	Compound
+Compound::DB01326	Cefamandole	Compound
+Compound::DB01327	Cefazolin	Compound
+Compound::DB01328	Cefonicid	Compound
+Compound::DB01329	Cefoperazone	Compound
+Compound::DB01330	Cefotetan	Compound
+Compound::DB01331	Cefoxitin	Compound
+Compound::DB01332	Ceftizoxime	Compound
+Compound::DB01333	Cefradine	Compound
+Compound::DB01336	Metocurine	Compound
+Compound::DB01337	Pancuronium	Compound
+Compound::DB01338	Pipecuronium	Compound
+Compound::DB01339	Vecuronium	Compound
+Compound::DB01340	Cilazapril	Compound
+Compound::DB01342	Forasartan	Compound
+Compound::DB01346	Quinidine barbiturate	Compound
+Compound::DB01347	Saprisartan	Compound
+Compound::DB01348	Spirapril	Compound
+Compound::DB01349	Tasosartan	Compound
+Compound::DB01351	Amobarbital	Compound
+Compound::DB01352	Aprobarbital	Compound
+Compound::DB01353	Butethal	Compound
+Compound::DB01354	Heptabarbital	Compound
+Compound::DB01355	Hexobarbital	Compound
+Compound::DB01356	Lithium	Compound
+Compound::DB01357	Mestranol	Compound
+Compound::DB01359	Penbutolol	Compound
+Compound::DB01361	Troleandomycin	Compound
+Compound::DB01362	Iohexol	Compound
+Compound::DB01364	Ephedrine	Compound
+Compound::DB01365	Mephentermine	Compound
+Compound::DB01366	Procaterol	Compound
+Compound::DB01367	Rasagiline	Compound
+Compound::DB01369	Quinupristin	Compound
+Compound::DB01370	Aluminium	Compound
+Compound::DB01375	Dihydroxyaluminium	Compound
+Compound::DB01377	Magnesium oxide	Compound
+Compound::DB01380	Cortisone acetate	Compound
+Compound::DB01382	Glycodiazine	Compound
+Compound::DB01384	Paramethasone	Compound
+Compound::DB01390	Sodium bicarbonate	Compound
+Compound::DB01392	Yohimbine	Compound
+Compound::DB01393	Bezafibrate	Compound
+Compound::DB01394	Colchicine	Compound
+Compound::DB01395	Drospirenone	Compound
+Compound::DB01396	Digitoxin	Compound
+Compound::DB01397	Magnesium salicylate	Compound
+Compound::DB01398	Salicylate-sodium	Compound
+Compound::DB01399	Salsalate	Compound
+Compound::DB01400	Neostigmine	Compound
+Compound::DB01401	Trisalicylate-choline	Compound
+Compound::DB01403	Methotrimeprazine	Compound
+Compound::DB01406	Danazol	Compound
+Compound::DB01407	Clenbuterol	Compound
+Compound::DB01408	Bambuterol	Compound
+Compound::DB01409	Tiotropium	Compound
+Compound::DB01410	Ciclesonide	Compound
+Compound::DB01411	Pranlukast	Compound
+Compound::DB01412	Theobromine	Compound
+Compound::DB01413	Cefepime	Compound
+Compound::DB01414	Cefacetrile	Compound
+Compound::DB01415	Ceftibuten	Compound
+Compound::DB01416	Cefpodoxime	Compound
+Compound::DB01418	Acenocoumarol	Compound
+Compound::DB01419	Antrafenine	Compound
+Compound::DB01420	Testosterone Propionate	Compound
+Compound::DB01421	Paromomycin	Compound
+Compound::DB01422	Nitroxoline	Compound
+Compound::DB01423	Stepronin	Compound
+Compound::DB01424	Aminophenazone	Compound
+Compound::DB01425	Alizapride	Compound
+Compound::DB01426	Ajmaline	Compound
+Compound::DB01427	Amrinone	Compound
+Compound::DB01428	Oxybenzone	Compound
+Compound::DB01429	Aprindine	Compound
+Compound::DB01430	Almitrine	Compound
+Compound::DB01431	Allylestrenol	Compound
+Compound::DB01433	Methadyl Acetate	Compound
+Compound::DB01435	Antipyrine	Compound
+Compound::DB01436	Alfacalcidol	Compound
+Compound::DB01437	Glutethimide	Compound
+Compound::DB01438	Phenazopyridine	Compound
+Compound::DB01440	Gamma Hydroxybutyric Acid	Compound
+Compound::DB01452	Heroin	Compound
+Compound::DB01463	Fencamfamine	Compound
+Compound::DB01466	Ethylmorphine	Compound
+Compound::DB01482	Fenethylline	Compound
+Compound::DB01489	Camazepam	Compound
+Compound::DB01501	Difenoxin	Compound
+Compound::DB01511	Delorazepam	Compound
+Compound::DB01544	Flunitrazepam	Compound
+Compound::DB01545	Ethyl loflazepate	Compound
+Compound::DB01550	Fenproporex	Compound
+Compound::DB01551	Dihydrocodeine	Compound
+Compound::DB01553	Cloxazolam	Compound
+Compound::DB01558	Bromazepam	Compound
+Compound::DB01559	Clotiazepam	Compound
+Compound::DB01567	Fludiazepam	Compound
+Compound::DB01576	Dextroamphetamine	Compound
+Compound::DB01577	Methamphetamine	Compound
+Compound::DB01578	Metrizamide	Compound
+Compound::DB01579	Phendimetrazine	Compound
+Compound::DB01580	Oxprenolol	Compound
+Compound::DB01581	Sulfamerazine	Compound
+Compound::DB01582	Sulfamethazine	Compound
+Compound::DB01583	Liotrix	Compound
+Compound::DB01586	Ursodeoxycholic acid	Compound
+Compound::DB01587	Ketazolam	Compound
+Compound::DB01588	Prazepam	Compound
+Compound::DB01589	Quazepam	Compound
+Compound::DB01590	Everolimus	Compound
+Compound::DB01591	Solifenacin	Compound
+Compound::DB01592	Iron	Compound
+Compound::DB01593	Zinc	Compound
+Compound::DB01594	Cinolazepam	Compound
+Compound::DB01595	Nitrazepam	Compound
+Compound::DB01597	Cilastatin	Compound
+Compound::DB01598	Imipenem	Compound
+Compound::DB01599	Probucol	Compound
+Compound::DB01600	Tiaprofenic acid	Compound
+Compound::DB01601	Lopinavir	Compound
+Compound::DB01602	Bacampicillin	Compound
+Compound::DB01603	Meticillin	Compound
+Compound::DB01604	Pivampicillin	Compound
+Compound::DB01605	Pivmecillinam	Compound
+Compound::DB01606	Tazobactam	Compound
+Compound::DB01607	Ticarcillin	Compound
+Compound::DB01608	Propericiazine	Compound
+Compound::DB01609	Deferasirox	Compound
+Compound::DB01610	Valganciclovir	Compound
+Compound::DB01611	Hydroxychloroquine	Compound
+Compound::DB01612	Amyl Nitrite	Compound
+Compound::DB01613	Erythrityl Tetranitrate	Compound
+Compound::DB01614	Acepromazine	Compound
+Compound::DB01615	Aceprometazine	Compound
+Compound::DB01616	Alverine	Compound
+Compound::DB01618	Molindone	Compound
+Compound::DB01619	Phenindamine	Compound
+Compound::DB01620	Pheniramine	Compound
+Compound::DB01621	Pipotiazine	Compound
+Compound::DB01622	Thioproperazine	Compound
+Compound::DB01623	Thiothixene	Compound
+Compound::DB01624	Zuclopenthixol	Compound
+Compound::DB01625	Isopropamide	Compound
+Compound::DB01626	Pargyline	Compound
+Compound::DB01627	Lincomycin	Compound
+Compound::DB01628	Etoricoxib	Compound
+Compound::DB01656	Roflumilast	Compound
+Compound::DB01764	Dalfopristin	Compound
+Compound::DB02187	Equilin	Compound
+Compound::DB02300	Calcipotriol	Compound
+Compound::DB02546	Vorinostat	Compound
+Compound::DB02638	Terlipressin	Compound
+Compound::DB02703	Fusidic Acid	Compound
+Compound::DB02959	Oxitriptan	Compound
+Compound::DB03147	Flavin adenine dinucleotide	Compound
+Compound::DB03166	Acetic acid	Compound
+Compound::DB03255	Phenol	Compound
+Compound::DB04552	Niflumic Acid	Compound
+Compound::DB04570	Latamoxef	Compound
+Compound::DB04571	Trioxsalen	Compound
+Compound::DB04572	Thiotepa	Compound
+Compound::DB04573	Estriol	Compound
+Compound::DB04574	Estropipate	Compound
+Compound::DB04575	Quinestrol	Compound
+Compound::DB04711	Iodipamide	Compound
+Compound::DB04786	Suramin	Compound
+Compound::DB04794	Bifonazole	Compound
+Compound::DB04835	Maraviroc	Compound
+Compound::DB04837	Clofedanol	Compound
+Compound::DB04838	Cyclandelate	Compound
+Compound::DB04839	Cyproterone acetate	Compound
+Compound::DB04840	Debrisoquin	Compound
+Compound::DB04841	Flunarizine	Compound
+Compound::DB04842	Fluspirilene	Compound
+Compound::DB04843	Mepenzolate	Compound
+Compound::DB04844	Tetrabenazine	Compound
+Compound::DB04845	Ixabepilone	Compound
+Compound::DB04855	Dronedarone	Compound
+Compound::DB04861	Nebivolol	Compound
+Compound::DB04865	Homoharringtonine	Compound
+Compound::DB04868	Nilotinib	Compound
+Compound::DB04876	Vildagliptin	Compound
+Compound::DB04877	Voacamine	Compound
+Compound::DB04878	Voglibose	Compound
+Compound::DB04880	Enoximone	Compound
+Compound::DB04890	Bepotastine	Compound
+Compound::DB04894	Vapreotide	Compound
+Compound::DB04896	Milnacipran	Compound
+Compound::DB04898	Ximelagatran	Compound
+Compound::DB04911	Oritavancin	Compound
+Compound::DB04920	Clevidipine	Compound
+Compound::DB04930	Permethrin	Compound
+Compound::DB04938	Ospemifene	Compound
+Compound::DB04942	Tamibarotene	Compound
+Compound::DB04946	Iloperidone	Compound
+Compound::DB04948	Lofexidine	Compound
+Compound::DB04953	Ezogabine	Compound
+Compound::DB04967	Lucanthone	Compound
+Compound::DB05013	Ingenol Mebutate	Compound
+Compound::DB05039	Indacaterol	Compound
+Compound::DB05109	Trabectedin	Compound
+Compound::DB05245	Silver sulfadiazine	Compound
+Compound::DB05246	Methsuximide	Compound
+Compound::DB05260	Gallium nitrate	Compound
+Compound::DB05265	Ecabet	Compound
+Compound::DB05266	Ibudilast	Compound
+Compound::DB05271	Rotigotine	Compound
+Compound::DB05294	Vandetanib	Compound
+Compound::DB05389	WF10	Compound
+Compound::DB05521	Telaprevir	Compound
+Compound::DB05630	Sodium stibogluconate	Compound
+Compound::DB05812	Abiraterone	Compound
+Compound::DB06144	Sertindole	Compound
+Compound::DB06147	Sulfathiazole	Compound
+Compound::DB06148	Mianserin	Compound
+Compound::DB06150	Sulfadimethoxine	Compound
+Compound::DB06151	Acetylcysteine	Compound
+Compound::DB06155	Rimonabant	Compound
+Compound::DB06196	Icatibant	Compound
+Compound::DB06201	Rufinamide	Compound
+Compound::DB06203	Alogliptin	Compound
+Compound::DB06204	Tapentadol	Compound
+Compound::DB06207	Silodosin	Compound
+Compound::DB06209	Prasugrel	Compound
+Compound::DB06210	Eltrombopag	Compound
+Compound::DB06212	Tolvaptan	Compound
+Compound::DB06213	Regadenoson	Compound
+Compound::DB06216	Asenapine	Compound
+Compound::DB06218	Lacosamide	Compound
+Compound::DB06228	Rivaroxaban	Compound
+Compound::DB06237	Avanafil	Compound
+Compound::DB06255	Incadronate	Compound
+Compound::DB06262	Droxidopa	Compound
+Compound::DB06267	Udenafil	Compound
+Compound::DB06268	Sitaxentan	Compound
+Compound::DB06274	Alvimopan	Compound
+Compound::DB06287	Temsirolimus	Compound
+Compound::DB06288	Amisulpride	Compound
+Compound::DB06290	SIMEPREVIR	Compound
+Compound::DB06292	Dapagliflozin	Compound
+Compound::DB06335	Saxagliptin	Compound
+Compound::DB06402	Telavancin	Compound
+Compound::DB06414	Etravirine	Compound
+Compound::DB06439	Tyloxapol	Compound
+Compound::DB06589	Pazopanib	Compound
+Compound::DB06590	Ceftaroline fosamil	Compound
+Compound::DB06594	Agomelatine	Compound
+Compound::DB06605	Apixaban	Compound
+Compound::DB06614	Peramivir	Compound
+Compound::DB06616	Bosutinib	Compound
+Compound::DB06623	Flupirtine	Compound
+Compound::DB06637	Dalfampridine	Compound
+Compound::DB06663	Pasireotide	Compound
+Compound::DB06684	Vilazodone	Compound
+Compound::DB06689	Ethanolamine Oleate	Compound
+Compound::DB06691	Mepyramine	Compound
+Compound::DB06694	Xylometazoline	Compound
+Compound::DB06695	Dabigatran etexilate	Compound
+Compound::DB06696	Arbekacin	Compound
+Compound::DB06697	Artemether	Compound
+Compound::DB06698	Betahistine	Compound
+Compound::DB06699	Degarelix	Compound
+Compound::DB06700	Desvenlafaxine	Compound
+Compound::DB06701	Dexmethylphenidate	Compound
+Compound::DB06702	Fesoterodine	Compound
+Compound::DB06703	Gadobutrol	Compound
+Compound::DB06704	Iobenguane	Compound
+Compound::DB06705	Gadofosveset trisodium	Compound
+Compound::DB06706	Isometheptene	Compound
+Compound::DB06707	Levonordefrin	Compound
+Compound::DB06708	Lumefantrine	Compound
+Compound::DB06709	Methacholine	Compound
+Compound::DB06710	Methyltestosterone	Compound
+Compound::DB06711	Naphazoline	Compound
+Compound::DB06712	Nilvadipine	Compound
+Compound::DB06713	Norelgestromin	Compound
+Compound::DB06714	Propylhexedrine	Compound
+Compound::DB06715	Potassium Iodide	Compound
+Compound::DB06716	Fospropofol	Compound
+Compound::DB06717	Fosaprepitant	Compound
+Compound::DB06718	Stanozolol	Compound
+Compound::DB06723	Aluminum hydroxide	Compound
+Compound::DB06725	Lornoxicam	Compound
+Compound::DB06729	Sulfaphenazole	Compound
+Compound::DB06730	Gestodene	Compound
+Compound::DB06738	Ketobemidone	Compound
+Compound::DB06751	Drotaverine	Compound
+Compound::DB06766	Alcaftadine	Compound
+Compound::DB06768	Ammonium lactate	Compound
+Compound::DB06770	Benzyl alcohol	Compound
+Compound::DB06771	Besifloxacin	Compound
+Compound::DB06772	Cabazitaxel	Compound
+Compound::DB06775	Carglumic Acid	Compound
+Compound::DB06777	Chenodeoxycholic acid	Compound
+Compound::DB06781	Difluprednate	Compound
+Compound::DB06782	Dimercaprol	Compound
+Compound::DB06795	Mafenide	Compound
+Compound::DB06800	Methylnaltrexone	Compound
+Compound::DB06802	Nepafenac	Compound
+Compound::DB06803	Niclosamide	Compound
+Compound::DB06804	Nonoxynol-9	Compound
+Compound::DB06809	Plerixafor	Compound
+Compound::DB06810	Plicamycin	Compound
+Compound::DB06811	Polidocanol	Compound
+Compound::DB06813	Pralatrexate	Compound
+Compound::DB06817	Raltegravir	Compound
+Compound::DB06827	Viomycin	Compound
+Compound::DB07402	Azapropazone	Compound
+Compound::DB08604	Triclosan	Compound
+Compound::DB08792	Diloxanide	Compound
+Compound::DB08795	Azidocillin	Compound
+Compound::DB08796	Pipazethate	Compound
+Compound::DB08797	Salicylamide	Compound
+Compound::DB08798	Sulfamoxole	Compound
+Compound::DB08799	Antazoline	Compound
+Compound::DB08800	Chloropyramine	Compound
+Compound::DB08801	Dimetindene	Compound
+Compound::DB08802	Isothipendyl	Compound
+Compound::DB08803	Tymazoline	Compound
+Compound::DB08804	Nandrolone decanoate	Compound
+Compound::DB08806	Roxatidine acetate	Compound
+Compound::DB08807	Bopindolol	Compound
+Compound::DB08808	Bupranolol	Compound
+Compound::DB08810	Cinitapride	Compound
+Compound::DB08811	Tofisopam	Compound
+Compound::DB08815	Lurasidone	Compound
+Compound::DB08816	Ticagrelor	Compound
+Compound::DB08819	Tafluprost	Compound
+Compound::DB08820	Ivacaftor	Compound
+Compound::DB08822	Azilsartan medoxomil	Compound
+Compound::DB08823	Spinosad	Compound
+Compound::DB08824	Ioflupane I 123	Compound
+Compound::DB08826	Deferiprone	Compound
+Compound::DB08827	Lomitapide	Compound
+Compound::DB08828	Vismodegib	Compound
+Compound::DB08834	Tauroursodeoxycholic acid	Compound
+Compound::DB08835	Spaglumic Acid	Compound
+Compound::DB08842	Acetylcarnitine	Compound
+Compound::DB08847	Hydroxyproline	Compound
+Compound::DB08860	Pitavastatin	Compound
+Compound::DB08864	Rilpivirine	Compound
+Compound::DB08865	Crizotinib	Compound
+Compound::DB08866	Estradiol valerate/Dienogest	Compound
+Compound::DB08868	Fingolimod	Compound
+Compound::DB08871	Eribulin	Compound
+Compound::DB08873	Boceprevir	Compound
+Compound::DB08874	Fidaxomicin	Compound
+Compound::DB08877	Ruxolitinib	Compound
+Compound::DB08881	Vemurafenib	Compound
+Compound::DB08882	Linagliptin	Compound
+Compound::DB08884	Gadoxetate	Compound
+Compound::DB08887	Icosapent ethyl	Compound
+Compound::DB08889	Carfilzomib	Compound
+Compound::DB08890	Linaclotide	Compound
+Compound::DB08893	Mirabegron	Compound
+Compound::DB08896	Regorafenib	Compound
+Compound::DB08897	Aclidinium	Compound
+Compound::DB08899	Enzalutamide	Compound
+Compound::DB08901	Ponatinib	Compound
+Compound::DB08903	Bedaquiline	Compound
+Compound::DB08905	Formestane	Compound
+Compound::DB08906	Fluticasone furoate	Compound
+Compound::DB08907	Canagliflozin	Compound
+Compound::DB08909	Glycerol Phenylbutyrate	Compound
+Compound::DB08910	Pomalidomide	Compound
+Compound::DB08911	Trametinib	Compound
+Compound::DB08912	Dabrafenib	Compound
+Compound::DB08913	Radium Ra 223 Dichloride	Compound
+Compound::DB08916	Afatinib	Compound
+Compound::DB08918	Levomilnacipran	Compound
+Compound::DB08924	Amfecloral	Compound
+Compound::DB08928	Arsthinol	Compound
+Compound::DB08930	Dolutegravir	Compound
+Compound::DB08932	MACITENTAN	Compound
+Compound::DB08933	LULICONAZOLE	Compound
+Compound::DB08934	Sofosbuvir	Compound
+Compound::DB08936	Chlorcyclizine	Compound
+Compound::DB08941	Isoxsuprine	Compound
+Compound::DB08943	Isoconazole	Compound
+Compound::DB08944	Isoaminile	Compound
+Compound::DB08946	Iopanoic acid	Compound
+Compound::DB08947	Iopamidol	Compound
+Compound::DB08954	Ifenprodil	Compound
+Compound::DB08957	Hexoprenaline	Compound
+Compound::DB08958	Hexetidine	Compound
+Compound::DB08965	Fusafungine	Compound
+Compound::DB08966	Fursultiamine	Compound
+Compound::DB08967	Dimetotiazine	Compound
+Compound::DB08968	Fominoben	Compound
+Compound::DB08970	Fluprednidene Acetate	Compound
+Compound::DB08971	Fluocortolone	Compound
+Compound::DB08974	Flubendazole	Compound
+Compound::DB08976	Floctafenine	Compound
+Compound::DB08979	Fenspiride	Compound
+Compound::DB08981	Fenbufen	Compound
+Compound::DB08982	Etozoline	Compound
+Compound::DB08983	Etofibrate	Compound
+Compound::DB08984	Etofenamate	Compound
+Compound::DB08987	Etidocaine	Compound
+Compound::DB08990	Eprazinone	Compound
+Compound::DB08991	Epirizole	Compound
+Compound::DB08992	Eperisone	Compound
+Compound::DB08993	Enviomycin	Compound
+Compound::DB08994	Ditazole	Compound
+Compound::DB08995	Diosmin	Compound
+Compound::DB08996	Dimetacrine	Compound
+Compound::DB08998	Demexiptiline	Compound
+Compound::DB09000	Cyamemazine	Compound
+Compound::DB09002	Cloperastine	Compound
+Compound::DB09003	Clocapramine	Compound
+Compound::DB09006	Clinofibrate	Compound
+Compound::DB09008	Cephaloridine	Compound
+Compound::DB09009	Articaine	Compound
+Compound::DB09014	Captodiame	Compound
+Compound::DB09015	Potassium Canrenoate	Compound
+Compound::DB09017	Brotizolam	Compound
+Compound::DB09018	Bromopride	Compound
+Compound::DB09019	Bromhexine	Compound
+Compound::DB09020	Bisacodyl	Compound
+Compound::DB09028	Cytisine	Compound
+Pathway::PC7_10399	a4b7 Integrin signaling	Pathway
+Pathway::PC7_10400	a6b1 and a6b4 Integrin signaling	Pathway
+Pathway::PC7_10442	activated TAK1 mediates p38 MAPK activation	Pathway
+Pathway::PC7_10508	alpha-linolenic (omega3) and linoleic (omega6) acid metabolism	Pathway
+Pathway::PC7_10557	amb2 Integrin signaling	Pathway
+Pathway::PC7_1063	AKT phosphorylates targets in the cytosol	Pathway
+Pathway::PC7_1064	AKT phosphorylates targets in the nucleus	Pathway
+Pathway::PC7_1065	AKT-mediated inactivation of FOXO1A	Pathway
+Pathway::PC7_11018	beta-catenin independent WNT signaling	Pathway
+Pathway::PC7_11020	betaKlotho-mediated ligand binding	Pathway
+Pathway::PC7_1103	ALK1 pathway	Pathway
+Pathway::PC7_11039	binding of TCF/LEF:CTNNB1 to target gene promoters	Pathway
+Pathway::PC7_1104	ALK1 signaling events	Pathway
+Pathway::PC7_1105	ALK2 signaling events	Pathway
+Pathway::PC7_11143	cGMP effects	Pathway
+Pathway::PC7_1118	AMER1 mutants destabilize the destruction complex	Pathway
+Pathway::PC7_1119	AMPK inhibits chREBP transcriptional activation activity	Pathway
+Pathway::PC7_1123	AP-1 transcription factor network	Pathway
+Pathway::PC7_11234	cell division	Pathway
+Pathway::PC7_1127	APC-Cdc20 mediated degradation of Nek2A	Pathway
+Pathway::PC7_1128	APC/C-mediated degradation of cell cycle proteins	Pathway
+Pathway::PC7_1129	APC/C:Cdc20 mediated degradation of Cyclin B	Pathway
+Pathway::PC7_1130	APC/C:Cdc20 mediated degradation of Securin	Pathway
+Pathway::PC7_1131	APC/C:Cdc20 mediated degradation of mitotic proteins	Pathway
+Pathway::PC7_1132	APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	Pathway
+Pathway::PC7_1135	APOBEC3G mediated resistance to HIV-1 infection	Pathway
+Pathway::PC7_11357	deactivation of the beta-catenin transactivating complex	Pathway
+Pathway::PC7_11384	degradation of AXIN	Pathway
+Pathway::PC7_11385	degradation of DVL	Pathway
+Pathway::PC7_11463	disassembly of the destruction complex and recruitment of AXIN to the membrane	Pathway
+Pathway::PC7_11470	eNOS activation	Pathway
+Pathway::PC7_11610	formation of the beta-catenin:TCF transactivating complex	Pathway
+Pathway::PC7_1163	ARMS-mediated activation	Pathway
+Pathway::PC7_1178	ATF-2 transcription factor network	Pathway
+Pathway::PC7_1181	ATF4 activates genes	Pathway
+Pathway::PC7_1189	ATF6-alpha activates chaperone genes	Pathway
+Pathway::PC7_1190	ATF6-alpha activates chaperones	Pathway
+Pathway::PC7_1200	ATM mediated phosphorylation of repair proteins	Pathway
+Pathway::PC7_1203	ATM pathway	Pathway
+Pathway::PC7_12069	mRNA Capping	Pathway
+Pathway::PC7_12070	mRNA Editing	Pathway
+Pathway::PC7_12073	mRNA Splicing	Pathway
+Pathway::PC7_12075	mRNA decay by 3' to 5' exoribonuclease	Pathway
+Pathway::PC7_12076	mRNA decay by 5' to 3' exoribonuclease	Pathway
+Pathway::PC7_12078	mTOR signaling pathway	Pathway
+Pathway::PC7_12079	mTOR signalling	Pathway
+Pathway::PC7_12080	mTORC1-mediated signalling	Pathway
+Pathway::PC7_1210	ATP sensitive Potassium channels	Pathway
+Pathway::PC7_1213	ATR signaling pathway	Pathway
+Pathway::PC7_1214	AUF1 (hnRNP D0) destabilizes mRNA	Pathway
+Pathway::PC7_12149	mitochondrial fatty acid beta-oxidation of saturated fatty acids	Pathway
+Pathway::PC7_12150	mitochondrial fatty acid beta-oxidation of unsaturated fatty acids	Pathway
+Pathway::PC7_12187	negative regulation of TCF-dependent signaling by DVL-interacting proteins	Pathway
+Pathway::PC7_12188	negative regulation of TCF-dependent signaling by WNT ligand antagonists	Pathway
+Pathway::PC7_1219	Abacavir metabolism	Pathway
+Pathway::PC7_1220	Abacavir transmembrane transport	Pathway
+Pathway::PC7_1221	Abacavir transport and metabolism	Pathway
+Pathway::PC7_1223	Abnormal metabolism in phenylketonuria	Pathway
+Pathway::PC7_1224	Abortive elongation of HIV-1 transcript in the absence of Tat	Pathway
+Pathway::PC7_12264	p130Cas linkage to MAPK signaling for integrins	Pathway
+Pathway::PC7_12266	p38 MAPK signaling pathway	Pathway
+Pathway::PC7_12267	p38 signaling mediated by MAPKAP kinases	Pathway
+Pathway::PC7_12268	p38MAPK events	Pathway
+Pathway::PC7_12271	p53 pathway	Pathway
+Pathway::PC7_12274	p53-Dependent G1 DNA Damage Response	Pathway
+Pathway::PC7_12279	p73 transcription factor network	Pathway
+Pathway::PC7_12280	p75 NTR receptor-mediated signalling	Pathway
+Pathway::PC7_12281	p75(NTR)-mediated signaling	Pathway
+Pathway::PC7_12282	p75NTR negatively regulates cell cycle via SC1	Pathway
+Pathway::PC7_12283	p75NTR recruits signalling complexes	Pathway
+Pathway::PC7_12284	p75NTR regulates axonogenesis	Pathway
+Pathway::PC7_12285	p75NTR signals via NF-kB	Pathway
+Pathway::PC7_1230	Acetylation	Pathway
+Pathway::PC7_1231	Acetylcholine Binding And Downstream Events	Pathway
+Pathway::PC7_1232	Acetylcholine Neurotransmitter Release Cycle	Pathway
+Pathway::PC7_12320	phospho-PLA2 pathway	Pathway
+Pathway::PC7_1233	Acetylcholine regulates insulin secretion	Pathway
+Pathway::PC7_12487	regulation of FZD by ubiquitination	Pathway
+Pathway::PC7_12488	repression of WNT target genes	Pathway
+Pathway::PC7_12899	tRNA Aminoacylation	Pathway
+Pathway::PC7_13144	vRNP Assembly	Pathway
+Pathway::PC7_1516	Activated NOTCH1 Transmits Signal to the Nucleus	Pathway
+Pathway::PC7_1517	Activated TLR4 signalling	Pathway
+Pathway::PC7_1518	Activated point mutants of FGFR2	Pathway
+Pathway::PC7_1519	Activation and oligomerization of BAK protein	Pathway
+Pathway::PC7_1520	Activation of AMPA receptors	Pathway
+Pathway::PC7_1521	Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins	Pathway
+Pathway::PC7_1522	Activation of ATR in response to replication stress	Pathway
+Pathway::PC7_1523	Activation of BAD and translocation to mitochondria	Pathway
+Pathway::PC7_1524	Activation of BH3-only proteins	Pathway
+Pathway::PC7_1525	Activation of BID and translocation to mitochondria	Pathway
+Pathway::PC7_1526	Activation of BIM and translocation to mitochondria	Pathway
+Pathway::PC7_1527	Activation of BMF and translocation to mitochondria	Pathway
+Pathway::PC7_1528	Activation of C3 and C5	Pathway
+Pathway::PC7_1529	Activation of Ca-permeable Kainate Receptor	Pathway
+Pathway::PC7_1530	Activation of CaMK IV	Pathway
+Pathway::PC7_1531	Activation of DNA fragmentation factor	Pathway
+Pathway::PC7_1532	Activation of G protein gated Potassium channels	Pathway
+Pathway::PC7_1533	Activation of GABAB receptors	Pathway
+Pathway::PC7_1534	Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon	Pathway
+Pathway::PC7_1535	Activation of Kainate Receptors upon glutamate binding	Pathway
+Pathway::PC7_1536	Activation of Matrix Metalloproteinases	Pathway
+Pathway::PC7_1537	Activation of NF-kappaB in B cells	Pathway
+Pathway::PC7_1538	Activation of NIMA Kinases NEK9, NEK6, NEK7	Pathway
+Pathway::PC7_1539	Activation of NMDA receptor upon glutamate binding and postsynaptic events	Pathway
+Pathway::PC7_1540	Activation of NOXA and translocation to mitochondria	Pathway
+Pathway::PC7_1541	Activation of Na-permeable Kainate Receptors	Pathway
+Pathway::PC7_1543	Activation of PKB	Pathway
+Pathway::PC7_1544	Activation of PPARGC1A (PGC-1alpha) by phosphorylation	Pathway
+Pathway::PC7_1545	Activation of PUMA and translocation to mitochondria	Pathway
+Pathway::PC7_1546	Activation of RAS in B cells	Pathway
+Pathway::PC7_1547	Activation of Rac	Pathway
+Pathway::PC7_1548	Activation of TRKA receptors	Pathway
+Pathway::PC7_1549	Activation of caspases through apoptosome-mediated cleavage	Pathway
+Pathway::PC7_1550	Activation of gene expression by SREBF (SREBP)	Pathway
+Pathway::PC7_1551	Activation of the AP-1 family of transcription factors	Pathway
+Pathway::PC7_1552	Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	Pathway
+Pathway::PC7_1553	Activation of the phototransduction cascade	Pathway
+Pathway::PC7_1554	Activation of the pre-replicative complex	Pathway
+Pathway::PC7_1555	Activation, translocation and oligomerization of BAX	Pathway
+Pathway::PC7_1556	Acyl chain remodeling of CL	Pathway
+Pathway::PC7_1557	Acyl chain remodeling of DAG and TAG	Pathway
+Pathway::PC7_1558	Acyl chain remodelling of PC	Pathway
+Pathway::PC7_1559	Acyl chain remodelling of PE	Pathway
+Pathway::PC7_1560	Acyl chain remodelling of PG	Pathway
+Pathway::PC7_1561	Acyl chain remodelling of PI	Pathway
+Pathway::PC7_1562	Acyl chain remodelling of PS	Pathway
+Pathway::PC7_1563	Adaptive Immune System	Pathway
+Pathway::PC7_1565	Adenosine P1 receptors	Pathway
+Pathway::PC7_1571	Adenylate cyclase activating pathway	Pathway
+Pathway::PC7_1572	Adenylate cyclase inhibitory pathway	Pathway
+Pathway::PC7_1573	Adherens junctions interactions	Pathway
+Pathway::PC7_1576	Adrenaline signalling through Alpha-2 adrenergic receptor	Pathway
+Pathway::PC7_1577	Adrenaline,noradrenaline inhibits insulin secretion	Pathway
+Pathway::PC7_1578	Adrenoceptors	Pathway
+Pathway::PC7_1580	Advanced glycosylation endproduct receptor signaling	Pathway
+Pathway::PC7_1581	Aflatoxin activation and detoxification	Pathway
+Pathway::PC7_1582	Agmatine biosynthesis	Pathway
+Pathway::PC7_1596	Alpha-defensins	Pathway
+Pathway::PC7_1597	Alpha-oxidation of phytanate	Pathway
+Pathway::PC7_1598	Alpha-synuclein signaling	Pathway
+Pathway::PC7_1599	Alpha4 beta1 integrin signaling events	Pathway
+Pathway::PC7_1600	Alpha6 beta4 integrin-ligand interactions	Pathway
+Pathway::PC7_1601	Alpha9 beta1 integrin signaling events	Pathway
+Pathway::PC7_1602	AlphaE beta7 integrin cell surface interactions	Pathway
+Pathway::PC7_1606	Alternative NF-kappaB pathway	Pathway
+Pathway::PC7_1607	Alternative complement activation	Pathway
+Pathway::PC7_1622	Amine Oxidase reactions	Pathway
+Pathway::PC7_1623	Amine compound SLC transporters	Pathway
+Pathway::PC7_1624	Amine ligand-binding receptors	Pathway
+Pathway::PC7_1625	Amine-derived hormones	Pathway
+Pathway::PC7_1626	Amino Acid conjugation	Pathway
+Pathway::PC7_1629	Amino acid and derivative metabolism	Pathway
+Pathway::PC7_1630	Amino acid and oligopeptide SLC transporters	Pathway
+Pathway::PC7_1631	Amino acid synthesis and interconversion (transamination)	Pathway
+Pathway::PC7_1632	Amino acid transport across the plasma membrane	Pathway
+Pathway::PC7_1653	Amplification of signal from the kinetochores	Pathway
+Pathway::PC7_1655	Amyloids	Pathway
+Pathway::PC7_1657	Anchoring fibril formation	Pathway
+Pathway::PC7_1658	Androgen biosynthesis	Pathway
+Pathway::PC7_1664	Angiopoietin receptor Tie2-mediated signaling	Pathway
+Pathway::PC7_1667	Antagonism of Activin by Follistatin	Pathway
+Pathway::PC7_1669	Antigen Presentation: Folding, assembly and peptide loading of class I MHC	Pathway
+Pathway::PC7_1670	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers	Pathway
+Pathway::PC7_1671	Antigen processing-Cross presentation	Pathway
+Pathway::PC7_1672	Antigen processing: Ubiquitination & Proteasome degradation	Pathway
+Pathway::PC7_1674	Antiviral mechanism by IFN-stimulated genes	Pathway
+Pathway::PC7_1684	Apoptosis	Pathway
+Pathway::PC7_1687	Apoptotic cleavage of cell adhesion proteins	Pathway
+Pathway::PC7_1688	Apoptotic cleavage of cellular proteins	Pathway
+Pathway::PC7_1689	Apoptotic execution phase	Pathway
+Pathway::PC7_1690	Apoptotic factor-mediated response	Pathway
+Pathway::PC7_1691	Aquaporin-mediated transport	Pathway
+Pathway::PC7_1692	Arachidonate production from DAG	Pathway
+Pathway::PC7_1693	Arachidonic acid metabolism	Pathway
+Pathway::PC7_1695	Arf1 pathway	Pathway
+Pathway::PC7_1696	Arf6 downstream pathway	Pathway
+Pathway::PC7_1697	Arf6 signaling events	Pathway
+Pathway::PC7_1698	Arf6 trafficking events	Pathway
+Pathway::PC7_1750	Asparagine N-linked glycosylation	Pathway
+Pathway::PC7_1810	Assembly Of The HIV Virion	Pathway
+Pathway::PC7_1811	Assembly of Viral Components at the Budding Site	Pathway
+Pathway::PC7_1812	Assembly of collagen fibrils and other multimeric structures	Pathway
+Pathway::PC7_1813	Assembly of the ORC complex at the origin of replication	Pathway
+Pathway::PC7_1814	Assembly of the RAD50-MRE11-NBS1 complex at DNA double-strand breaks	Pathway
+Pathway::PC7_1815	Assembly of the RAD51-ssDNA nucleoprotein complex	Pathway
+Pathway::PC7_1816	Assembly of the pre-replicative complex	Pathway
+Pathway::PC7_1817	Association of TriC/CCT with target proteins during biosynthesis	Pathway
+Pathway::PC7_1818	Association of licensing factors with the pre-replicative complex	Pathway
+Pathway::PC7_1820	Astrocytic Glutamate-Glutamine Uptake And Metabolism	Pathway
+Pathway::PC7_1821	Asymmetric localization of PCP proteins	Pathway
+Pathway::PC7_1849	Attachment of GPI anchor to uPAR	Pathway
+Pathway::PC7_1850	Attenuation phase	Pathway
+Pathway::PC7_1851	Atypical NF-kappaB pathway	Pathway
+Pathway::PC7_1855	Aurora A signaling	Pathway
+Pathway::PC7_1856	Aurora B signaling	Pathway
+Pathway::PC7_1857	Aurora C signaling	Pathway
+Pathway::PC7_1858	Autodegradation of Cdh1 by Cdh1:APC/C	Pathway
+Pathway::PC7_1859	Autodegradation of the E3 ubiquitin ligase COP1	Pathway
+Pathway::PC7_1860	Autointegration results in viral DNA circles	Pathway
+Pathway::PC7_1863	Axon guidance	Pathway
+Pathway::PC7_1867	Axonal growth inhibition (RHOA activation)	Pathway
+Pathway::PC7_1868	Axonal growth stimulation	Pathway
+Pathway::PC7_1877	B Cell Activation	Pathway
+Pathway::PC7_1883	BARD1 signaling events	Pathway
+Pathway::PC7_1987	BCR signaling pathway	Pathway
+Pathway::PC7_1994	BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members	Pathway
+Pathway::PC7_2008	BMAL1:CLOCK,NPAS2 activates circadian gene expression	Pathway
+Pathway::PC7_2012	BMP receptor signaling	Pathway
+Pathway::PC7_2032	Base Excision Repair	Pathway
+Pathway::PC7_2033	Base-Excision Repair, AP Site Formation	Pathway
+Pathway::PC7_2034	Base-free sugar-phosphate removal via the single-nucleotide replacement pathway	Pathway
+Pathway::PC7_2035	Basigin interactions	Pathway
+Pathway::PC7_2064	Beta defensins	Pathway
+Pathway::PC7_2065	Beta oxidation of butanoyl-CoA to acetyl-CoA	Pathway
+Pathway::PC7_2066	Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA	Pathway
+Pathway::PC7_2067	Beta oxidation of hexanoyl-CoA to butanoyl-CoA	Pathway
+Pathway::PC7_2068	Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA	Pathway
+Pathway::PC7_2069	Beta oxidation of myristoyl-CoA to lauroyl-CoA	Pathway
+Pathway::PC7_2071	Beta oxidation of palmitoyl-CoA to myristoyl-CoA	Pathway
+Pathway::PC7_2072	Beta-catenin phosphorylation cascade	Pathway
+Pathway::PC7_2073	Beta-oxidation of pristanoyl-CoA	Pathway
+Pathway::PC7_2074	Beta-oxidation of very long chain fatty acids	Pathway
+Pathway::PC7_2076	Beta1 integrin cell surface interactions	Pathway
+Pathway::PC7_2078	Beta2 integrin cell surface interactions	Pathway
+Pathway::PC7_2080	Beta3 integrin cell surface interactions	Pathway
+Pathway::PC7_2081	Beta5 beta6 beta7 and beta8 integrin cell surface interactions	Pathway
+Pathway::PC7_2089	Bicarbonate transporters	Pathway
+Pathway::PC7_2090	Bile acid and bile salt metabolism	Pathway
+Pathway::PC7_2091	Bile salt and organic anion SLC transporters	Pathway
+Pathway::PC7_2095	Binding and Uptake of Ligands by Scavenger Receptors	Pathway
+Pathway::PC7_2096	Binding and entry of HIV virion	Pathway
+Pathway::PC7_2097	Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB	Pathway
+Pathway::PC7_2098	Biological oxidations	Pathway
+Pathway::PC7_2100	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	Pathway
+Pathway::PC7_2103	Biotin transport and metabolism	Pathway
+Pathway::PC7_2117	Branched-chain amino acid catabolism	Pathway
+Pathway::PC7_2118	Breakdown of the nuclear lamina	Pathway
+Pathway::PC7_2124	Budding and maturation of HIV virion	Pathway
+Pathway::PC7_2164	Butyrate Response Factor 1 (BRF1) destabilizes mRNA	Pathway
+Pathway::PC7_2170	C-MYB transcription factor network	Pathway
+Pathway::PC7_2171	C-MYC pathway	Pathway
+Pathway::PC7_2173	C6 deamination of adenosine	Pathway
+Pathway::PC7_2251	CD28 co-stimulation	Pathway
+Pathway::PC7_2252	CD28 dependent PI3K/Akt signaling	Pathway
+Pathway::PC7_2253	CD28 dependent Vav1 pathway	Pathway
+Pathway::PC7_2255	CD40/CD40L signaling	Pathway
+Pathway::PC7_2263	CDC42 signaling events	Pathway
+Pathway::PC7_2264	CDC6 association with the ORC:origin complex	Pathway
+Pathway::PC7_2265	CDK-mediated phosphorylation and removal of Cdc6	Pathway
+Pathway::PC7_2276	CDO in myogenesis	Pathway
+Pathway::PC7_2278	CDT1 association with the CDC6:ORC:origin complex	Pathway
+Pathway::PC7_2301	CHL1 interactions	Pathway
+Pathway::PC7_2324	COPI Mediated Transport	Pathway
+Pathway::PC7_2325	COPII (Coat Protein 2) Mediated Vesicle Transport	Pathway
+Pathway::PC7_2331	CREB phosphorylation	Pathway
+Pathway::PC7_2332	CREB phosphorylation through the activation of Adenylate Cyclase	Pathway
+Pathway::PC7_2333	CREB phosphorylation through the activation of CaMKII	Pathway
+Pathway::PC7_2334	CREB phosphorylation through the activation of CaMKK	Pathway
+Pathway::PC7_2335	CREB phosphorylation through the activation of Ras	Pathway
+Pathway::PC7_2347	CRMPs in Sema3A signaling	Pathway
+Pathway::PC7_2348	CS/DS degradation	Pathway
+Pathway::PC7_2360	CTLA4 inhibitory signaling	Pathway
+Pathway::PC7_2372	CXCR3-mediated signaling events	Pathway
+Pathway::PC7_2373	CXCR4-mediated signaling events	Pathway
+Pathway::PC7_2379	CYP2E1 reactions	Pathway
+Pathway::PC7_2391	Ca activated K+ channels	Pathway
+Pathway::PC7_2392	Ca-dependent events	Pathway
+Pathway::PC7_2393	Ca2+ pathway	Pathway
+Pathway::PC7_2394	CaM pathway	Pathway
+Pathway::PC7_2395	CaMK IV-mediated phosphorylation of CREB	Pathway
+Pathway::PC7_2440	Calcineurin-regulated NFAT-dependent transcription in lymphocytes	Pathway
+Pathway::PC7_2441	Calcitonin-like ligand receptors	Pathway
+Pathway::PC7_2458	Calcium signaling in the CD4+ TCR pathway	Pathway
+Pathway::PC7_2460	Calnexin/calreticulin cycle	Pathway
+Pathway::PC7_2461	Cam-PDE 1 activation	Pathway
+Pathway::PC7_2467	Canonical NF-kappaB pathway	Pathway
+Pathway::PC7_2468	Canonical Wnt signaling pathway	Pathway
+Pathway::PC7_2469	Cap-dependent Translation Initiation	Pathway
+Pathway::PC7_2500	Carbohydrate metabolism	Pathway
+Pathway::PC7_2505	Carnitine synthesis	Pathway
+Pathway::PC7_2506	Caspase Cascade in Apoptosis	Pathway
+Pathway::PC7_2507	Caspase-8 activation by cleavage	Pathway
+Pathway::PC7_2508	Caspase-mediated cleavage of cytoskeletal proteins	Pathway
+Pathway::PC7_2516	Catecholamine biosynthesis	Pathway
+Pathway::PC7_2517	Cation-coupled Chloride cotransporters	Pathway
+Pathway::PC7_2518	Cdc20:Phospho-APC/C mediated degradation of Cyclin A	Pathway
+Pathway::PC7_2519	Cell Cycle	Pathway
+Pathway::PC7_2520	Cell Cycle Checkpoints	Pathway
+Pathway::PC7_2521	Cell Cycle, Mitotic	Pathway
+Pathway::PC7_2523	Cell death signalling via NRAGE, NRIF and NADE	Pathway
+Pathway::PC7_2524	Cell junction organization	Pathway
+Pathway::PC7_2525	Cell surface interactions at the vascular wall	Pathway
+Pathway::PC7_2526	Cell-Cell communication	Pathway
+Pathway::PC7_2527	Cell-cell junction organization	Pathway
+Pathway::PC7_2528	Cell-extracellular matrix interactions	Pathway
+Pathway::PC7_2529	Cellular Senescence	Pathway
+Pathway::PC7_2530	Cellular response to heat stress	Pathway
+Pathway::PC7_2531	Cellular response to hypoxia	Pathway
+Pathway::PC7_2532	Cellular responses to stress	Pathway
+Pathway::PC7_2533	Cellular roles of Anthrax toxin	Pathway
+Pathway::PC7_2534	Centrosome maturation	Pathway
+Pathway::PC7_2535	Ceramide signaling pathway	Pathway
+Pathway::PC7_2536	Ceramide signalling	Pathway
+Pathway::PC7_2539	ChREBP activates metabolic gene expression	Pathway
+Pathway::PC7_2541	Chaperonin-mediated protein folding	Pathway
+Pathway::PC7_2543	Chemokine receptors bind chemokines	Pathway
+Pathway::PC7_2544	Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex	Pathway
+Pathway::PC7_2565	Cholesterol biosynthesis	Pathway
+Pathway::PC7_2568	Chondroitin sulfate biosynthesis	Pathway
+Pathway::PC7_2569	Chondroitin sulfate/dermatan sulfate metabolism	Pathway
+Pathway::PC7_2570	Chromatin modifying enzymes	Pathway
+Pathway::PC7_2575	Chromosome Maintenance	Pathway
+Pathway::PC7_2576	Chylomicron-mediated lipid transport	Pathway
+Pathway::PC7_2582	Circadian Clock	Pathway
+Pathway::PC7_2584	Circadian rhythm pathway	Pathway
+Pathway::PC7_2610	Citric acid cycle (TCA cycle)	Pathway
+Pathway::PC7_2620	Class A/1 (Rhodopsin-like receptors)	Pathway
+Pathway::PC7_2621	Class B/2 (Secretin family receptors)	Pathway
+Pathway::PC7_2622	Class C/3 (Metabotropic glutamate/pheromone receptors)	Pathway
+Pathway::PC7_2623	Class I MHC mediated antigen processing & presentation	Pathway
+Pathway::PC7_2624	Class I PI3K signaling events	Pathway
+Pathway::PC7_2625	Class I PI3K signaling events mediated by Akt	Pathway
+Pathway::PC7_2626	Class IB PI3K non-lipid kinase events	Pathway
+Pathway::PC7_2627	Class II GLUTs	Pathway
+Pathway::PC7_2628	Classical Kir channels	Pathway
+Pathway::PC7_2629	Classical antibody-mediated complement activation	Pathway
+Pathway::PC7_2630	Clathrin derived vesicle budding	Pathway
+Pathway::PC7_2631	Clearance of Nuclear Envelope Membranes from Chromatin	Pathway
+Pathway::PC7_2632	Clearance of dopamine	Pathway
+Pathway::PC7_2633	Clearance of seratonin	Pathway
+Pathway::PC7_2634	Cleavage of Growing Transcript in the Termination Region	Pathway
+Pathway::PC7_2635	Cleavage of the damaged purine	Pathway
+Pathway::PC7_2636	Cleavage of the damaged pyrimidine	Pathway
+Pathway::PC7_2647	Clostridium neurotoxicity	Pathway
+Pathway::PC7_2651	Cobalamin (Cbl, vitamin B12) transport and metabolism	Pathway
+Pathway::PC7_2659	Coenzyme A biosynthesis	Pathway
+Pathway::PC7_2661	Cohesin Loading onto Chromatin	Pathway
+Pathway::PC7_2668	Collagen biosynthesis and modifying enzymes	Pathway
+Pathway::PC7_2669	Collagen degradation	Pathway
+Pathway::PC7_2670	Collagen formation	Pathway
+Pathway::PC7_2671	Common Pathway	Pathway
+Pathway::PC7_2672	Complement cascade	Pathway
+Pathway::PC7_2673	Condensation of Prometaphase Chromosomes	Pathway
+Pathway::PC7_2674	Condensation of Prophase Chromosomes	Pathway
+Pathway::PC7_2675	Conjugation of benzoate with glycine	Pathway
+Pathway::PC7_2677	Conjugation of phenylacetate with glutamine	Pathway
+Pathway::PC7_2678	Conjugation of salicylate with glycine	Pathway
+Pathway::PC7_2679	Constitutive PI3K/AKT Signaling in Cancer	Pathway
+Pathway::PC7_2680	Constitutive Signaling by NOTCH1 HD Domain Mutants	Pathway
+Pathway::PC7_2681	Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants	Pathway
+Pathway::PC7_2683	Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant	Pathway
+Pathway::PC7_2684	Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	Pathway
+Pathway::PC7_2685	Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding	Pathway
+Pathway::PC7_2698	Coregulation of Androgen receptor activity	Pathway
+Pathway::PC7_2701	Costimulation by the CD28 family	Pathway
+Pathway::PC7_2703	Creatine metabolism	Pathway
+Pathway::PC7_2704	Creation of C4 and C2 activators	Pathway
+Pathway::PC7_2705	Cross-presentation of particulate exogenous antigens (phagosomes)	Pathway
+Pathway::PC7_2706	Cross-presentation of soluble exogenous antigens (endosomes)	Pathway
+Pathway::PC7_2707	Crosslinking of collagen fibrils	Pathway
+Pathway::PC7_2829	Cyclin A/B1 associated events during G2/M transition	Pathway
+Pathway::PC7_2830	Cyclin A:Cdk2-associated events at S phase entry	Pathway
+Pathway::PC7_2831	Cyclin B2 mediated events	Pathway
+Pathway::PC7_2832	Cyclin D associated events in G1	Pathway
+Pathway::PC7_2833	Cyclin E associated events during G1/S transition	Pathway
+Pathway::PC7_2890	Cysteine formation from homocysteine	Pathway
+Pathway::PC7_2905	Cytochrome P450 - arranged by substrate type	Pathway
+Pathway::PC7_2907	Cytokine Signaling in Immune system	Pathway
+Pathway::PC7_2909	Cytosolic iron-sulfur cluster assembly	Pathway
+Pathway::PC7_2910	Cytosolic sensors of pathogen-associated DNA	Pathway
+Pathway::PC7_2911	Cytosolic sulfonation of small molecules	Pathway
+Pathway::PC7_2912	Cytosolic tRNA aminoacylation	Pathway
+Pathway::PC7_2924	DAG and IP3 signaling	Pathway
+Pathway::PC7_2925	DAP12 interactions	Pathway
+Pathway::PC7_2926	DAP12 signaling	Pathway
+Pathway::PC7_2927	DARPP-32 events	Pathway
+Pathway::PC7_2928	DCC mediated attractive signaling	Pathway
+Pathway::PC7_2942	DEx/H-box helicases activate type I IFN and inflammatory cytokines production	Pathway
+Pathway::PC7_2946	DNA Damage Bypass	Pathway
+Pathway::PC7_2947	DNA Damage Recognition in GG-NER	Pathway
+Pathway::PC7_2948	DNA Damage Reversal	Pathway
+Pathway::PC7_2949	DNA Damage/Telomere Stress Induced Senescence	Pathway
+Pathway::PC7_2950	DNA Repair	Pathway
+Pathway::PC7_2951	DNA Replication	Pathway
+Pathway::PC7_2952	DNA Replication Pre-Initiation	Pathway
+Pathway::PC7_2953	DNA methylation	Pathway
+Pathway::PC7_2955	DNA replication initiation	Pathway
+Pathway::PC7_2956	DNA strand elongation	Pathway
+Pathway::PC7_2957	DNA-PK pathway in nonhomologous end joining	Pathway
+Pathway::PC7_2968	DSCAM interactions	Pathway
+Pathway::PC7_3014	Deadenylation of mRNA	Pathway
+Pathway::PC7_3015	Deadenylation-dependent mRNA decay	Pathway
+Pathway::PC7_3016	Death Receptor Signalling	Pathway
+Pathway::PC7_3017	Defective AMN causes hereditary megaloblastic anemia 1	Pathway
+Pathway::PC7_3018	Defective B3GAT3 causes JDSSDHD	Pathway
+Pathway::PC7_3046	Defensins	Pathway
+Pathway::PC7_3059	Degradation of GABA	Pathway
+Pathway::PC7_3060	Degradation of GLI1 by the proteasome	Pathway
+Pathway::PC7_3061	Degradation of GLI2 by the proteasome	Pathway
+Pathway::PC7_3062	Degradation of beta catenin	Pathway
+Pathway::PC7_3064	Degradation of cysteine and homocysteine	Pathway
+Pathway::PC7_3065	Degradation of the extracellular matrix	Pathway
+Pathway::PC7_3071	Depolarization of the Presynaptic Terminal Triggers the Opening of Calcium Channels	Pathway
+Pathway::PC7_3072	Depolymerisation of the Nuclear Lamina	Pathway
+Pathway::PC7_3073	Deposition of new CENPA-containing nucleosomes at the centromere	Pathway
+Pathway::PC7_3077	Dermatan sulfate biosynthesis	Pathway
+Pathway::PC7_3083	Detoxification of Reactive Oxygen Species	Pathway
+Pathway::PC7_3084	Developmental Biology	Pathway
+Pathway::PC7_3166	Digestion of dietary carbohydrate	Pathway
+Pathway::PC7_3167	Digestion of dietary lipid	Pathway
+Pathway::PC7_3277	Direct p53 effectors	Pathway
+Pathway::PC7_3278	Disease	Pathway
+Pathway::PC7_3280	Diseases associated with visual transduction	Pathway
+Pathway::PC7_3282	Disinhibition of SNARE formation	Pathway
+Pathway::PC7_3283	Displacement of DNA glycosylase by APE1	Pathway
+Pathway::PC7_3284	Dissolution of Fibrin Clot	Pathway
+Pathway::PC7_3315	Dopamine Neurotransmitter Release Cycle	Pathway
+Pathway::PC7_3318	Dopamine receptors	Pathway
+Pathway::PC7_3319	Double-Strand Break Repair	Pathway
+Pathway::PC7_3320	Downregulation of ERBB2:ERBB3 signaling	Pathway
+Pathway::PC7_3321	Downregulation of ERBB4 signaling	Pathway
+Pathway::PC7_3322	Downregulation of SMAD2/3:SMAD4 transcriptional activity	Pathway
+Pathway::PC7_3323	Downregulation of TGF-beta receptor signaling	Pathway
+Pathway::PC7_3324	Downstream TCR signaling	Pathway
+Pathway::PC7_3325	Downstream signal transduction	Pathway
+Pathway::PC7_3326	Downstream signaling events of B Cell Receptor (BCR)	Pathway
+Pathway::PC7_3327	Downstream signaling in naïve CD8+ T cells	Pathway
+Pathway::PC7_3328	Downstream signaling of activated FGFR	Pathway
+Pathway::PC7_3348	Dual incision reaction in GG-NER	Pathway
+Pathway::PC7_3349	Dual incision reaction in TC-NER	Pathway
+Pathway::PC7_3358	E-cadherin signaling events	Pathway
+Pathway::PC7_3359	E-cadherin signaling in keratinocytes	Pathway
+Pathway::PC7_3360	E-cadherin signaling in the nascent adherens junction	Pathway
+Pathway::PC7_3361	E2F mediated regulation of DNA replication	Pathway
+Pathway::PC7_3362	E2F transcription factor network	Pathway
+Pathway::PC7_3363	E2F-enabled inhibition of pre-replication complex formation	Pathway
+Pathway::PC7_3366	ECM proteoglycans	Pathway
+Pathway::PC7_3384	EGFR Transactivation by Gastrin	Pathway
+Pathway::PC7_3385	EGFR downregulation	Pathway
+Pathway::PC7_3386	EGFR interacts with phospholipase C-gamma	Pathway
+Pathway::PC7_3392	EGFR-dependent Endothelin signaling events	Pathway
+Pathway::PC7_3415	EPH-Ephrin signaling	Pathway
+Pathway::PC7_3416	EPH-ephrin mediated repulsion of cells	Pathway
+Pathway::PC7_3417	EPHA forward signaling	Pathway
+Pathway::PC7_3418	EPHA-mediated growth cone collapse	Pathway
+Pathway::PC7_3419	EPHA2 forward signaling	Pathway
+Pathway::PC7_3420	EPHB forward signaling	Pathway
+Pathway::PC7_3421	EPHB-mediated forward signaling	Pathway
+Pathway::PC7_3424	EPO signaling pathway	Pathway
+Pathway::PC7_3425	ER Quality Control Compartment (ERQC)	Pathway
+Pathway::PC7_3427	ER-Phagosome pathway	Pathway
+Pathway::PC7_3433	ERK activation	Pathway
+Pathway::PC7_3434	ERK/MAPK targets	Pathway
+Pathway::PC7_3435	ERK1 activation	Pathway
+Pathway::PC7_3436	ERK2 activation	Pathway
+Pathway::PC7_3437	ERKs are inactivated	Pathway
+Pathway::PC7_3629	Early Phase of HIV Life Cycle	Pathway
+Pathway::PC7_3632	Effects of Botulinum toxin	Pathway
+Pathway::PC7_3633	Effects of PIP2 hydrolysis	Pathway
+Pathway::PC7_3646	Eicosanoid ligand-binding receptors	Pathway
+Pathway::PC7_3647	Eicosanoids	Pathway
+Pathway::PC7_3649	Elastic fibre formation	Pathway
+Pathway::PC7_3650	Electric Transmission Across Gap Junctions	Pathway
+Pathway::PC7_3651	Electron transport from NADPH to Ferredoxin	Pathway
+Pathway::PC7_3652	Elevation of cytosolic Ca2+ levels	Pathway
+Pathway::PC7_3653	Elongation arrest and recovery	Pathway
+Pathway::PC7_3663	Endogenous TLR signaling	Pathway
+Pathway::PC7_3664	Endogenous sterols	Pathway
+Pathway::PC7_3666	Endosomal Sorting Complex Required For Transport (ESCRT)	Pathway
+Pathway::PC7_3667	Endosomal/Vacuolar pathway	Pathway
+Pathway::PC7_3670	Endothelins	Pathway
+Pathway::PC7_3671	Energy dependent regulation of mTOR by LKB1-AMPK	Pathway
+Pathway::PC7_3674	Enzymatic degradation of Dopamine by monoamine oxidase	Pathway
+Pathway::PC7_3677	Ephrin A reverse signaling	Pathway
+Pathway::PC7_3678	Ephrin B reverse signaling	Pathway
+Pathway::PC7_3679	Ephrin signaling	Pathway
+Pathway::PC7_3680	EphrinA-EPHA pathway	Pathway
+Pathway::PC7_3681	EphrinB-EPHB pathway	Pathway
+Pathway::PC7_3682	Epigenetic regulation of gene expression	Pathway
+Pathway::PC7_3697	ErbB receptor signaling network	Pathway
+Pathway::PC7_3698	ErbB1 downstream signaling	Pathway
+Pathway::PC7_3699	ErbB2/ErbB3 signaling events	Pathway
+Pathway::PC7_3700	ErbB4 signaling events	Pathway
+Pathway::PC7_3701	Erythrocytes take up carbon dioxide and release oxygen	Pathway
+Pathway::PC7_3703	Establishment of Sister Chromatid Cohesion	Pathway
+Pathway::PC7_3752	Estrogen biosynthesis	Pathway
+Pathway::PC7_3756	Ethanol oxidation	Pathway
+Pathway::PC7_3772	Eukaryotic Translation Elongation	Pathway
+Pathway::PC7_3774	Eukaryotic Translation Termination	Pathway
+Pathway::PC7_3775	Export of Viral Ribonucleoproteins from Nucleus	Pathway
+Pathway::PC7_3776	Extension of Telomeres	Pathway
+Pathway::PC7_3777	Extracellular matrix organization	Pathway
+Pathway::PC7_3778	Extrinsic Pathway	Pathway
+Pathway::PC7_3798	FAS (CD95) signaling pathway	Pathway
+Pathway::PC7_3803	FBXW7 Mutants and NOTCH1 in Cancer	Pathway
+Pathway::PC7_3805	FCERI mediated Ca+2 mobilization	Pathway
+Pathway::PC7_3806	FCERI mediated MAPK activation	Pathway
+Pathway::PC7_3807	FCERI mediated NF-kB activation	Pathway
+Pathway::PC7_3808	FCGR activation	Pathway
+Pathway::PC7_3811	FGF signaling pathway	Pathway
+Pathway::PC7_3818	FGFR ligand binding and activation	Pathway
+Pathway::PC7_3819	FGFR1 ligand binding and activation	Pathway
+Pathway::PC7_3820	FGFR1b ligand binding and activation	Pathway
+Pathway::PC7_3821	FGFR1c and Klotho ligand binding and activation	Pathway
+Pathway::PC7_3822	FGFR1c ligand binding and activation	Pathway
+Pathway::PC7_3824	FGFR2b ligand binding and activation	Pathway
+Pathway::PC7_3825	FGFR2c ligand binding and activation	Pathway
+Pathway::PC7_3826	FGFR3 ligand binding and activation	Pathway
+Pathway::PC7_3827	FGFR3b ligand binding and activation	Pathway
+Pathway::PC7_3829	FGFR4 ligand binding and activation	Pathway
+Pathway::PC7_3845	FMO oxidises nucleophiles	Pathway
+Pathway::PC7_3849	FOXA transcription factor networks	Pathway
+Pathway::PC7_3852	FOXA1 transcription factor network	Pathway
+Pathway::PC7_3853	FOXA2 and FOXA3 transcription factor networks	Pathway
+Pathway::PC7_3855	FOXM1 transcription factor network	Pathway
+Pathway::PC7_3864	FRS2-mediated cascade	Pathway
+Pathway::PC7_3868	Facilitative Na+-independent glucose transporters	Pathway
+Pathway::PC7_3869	Factors involved in megakaryocyte development and platelet production	Pathway
+Pathway::PC7_3874	Fanconi Anemia pathway	Pathway
+Pathway::PC7_3875	Fanconi anemia pathway	Pathway
+Pathway::PC7_3876	FasL/ CD95L signaling	Pathway
+Pathway::PC7_3877	Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion	Pathway
+Pathway::PC7_3878	Fatty Acyl-CoA Biosynthesis	Pathway
+Pathway::PC7_3882	Fatty acid, triacylglycerol, and ketone body metabolism	Pathway
+Pathway::PC7_3883	Fatty acids	Pathway
+Pathway::PC7_3884	Fc epsilon receptor (FCERI) signaling	Pathway
+Pathway::PC7_3885	Fc-epsilon receptor I signaling in mast cells	Pathway
+Pathway::PC7_3886	Fcgamma receptor (FCGR) dependent phagocytosis	Pathway
+Pathway::PC7_3901	Fertilization	Pathway
+Pathway::PC7_3902	Fibronectin matrix formation	Pathway
+Pathway::PC7_3903	Ficolins bind to repetitive carbohydrate structures on the target cell surface	Pathway
+Pathway::PC7_3953	Folding of actin by CCT/TriC	Pathway
+Pathway::PC7_3957	Formation of ATP by chemiosmotic coupling	Pathway
+Pathway::PC7_3958	Formation of Fibrin Clot (Clotting Cascade)	Pathway
+Pathway::PC7_3959	Formation of HIV elongation complex in the absence of HIV Tat	Pathway
+Pathway::PC7_3960	Formation of HIV-1 elongation complex containing HIV-1 Tat	Pathway
+Pathway::PC7_3962	Formation of Senescence-Associated Heterochromatin Foci (SAHF)	Pathway
+Pathway::PC7_3963	Formation of a pool of free 40S subunits	Pathway
+Pathway::PC7_3964	Formation of annular gap junctions	Pathway
+Pathway::PC7_3965	Formation of apoptosome	Pathway
+Pathway::PC7_3968	Formation of the Early Elongation Complex	Pathway
+Pathway::PC7_3969	Formation of the Editosome	Pathway
+Pathway::PC7_3971	Formation of the active cofactor, UDP-glucuronate	Pathway
+Pathway::PC7_3972	Formation of the ternary complex, and subsequently, the 43S complex	Pathway
+Pathway::PC7_3974	Formation of tubulin folding intermediates by CCT/TriC	Pathway
+Pathway::PC7_3975	Formyl peptide receptors bind formyl peptides and many other ligands	Pathway
+Pathway::PC7_3980	FoxO family signaling	Pathway
+Pathway::PC7_3981	Free fatty acid receptors	Pathway
+Pathway::PC7_3983	Frs2-mediated activation	Pathway
+Pathway::PC7_3985	Fructose catabolism	Pathway
+Pathway::PC7_3991	G alpha (12/13) signalling events	Pathway
+Pathway::PC7_3992	G alpha (i) signalling events	Pathway
+Pathway::PC7_3993	G alpha (q) signalling events	Pathway
+Pathway::PC7_3994	G alpha (s) signalling events	Pathway
+Pathway::PC7_3995	G alpha (z) signalling events	Pathway
+Pathway::PC7_3996	G beta:gamma signalling through PI3Kgamma	Pathway
+Pathway::PC7_3997	G beta:gamma signalling through PLC beta	Pathway
+Pathway::PC7_3999	G-protein activation	Pathway
+Pathway::PC7_4000	G-protein beta:gamma signalling	Pathway
+Pathway::PC7_4001	G-protein mediated events	Pathway
+Pathway::PC7_4002	G0 and Early G1	Pathway
+Pathway::PC7_4004	G1/S DNA Damage Checkpoints	Pathway
+Pathway::PC7_4005	G1/S Transition	Pathway
+Pathway::PC7_4006	G1/S-Specific Transcription	Pathway
+Pathway::PC7_4007	G2 Phase	Pathway
+Pathway::PC7_4008	G2/M Checkpoints	Pathway
+Pathway::PC7_4009	G2/M DNA damage checkpoint	Pathway
+Pathway::PC7_4010	G2/M DNA replication checkpoint	Pathway
+Pathway::PC7_4011	G2/M Transition	Pathway
+Pathway::PC7_4012	GAB1 signalosome	Pathway
+Pathway::PC7_4013	GABA A (rho) receptor activation	Pathway
+Pathway::PC7_4014	GABA A receptor activation	Pathway
+Pathway::PC7_4016	GABA receptor activation	Pathway
+Pathway::PC7_4018	GABA synthesis	Pathway
+Pathway::PC7_4019	GABA synthesis, release, reuptake and degradation	Pathway
+Pathway::PC7_4037	GLI3 is processed to GLI3R by the proteasome	Pathway
+Pathway::PC7_4038	GMCSF-mediated signaling events	Pathway
+Pathway::PC7_4042	GP1b-IX-V activation signalling	Pathway
+Pathway::PC7_4043	GPCR downstream signaling	Pathway
+Pathway::PC7_4044	GPCR ligand binding	Pathway
+Pathway::PC7_4053	GPVI-mediated activation cascade	Pathway
+Pathway::PC7_4061	GRB2 events in EGFR signaling	Pathway
+Pathway::PC7_4062	GRB2 events in ERBB2 signaling	Pathway
+Pathway::PC7_4063	GRB2:SOS provides linkage to MAPK signaling for Integrins	Pathway
+Pathway::PC7_4064	GRB7 events in ERBB2 signaling	Pathway
+Pathway::PC7_4085	GTP hydrolysis and joining of the 60S ribosomal subunit	Pathway
+Pathway::PC7_4093	Galactose catabolism	Pathway
+Pathway::PC7_4099	Gamma-carboxylation of protein precursors	Pathway
+Pathway::PC7_4100	Gamma-carboxylation, transport, and amino-terminal cleavage of proteins	Pathway
+Pathway::PC7_4101	Gap junction assembly	Pathway
+Pathway::PC7_4102	Gap junction degradation	Pathway
+Pathway::PC7_4103	Gap junction trafficking	Pathway
+Pathway::PC7_4104	Gap junction trafficking and regulation	Pathway
+Pathway::PC7_4105	Gap-filling DNA repair synthesis and ligation in GG-NER	Pathway
+Pathway::PC7_4107	Gastrin-CREB signalling pathway via PKC and MAPK	Pathway
+Pathway::PC7_4112	Gene Expression	Pathway
+Pathway::PC7_4115	Generation of second messenger molecules	Pathway
+Pathway::PC7_4116	Generic Transcription Pathway	Pathway
+Pathway::PC7_4156	Global Genomic NER (GG-NER)	Pathway
+Pathway::PC7_4157	Glucagon signaling in metabolic regulation	Pathway
+Pathway::PC7_4158	Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	Pathway
+Pathway::PC7_4159	Glucagon-type ligand receptors	Pathway
+Pathway::PC7_4160	Glucocorticoid biosynthesis	Pathway
+Pathway::PC7_4161	Glucocorticoid receptor regulatory network	Pathway
+Pathway::PC7_4162	Gluconeogenesis	Pathway
+Pathway::PC7_4207	Glucose metabolism	Pathway
+Pathway::PC7_4211	Glucose transport	Pathway
+Pathway::PC7_4214	Glucuronidation	Pathway
+Pathway::PC7_4215	Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity	Pathway
+Pathway::PC7_4216	Glutamate Neurotransmitter Release Cycle	Pathway
+Pathway::PC7_4219	Glutathione conjugation	Pathway
+Pathway::PC7_4258	Glutathione synthesis and recycling	Pathway
+Pathway::PC7_4262	Glycerophospholipid biosynthesis	Pathway
+Pathway::PC7_4265	Glycogen breakdown (glycogenolysis)	Pathway
+Pathway::PC7_4267	Glycogen synthesis	Pathway
+Pathway::PC7_4269	Glycolysis	Pathway
+Pathway::PC7_4271	Glycoprotein hormones	Pathway
+Pathway::PC7_4276	Glycosphingolipid metabolism	Pathway
+Pathway::PC7_4283	Glyoxylate metabolism	Pathway
+Pathway::PC7_4284	Glypican 1 network	Pathway
+Pathway::PC7_4285	Glypican 2 network	Pathway
+Pathway::PC7_4286	Glypican 3 network	Pathway
+Pathway::PC7_4287	Glypican pathway	Pathway
+Pathway::PC7_4300	Golgi Associated Vesicle Biogenesis	Pathway
+Pathway::PC7_4301	Golgi Cisternae Pericentriolar Stack Reorganization	Pathway
+Pathway::PC7_4306	Growth hormone receptor signaling	Pathway
+Pathway::PC7_4308	HATs acetylate histones	Pathway
+Pathway::PC7_4318	HCN channels	Pathway
+Pathway::PC7_4334	HDACs deacetylate histones	Pathway
+Pathway::PC7_4335	HDL-mediated lipid transport	Pathway
+Pathway::PC7_4336	HDMs demethylate histones	Pathway
+Pathway::PC7_4340	HIF-1-alpha transcription factor network	Pathway
+Pathway::PC7_4341	HIF-2-alpha transcription factor network	Pathway
+Pathway::PC7_4365	HIV Infection	Pathway
+Pathway::PC7_4366	HIV Life Cycle	Pathway
+Pathway::PC7_4368	HIV Transcription Initiation	Pathway
+Pathway::PC7_4370	HIV-1 Nef: Negative effector of Fas and TNF-alpha	Pathway
+Pathway::PC7_4414	HS-GAG biosynthesis	Pathway
+Pathway::PC7_4415	HS-GAG degradation	Pathway
+Pathway::PC7_4416	HSF1 activation	Pathway
+Pathway::PC7_4417	HSF1-dependent transactivation	Pathway
+Pathway::PC7_4438	Hedgehog 'off' state	Pathway
+Pathway::PC7_4439	Hedgehog ligand biogenesis	Pathway
+Pathway::PC7_4440	Hedgehog signaling events mediated by Gli proteins	Pathway
+Pathway::PC7_4443	Heme biosynthesis	Pathway
+Pathway::PC7_4444	Heme degradation	Pathway
+Pathway::PC7_4449	Hemostasis	Pathway
+Pathway::PC7_4451	Heparan sulfate/heparin (HS-GAG) metabolism	Pathway
+Pathway::PC7_4466	Hexose uptake	Pathway
+Pathway::PC7_4467	Hh ligand biogenesis disease	Pathway
+Pathway::PC7_4468	Highly calcium permeable nicotinic acetylcholine receptors	Pathway
+Pathway::PC7_4469	Highly calcium permeable postsynaptic nicotinic acetylcholine receptors	Pathway
+Pathway::PC7_4470	Highly sodium permeable acetylcholine nicotinic receptors	Pathway
+Pathway::PC7_4480	Histamine receptors	Pathway
+Pathway::PC7_4482	Histidine catabolism	Pathway
+Pathway::PC7_4487	Homologous DNA pairing and strand exchange	Pathway
+Pathway::PC7_4488	Homologous Recombination Repair	Pathway
+Pathway::PC7_4490	Hormone ligand-binding receptors	Pathway
+Pathway::PC7_4491	Hormone-sensitive lipase (HSL)-mediated triacylglycerol hydrolysis	Pathway
+Pathway::PC7_4492	Host Interactions of HIV factors	Pathway
+Pathway::PC7_4493	Host Interactions with Influenza Factors	Pathway
+Pathway::PC7_4494	HuR stabilizes mRNA	Pathway
+Pathway::PC7_4496	Hyaluronan biosynthesis and export	Pathway
+Pathway::PC7_4497	Hyaluronan metabolism	Pathway
+Pathway::PC7_4498	Hyaluronan uptake and degradation	Pathway
+Pathway::PC7_4530	Hydrolysis of LPC	Pathway
+Pathway::PC7_4531	Hydrolysis of LPE	Pathway
+Pathway::PC7_4532	Hydroxycarboxylic acid-binding receptors	Pathway
+Pathway::PC7_4540	Hypoxic and oxygen homeostasis regulation of HIF-1-alpha	Pathway
+Pathway::PC7_4541	Hypusinylation	Pathway
+Pathway::PC7_4556	IFN-gamma pathway	Pathway
+Pathway::PC7_4574	IGF1 pathway	Pathway
+Pathway::PC7_4583	IGF1R signaling cascade	Pathway
+Pathway::PC7_4587	IKK complex recruitment mediated by RIP1	Pathway
+Pathway::PC7_4588	IL1-mediated signaling events	Pathway
+Pathway::PC7_4593	IL12 signaling mediated by STAT4	Pathway
+Pathway::PC7_4594	IL12-mediated signaling events	Pathway
+Pathway::PC7_4611	IL2 signaling events mediated by PI3K	Pathway
+Pathway::PC7_4612	IL2 signaling events mediated by STAT5	Pathway
+Pathway::PC7_4613	IL2-mediated signaling events	Pathway
+Pathway::PC7_4614	IL23-mediated signaling events	Pathway
+Pathway::PC7_4618	IL27-mediated signaling events	Pathway
+Pathway::PC7_4619	IL3-mediated signaling events	Pathway
+Pathway::PC7_4627	IL4-mediated signaling events	Pathway
+Pathway::PC7_4628	IL5-mediated signaling events	Pathway
+Pathway::PC7_4637	IL6-mediated signaling events	Pathway
+Pathway::PC7_4638	IL8- and CXCR1-mediated signaling events	Pathway
+Pathway::PC7_4639	IL8- and CXCR2-mediated signaling events	Pathway
+Pathway::PC7_4653	IRAK1 recruits IKK complex	Pathway
+Pathway::PC7_4655	IRAK2 mediated activation of TAK1 complex	Pathway
+Pathway::PC7_4657	IRE1alpha activates chaperones	Pathway
+Pathway::PC7_4658	IRF3 mediated activation of type 1 IFN	Pathway
+Pathway::PC7_4660	IRF3-mediated induction of type I IFN	Pathway
+Pathway::PC7_4661	IRS activation	Pathway
+Pathway::PC7_4662	IRS-mediated signalling	Pathway
+Pathway::PC7_4663	IRS-related events	Pathway
+Pathway::PC7_4664	IRS-related events triggered by IGF1R	Pathway
+Pathway::PC7_4688	Immune System	Pathway
+Pathway::PC7_4689	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	Pathway
+Pathway::PC7_4690	Import of palmitoyl-CoA into the mitochondrial matrix	Pathway
+Pathway::PC7_4691	Inactivation of APC/C via direct inhibition of the APC/C complex	Pathway
+Pathway::PC7_4692	Inactivation of Cdc42 and Rac	Pathway
+Pathway::PC7_4693	Inactivation, recovery and regulation of the phototransduction cascade	Pathway
+Pathway::PC7_4694	Incretin synthesis, secretion, and inactivation	Pathway
+Pathway::PC7_4725	Inflammasomes	Pathway
+Pathway::PC7_4727	Influenza Infection	Pathway
+Pathway::PC7_4728	Influenza Life Cycle	Pathway
+Pathway::PC7_4729	Influenza Viral RNA Transcription and Replication	Pathway
+Pathway::PC7_4730	Influenza Virus Induced Apoptosis	Pathway
+Pathway::PC7_4731	Inhibition of HSL	Pathway
+Pathway::PC7_4732	Inhibition of Host mRNA Processing and RNA Silencing	Pathway
+Pathway::PC7_4734	Inhibition of TSC complex formation by PKB	Pathway
+Pathway::PC7_4736	Inhibition of replication initiation of damaged DNA by RB1/E2F1	Pathway
+Pathway::PC7_4739	Initial triggering of complement	Pathway
+Pathway::PC7_4740	Initiation of Nuclear Envelope Reformation	Pathway
+Pathway::PC7_4741	Innate Immune System	Pathway
+Pathway::PC7_4742	Inositol phosphate metabolism	Pathway
+Pathway::PC7_4744	Inositol transporters	Pathway
+Pathway::PC7_4745	Insulin Pathway	Pathway
+Pathway::PC7_4746	Insulin effects increased synthesis of Xylulose-5-Phosphate	Pathway
+Pathway::PC7_4747	Insulin processing	Pathway
+Pathway::PC7_4748	Insulin receptor recycling	Pathway
+Pathway::PC7_4749	Insulin receptor signalling cascade	Pathway
+Pathway::PC7_4750	Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	Pathway
+Pathway::PC7_4751	Insulin-mediated glucose transport	Pathway
+Pathway::PC7_4754	Integration of energy metabolism	Pathway
+Pathway::PC7_4755	Integration of provirus	Pathway
+Pathway::PC7_4757	Integrin alphaIIb beta3 signaling	Pathway
+Pathway::PC7_4758	Integrin cell surface interactions	Pathway
+Pathway::PC7_4759	Integrin family cell surface interactions	Pathway
+Pathway::PC7_4761	Integrin-linked kinase signaling	Pathway
+Pathway::PC7_4762	Integrins in angiogenesis	Pathway
+Pathway::PC7_4764	Interaction With The Zona Pellucida	Pathway
+Pathway::PC7_4765	Interaction between L1 and Ankyrins	Pathway
+Pathway::PC7_4766	Interactions of Rev with host cellular proteins	Pathway
+Pathway::PC7_4767	Interactions of Tat with host cellular proteins	Pathway
+Pathway::PC7_4768	Interactions of Vpr with host cellular proteins	Pathway
+Pathway::PC7_4769	Interconversion of 2-oxoglutarate and 2-hydroxyglutarate	Pathway
+Pathway::PC7_4770	Interconversion of polyamines	Pathway
+Pathway::PC7_4771	Interferon Signaling	Pathway
+Pathway::PC7_4772	Interferon alpha/beta signaling	Pathway
+Pathway::PC7_4773	Interferon gamma signaling	Pathway
+Pathway::PC7_4775	Interleukin receptor SHC signaling	Pathway
+Pathway::PC7_4777	Interleukin-1 processing	Pathway
+Pathway::PC7_4778	Interleukin-1 signaling	Pathway
+Pathway::PC7_4779	Interleukin-2 signaling	Pathway
+Pathway::PC7_4780	Interleukin-3, 5 and GM-CSF signaling	Pathway
+Pathway::PC7_4781	Interleukin-6 signaling	Pathway
+Pathway::PC7_4782	Interleukin-7 signaling	Pathway
+Pathway::PC7_4783	Internalization of ErbB1	Pathway
+Pathway::PC7_4784	Intrinsic Pathway	Pathway
+Pathway::PC7_4785	Intrinsic Pathway for Apoptosis	Pathway
+Pathway::PC7_4786	Inwardly rectifying K+ channels	Pathway
+Pathway::PC7_4791	Ion channel transport	Pathway
+Pathway::PC7_4792	Ion transport by P-type ATPases	Pathway
+Pathway::PC7_4806	Iron uptake and transport	Pathway
+Pathway::PC7_4819	JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1	Pathway
+Pathway::PC7_4820	JNK signaling in the CD4+ TCR pathway	Pathway
+Pathway::PC7_4862	KSRP destabilizes mRNA	Pathway
+Pathway::PC7_4874	Keratan sulfate biosynthesis	Pathway
+Pathway::PC7_4875	Keratan sulfate degradation	Pathway
+Pathway::PC7_4876	Keratan sulfate/keratin metabolism	Pathway
+Pathway::PC7_4884	Ketone body catabolism	Pathway
+Pathway::PC7_4887	Kinesins	Pathway
+Pathway::PC7_4888	Klotho-mediated ligand binding	Pathway
+Pathway::PC7_4917	L1CAM interactions	Pathway
+Pathway::PC7_4921	LDL endocytosis	Pathway
+Pathway::PC7_4938	LKB1 signaling events	Pathway
+Pathway::PC7_4940	LPA receptor mediated events	Pathway
+Pathway::PC7_4941	LPA4-mediated signaling events	Pathway
+Pathway::PC7_4945	LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production	Pathway
+Pathway::PC7_4946	Lagging Strand Synthesis	Pathway
+Pathway::PC7_4947	Laminin interactions	Pathway
+Pathway::PC7_4948	Late Phase of HIV Life Cycle	Pathway
+Pathway::PC7_4949	Latent infection of Homo sapiens with Mycobacterium tuberculosis	Pathway
+Pathway::PC7_4951	Leading Strand Synthesis	Pathway
+Pathway::PC7_4952	Lectin pathway of complement activation	Pathway
+Pathway::PC7_4961	Leukotriene receptors	Pathway
+Pathway::PC7_4965	Ligand-gated ion channel transport	Pathway
+Pathway::PC7_4968	Linoleic acid (LA) metabolism	Pathway
+Pathway::PC7_4970	Lipid and lipoprotein metabolism	Pathway
+Pathway::PC7_4992	Lipoprotein metabolism	Pathway
+Pathway::PC7_4994	Lissencephaly gene (LIS1) in neuronal migration and development	Pathway
+Pathway::PC7_5016	Localization of the PINCH-ILK-PARVIN complex to focal adhesions	Pathway
+Pathway::PC7_5024	Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling	Pathway
+Pathway::PC7_5025	Loss of Function of SMAD2/3 in Cancer	Pathway
+Pathway::PC7_5029	Loss of Nlp from mitotic centrosomes	Pathway
+Pathway::PC7_5045	Lysine catabolism	Pathway
+Pathway::PC7_5047	Lysosome Vesicle Biogenesis	Pathway
+Pathway::PC7_5048	Lysosphingolipid and LPA receptors	Pathway
+Pathway::PC7_5049	M Phase	Pathway
+Pathway::PC7_5051	MAP kinase activation in TLR cascade	Pathway
+Pathway::PC7_5078	MAPK targets/ Nuclear events mediated by MAP kinases	Pathway
+Pathway::PC7_5124	MASTL Facilitates Mitotic Progression	Pathway
+Pathway::PC7_5139	MEK activation	Pathway
+Pathway::PC7_5157	MHC class II antigen presentation	Pathway
+Pathway::PC7_5188	MMR	Pathway
+Pathway::PC7_5271	Meiosis	Pathway
+Pathway::PC7_5272	Meiotic recombination	Pathway
+Pathway::PC7_5273	Meiotic synapsis	Pathway
+Pathway::PC7_5307	Membrane Trafficking	Pathway
+Pathway::PC7_5308	Membrane binding and targetting of GAG proteins	Pathway
+Pathway::PC7_5322	Metabolism	Pathway
+Pathway::PC7_5323	Metabolism of Angiotensinogen to Angiotensins	Pathway
+Pathway::PC7_5324	Metabolism of RNA	Pathway
+Pathway::PC7_5325	Metabolism of folate and pterines	Pathway
+Pathway::PC7_5326	Metabolism of lipids and lipoproteins	Pathway
+Pathway::PC7_5327	Metabolism of mRNA	Pathway
+Pathway::PC7_5328	Metabolism of nitric oxide	Pathway
+Pathway::PC7_5329	Metabolism of polyamines	Pathway
+Pathway::PC7_5330	Metabolism of proteins	Pathway
+Pathway::PC7_5332	Metabolism of steroid hormones and vitamin D	Pathway
+Pathway::PC7_5339	Metal ion SLC transporters	Pathway
+Pathway::PC7_5360	Methionine salvage pathway	Pathway
+Pathway::PC7_5373	Methylation	Pathway
+Pathway::PC7_5444	MicroRNA (miRNA) biogenesis	Pathway
+Pathway::PC7_5504	Mineralocorticoid biosynthesis	Pathway
+Pathway::PC7_5508	Miscellaneous substrates	Pathway
+Pathway::PC7_5509	Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)	Pathway
+Pathway::PC7_5510	Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)	Pathway
+Pathway::PC7_5512	Mitochondrial ABC transporters	Pathway
+Pathway::PC7_5513	Mitochondrial Fatty Acid Beta-Oxidation	Pathway
+Pathway::PC7_5514	Mitochondrial Uncoupling Proteins	Pathway
+Pathway::PC7_5515	Mitochondrial biogenesis	Pathway
+Pathway::PC7_5516	Mitochondrial iron-sulfur cluster biogenesis	Pathway
+Pathway::PC7_5517	Mitochondrial protein import	Pathway
+Pathway::PC7_5518	Mitochondrial tRNA aminoacylation	Pathway
+Pathway::PC7_5519	Mitochondrial transcription initiation	Pathway
+Pathway::PC7_5521	Mitochondrial translation	Pathway
+Pathway::PC7_5522	Mitochondrial translation elongation	Pathway
+Pathway::PC7_5523	Mitochondrial translation initiation	Pathway
+Pathway::PC7_5524	Mitochondrial translation termination	Pathway
+Pathway::PC7_5527	Mitotic Anaphase	Pathway
+Pathway::PC7_5528	Mitotic G1-G1/S phases	Pathway
+Pathway::PC7_5529	Mitotic G2-G2/M phases	Pathway
+Pathway::PC7_5530	Mitotic M-M/G1 phases	Pathway
+Pathway::PC7_5531	Mitotic Metaphase and Anaphase	Pathway
+Pathway::PC7_5532	Mitotic Metaphase/Anaphase Transition	Pathway
+Pathway::PC7_5533	Mitotic Prometaphase	Pathway
+Pathway::PC7_5534	Mitotic Prophase	Pathway
+Pathway::PC7_5535	Mitotic Spindle Checkpoint	Pathway
+Pathway::PC7_5537	Molecules associated with elastic fibres	Pathway
+Pathway::PC7_5538	Molybdenum cofactor biosynthesis	Pathway
+Pathway::PC7_5546	Multifunctional anion exchangers	Pathway
+Pathway::PC7_5550	Muscarinic acetylcholine receptors	Pathway
+Pathway::PC7_5551	Muscle contraction	Pathway
+Pathway::PC7_5558	MyD88 cascade initiated on plasma membrane	Pathway
+Pathway::PC7_5559	MyD88 dependent cascade initiated on endosome	Pathway
+Pathway::PC7_5560	MyD88-independent cascade	Pathway
+Pathway::PC7_5561	MyD88:Mal cascade initiated on plasma membrane	Pathway
+Pathway::PC7_5665	N-Glycan antennae elongation	Pathway
+Pathway::PC7_5673	N-cadherin signaling events	Pathway
+Pathway::PC7_5678	N-glycan antennae elongation in the medial/trans-Golgi	Pathway
+Pathway::PC7_5679	N-glycan trimming and elongation in the cis-Golgi	Pathway
+Pathway::PC7_5680	N-glycan trimming in the ER and Calnexin/Calreticulin cycle	Pathway
+Pathway::PC7_5689	NADE modulates death signalling	Pathway
+Pathway::PC7_5697	NCAM signaling for neurite out-growth	Pathway
+Pathway::PC7_5698	NCAM1 interactions	Pathway
+Pathway::PC7_5707	NEP/NS2 Interacts with the Cellular Export Machinery	Pathway
+Pathway::PC7_5708	NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10	Pathway
+Pathway::PC7_5709	NF-kB is activated and signals survival	Pathway
+Pathway::PC7_5749	NFG and proNGF binds to p75NTR	Pathway
+Pathway::PC7_5769	NGF processing	Pathway
+Pathway::PC7_5772	NGF signalling via TRKA from the plasma membrane	Pathway
+Pathway::PC7_5773	NGF-independant TRKA activation	Pathway
+Pathway::PC7_5776	NICD traffics to nucleus	Pathway
+Pathway::PC7_5779	NOD1/2 Signaling Pathway	Pathway
+Pathway::PC7_5781	NOSIP mediated eNOS trafficking	Pathway
+Pathway::PC7_5782	NOSTRIN mediated eNOS trafficking	Pathway
+Pathway::PC7_5783	NOTCH1 Intracellular Domain Regulates Transcription	Pathway
+Pathway::PC7_5788	NOTCH2 Activation and Transmission of Signal to the Nucleus	Pathway
+Pathway::PC7_5789	NOTCH2 intracellular domain regulates transcription	Pathway
+Pathway::PC7_5825	NRAGE signals death through JNK	Pathway
+Pathway::PC7_5835	NRIF signals cell death from the nucleus	Pathway
+Pathway::PC7_5837	NS1 Mediated Effects on Host Pathways	Pathway
+Pathway::PC7_5847	Na+-dependent glucose transporters	Pathway
+Pathway::PC7_5848	Na+/Cl- dependent neurotransmitter transporters	Pathway
+Pathway::PC7_5867	Nectin adhesion pathway	Pathway
+Pathway::PC7_5868	Nectin/Necl trans heterodimerization	Pathway
+Pathway::PC7_5869	Nef Mediated CD4 Down-regulation	Pathway
+Pathway::PC7_5870	Nef Mediated CD8 Down-regulation	Pathway
+Pathway::PC7_5871	Nef and signal transduction	Pathway
+Pathway::PC7_5872	Nef mediated downregulation of CD28 cell surface expression	Pathway
+Pathway::PC7_5873	Nef mediated downregulation of MHC class I complex cell surface expression	Pathway
+Pathway::PC7_5874	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	Pathway
+Pathway::PC7_5875	Negative epigenetic regulation of rRNA expression	Pathway
+Pathway::PC7_5876	Negative regulation of FGFR signaling	Pathway
+Pathway::PC7_5877	Negative regulation of the PI3K/AKT network	Pathway
+Pathway::PC7_5878	Negative regulators of RIG-I/MDA5 signaling	Pathway
+Pathway::PC7_5881	Nephrin interactions	Pathway
+Pathway::PC7_5882	Nephrin/Neph1 signaling in the kidney podocyte	Pathway
+Pathway::PC7_5883	Netrin mediated repulsion signals	Pathway
+Pathway::PC7_5884	Netrin-1 signaling	Pathway
+Pathway::PC7_5885	Netrin-mediated signaling events	Pathway
+Pathway::PC7_5886	Neurofascin interactions	Pathway
+Pathway::PC7_5887	Neuronal System	Pathway
+Pathway::PC7_5888	Neurophilin interactions with VEGF and VEGFR	Pathway
+Pathway::PC7_5889	Neurotransmitter Clearance In The Synaptic Cleft	Pathway
+Pathway::PC7_5890	Neurotransmitter Receptor Binding And Downstream Transmission In The Postsynaptic Cell	Pathway
+Pathway::PC7_5891	Neurotransmitter Release Cycle	Pathway
+Pathway::PC7_5893	Neurotrophic factor-mediated Trk receptor signaling	Pathway
+Pathway::PC7_5907	Nicotinamide salvaging	Pathway
+Pathway::PC7_5909	Nicotinate metabolism	Pathway
+Pathway::PC7_5948	Nitric oxide stimulates guanylate cyclase	Pathway
+Pathway::PC7_5966	NoRC negatively regulates rRNA expression	Pathway
+Pathway::PC7_5967	Non-coding RNA Metabolism	Pathway
+Pathway::PC7_5968	Non-integrin membrane-ECM interactions	Pathway
+Pathway::PC7_5969	Noncanonical Wnt signaling pathway	Pathway
+Pathway::PC7_5970	Nongenotropic Androgen signaling	Pathway
+Pathway::PC7_5971	Nonhomologous End-joining (NHEJ)	Pathway
+Pathway::PC7_5972	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	Pathway
+Pathway::PC7_5973	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	Pathway
+Pathway::PC7_5975	Norepinephrine Neurotransmitter Release Cycle	Pathway
+Pathway::PC7_5981	Notch signaling pathway	Pathway
+Pathway::PC7_5983	Notch-mediated HES/HEY network	Pathway
+Pathway::PC7_5984	NrCAM interactions	Pathway
+Pathway::PC7_5985	Nuclear Envelope Breakdown	Pathway
+Pathway::PC7_5987	Nuclear Events (kinase and transcription factor activation)	Pathway
+Pathway::PC7_5988	Nuclear Pore Complex (NPC) Disassembly	Pathway
+Pathway::PC7_5989	Nuclear Receptor transcription pathway	Pathway
+Pathway::PC7_5990	Nuclear import of Rev protein	Pathway
+Pathway::PC7_5991	Nuclear signaling by ERBB4	Pathway
+Pathway::PC7_5993	Nucleotide Excision Repair	Pathway
+Pathway::PC7_5994	Nucleotide metabolism	Pathway
+Pathway::PC7_5995	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	Pathway
+Pathway::PC7_5996	Nucleotide-like (purinergic) receptors	Pathway
+Pathway::PC7_5999	O-glycosylation of TSR domain-containing proteins	Pathway
+Pathway::PC7_6000	O-linked glycosylation	Pathway
+Pathway::PC7_6001	O-linked glycosylation of mucins	Pathway
+Pathway::PC7_6044	Olfactory Signaling Pathway	Pathway
+Pathway::PC7_6045	Oligomerization of connexins into connexons	Pathway
+Pathway::PC7_6047	Oncogene Induced Senescence	Pathway
+Pathway::PC7_6050	Opioid Signalling	Pathway
+Pathway::PC7_6053	Opsins	Pathway
+Pathway::PC7_6054	Orc1 removal from chromatin	Pathway
+Pathway::PC7_6055	Orexin and neuropeptides FF and QRFP bind to their respective receptors	Pathway
+Pathway::PC7_6057	Organelle biogenesis and maintenance	Pathway
+Pathway::PC7_6058	Organic anion transport	Pathway
+Pathway::PC7_6059	Organic anion transporters	Pathway
+Pathway::PC7_6060	Organic cation transport	Pathway
+Pathway::PC7_6061	Organic cation/anion/zwitterion transport	Pathway
+Pathway::PC7_6065	Orphan transporters	Pathway
+Pathway::PC7_6066	Osteopontin-mediated events	Pathway
+Pathway::PC7_6067	Other semaphorin interactions	Pathway
+Pathway::PC7_6072	Oxidative Stress Induced Senescence	Pathway
+Pathway::PC7_6073	Oxidative demethylation of DNA	Pathway
+Pathway::PC7_6085	Oxygen-dependent asparagine hydroxylation of Hypoxia-inducible Factor Alpha	Pathway
+Pathway::PC7_6086	Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	Pathway
+Pathway::PC7_6094	P2Y receptors	Pathway
+Pathway::PC7_6097	PAOs oxidise polyamines to amines	Pathway
+Pathway::PC7_6098	PAR1-mediated thrombin signaling events	Pathway
+Pathway::PC7_6099	PAR4-mediated thrombin signaling events	Pathway
+Pathway::PC7_610	2-LTR circle formation	Pathway
+Pathway::PC7_6108	PCP/CE pathway	Pathway
+Pathway::PC7_6128	PD-1 signaling	Pathway
+Pathway::PC7_6135	PDGF receptor signaling network	Pathway
+Pathway::PC7_6140	PDGFR-alpha signaling pathway	Pathway
+Pathway::PC7_6141	PDGFR-beta signaling pathway	Pathway
+Pathway::PC7_6142	PECAM1 interactions	Pathway
+Pathway::PC7_6143	PERK regulates gene expression	Pathway
+Pathway::PC7_6147	PI Metabolism	Pathway
+Pathway::PC7_6149	PI-3K cascade	Pathway
+Pathway::PC7_6153	PI3K Cascade	Pathway
+Pathway::PC7_6157	PI3K/AKT activation	Pathway
+Pathway::PC7_6171	PKA activation	Pathway
+Pathway::PC7_6172	PKA activation in glucagon signalling	Pathway
+Pathway::PC7_6173	PKA-mediated phosphorylation of CREB	Pathway
+Pathway::PC7_6174	PKA-mediated phosphorylation of key metabolic factors	Pathway
+Pathway::PC7_6175	PKB-mediated events	Pathway
+Pathway::PC7_6177	PLC beta mediated events	Pathway
+Pathway::PC7_6178	PLC-gamma1 signalling	Pathway
+Pathway::PC7_6180	PLCG1 events in ERBB2 signaling	Pathway
+Pathway::PC7_6189	PLK1 signaling events	Pathway
+Pathway::PC7_6190	PLK2 and PLK4 events	Pathway
+Pathway::PC7_6191	PLK3 signaling events	Pathway
+Pathway::PC7_6200	POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation	Pathway
+Pathway::PC7_6201	POU5F1 (OCT4), SOX2, NANOG repress genes related to differentiation	Pathway
+Pathway::PC7_6202	PP2A-mediated dephosphorylation of key metabolic factors	Pathway
+Pathway::PC7_6203	PPARA activates gene expression	Pathway
+Pathway::PC7_6233	PRC2 methylates histones and DNA	Pathway
+Pathway::PC7_6269	PRPP biosynthesis	Pathway
+Pathway::PC7_6310	PTM: gamma carboxylation, hypusine formation and arylsulfatase activation	Pathway
+Pathway::PC7_6315	Packaging Of Telomere Ends	Pathway
+Pathway::PC7_6373	Passive transport by Aquaporins	Pathway
+Pathway::PC7_6375	Pausing and recovery of Tat-mediated HIV elongation	Pathway
+Pathway::PC7_6393	Peptide chain elongation	Pathway
+Pathway::PC7_6394	Peptide hormone biosynthesis	Pathway
+Pathway::PC7_6395	Peptide hormone metabolism	Pathway
+Pathway::PC7_6396	Peptide ligand-binding receptors	Pathway
+Pathway::PC7_6403	Peroxisomal lipid metabolism	Pathway
+Pathway::PC7_6432	Phase 1 - Functionalization of compounds	Pathway
+Pathway::PC7_6433	Phase II conjugation	Pathway
+Pathway::PC7_6443	Phenylalanine and tyrosine catabolism	Pathway
+Pathway::PC7_6455	Phosphate bond hydrolysis by NUDT proteins	Pathway
+Pathway::PC7_6461	Phospholipase C-mediated cascade	Pathway
+Pathway::PC7_6462	Phospholipid metabolism	Pathway
+Pathway::PC7_6463	Phosphorylation of CD3 and TCR zeta chains	Pathway
+Pathway::PC7_6464	Phosphorylation of Emi1	Pathway
+Pathway::PC7_6465	Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes	Pathway
+Pathway::PC7_6466	Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes	Pathway
+Pathway::PC7_6467	Phosphorylation of the APC/C	Pathway
+Pathway::PC7_6507	Plasma membrane estrogen receptor signaling	Pathway
+Pathway::PC7_6508	Plasmalogen biosynthesis	Pathway
+Pathway::PC7_6510	Platelet Adhesion to exposed collagen	Pathway
+Pathway::PC7_6511	Platelet Aggregation (Plug Formation)	Pathway
+Pathway::PC7_6512	Platelet activation, signaling and aggregation	Pathway
+Pathway::PC7_6513	Platelet calcium homeostasis	Pathway
+Pathway::PC7_6514	Platelet degranulation	Pathway
+Pathway::PC7_6515	Platelet homeostasis	Pathway
+Pathway::PC7_6516	Platelet sensitization by LDL	Pathway
+Pathway::PC7_6517	Plexin-D1 Signaling	Pathway
+Pathway::PC7_6519	Polo-like kinase mediated events	Pathway
+Pathway::PC7_6520	Polo-like kinase signaling events in the cell cycle	Pathway
+Pathway::PC7_6532	Porphyrin metabolism	Pathway
+Pathway::PC7_6533	Post NMDA receptor activation events	Pathway
+Pathway::PC7_6534	Post-Elongation Processing of Intron-Containing pre-mRNA	Pathway
+Pathway::PC7_6535	Post-Elongation Processing of Intronless pre-mRNA	Pathway
+Pathway::PC7_6537	Post-chaperonin tubulin folding pathway	Pathway
+Pathway::PC7_6538	Post-transcriptional silencing by small RNAs	Pathway
+Pathway::PC7_6539	Post-translational modification: synthesis of GPI-anchored proteins	Pathway
+Pathway::PC7_6540	Post-translational protein modification	Pathway
+Pathway::PC7_6542	Posttranslational regulation of adherens junction stability and dissassembly	Pathway
+Pathway::PC7_6543	Potassium Channels	Pathway
+Pathway::PC7_6555	Potassium transport channels	Pathway
+Pathway::PC7_6561	Pre-NOTCH Expression and Processing	Pathway
+Pathway::PC7_6562	Pre-NOTCH Processing in Golgi	Pathway
+Pathway::PC7_6563	Pre-NOTCH Processing in the Endoplasmic Reticulum	Pathway
+Pathway::PC7_6564	Pre-NOTCH Transcription and Translation	Pathway
+Pathway::PC7_6566	Prefoldin mediated transfer of substrate to CCT/TriC	Pathway
+Pathway::PC7_6567	Pregnenolone biosynthesis	Pathway
+Pathway::PC7_6569	Presenilin action in Notch and Wnt signaling	Pathway
+Pathway::PC7_6570	Presynaptic function of Kainate receptors	Pathway
+Pathway::PC7_6571	Presynaptic nicotinic acetylcholine receptors	Pathway
+Pathway::PC7_6572	Presynaptic phase of homologous DNA pairing and strand exchange	Pathway
+Pathway::PC7_6588	Processing and activation of SUMO	Pathway
+Pathway::PC7_6589	Processing of Capped Intron-Containing Pre-mRNA	Pathway
+Pathway::PC7_6591	Processing of DNA double-strand break ends	Pathway
+Pathway::PC7_6592	Processing of DNA ends prior to end rejoining	Pathway
+Pathway::PC7_6593	Processing of Intronless Pre-mRNAs	Pathway
+Pathway::PC7_6595	Processive synthesis on the C-strand of the telomere	Pathway
+Pathway::PC7_6596	Processive synthesis on the lagging strand	Pathway
+Pathway::PC7_6615	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2	Pathway
+Pathway::PC7_6616	Prolactin receptor signaling	Pathway
+Pathway::PC7_6617	Proline catabolism	Pathway
+Pathway::PC7_6618	Prolonged ERK activation events	Pathway
+Pathway::PC7_6620	Propionyl-CoA catabolism	Pathway
+Pathway::PC7_6638	Prostacyclin signalling through prostacyclin receptor	Pathway
+Pathway::PC7_6640	Prostanoid ligand receptors	Pathway
+Pathway::PC7_6642	Protein folding	Pathway
+Pathway::PC7_6643	Proteoglycan syndecan-mediated signaling events	Pathway
+Pathway::PC7_6644	Proton-coupled monocarboxylate transport	Pathway
+Pathway::PC7_6645	Proton-coupled neutral amino acid transporters	Pathway
+Pathway::PC7_6646	Proton/oligonucleotide cotransporters	Pathway
+Pathway::PC7_6649	Purine catabolism	Pathway
+Pathway::PC7_6652	Purine metabolism	Pathway
+Pathway::PC7_6653	Purine ribonucleoside monophosphate biosynthesis	Pathway
+Pathway::PC7_6654	Purine salvage	Pathway
+Pathway::PC7_6660	Pyrimidine biosynthesis	Pathway
+Pathway::PC7_6661	Pyrimidine catabolism	Pathway
+Pathway::PC7_6663	Pyrimidine metabolism	Pathway
+Pathway::PC7_6664	Pyrimidine salvage reactions	Pathway
+Pathway::PC7_6666	Pyrophosphate hydrolysis	Pathway
+Pathway::PC7_6669	Pyruvate metabolism	Pathway
+Pathway::PC7_6670	Pyruvate metabolism and Citric Acid (TCA) cycle	Pathway
+Pathway::PC7_6740	RAC1 signaling pathway	Pathway
+Pathway::PC7_6745	RAF activation	Pathway
+Pathway::PC7_6747	RAF/MAP kinase cascade	Pathway
+Pathway::PC7_6777	REV-ERBA represses gene expression	Pathway
+Pathway::PC7_6786	RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways	Pathway
+Pathway::PC7_6787	RIP-mediated NFkB activation via ZBP1	Pathway
+Pathway::PC7_6788	RMTs methylate histone arginines	Pathway
+Pathway::PC7_6789	RNA Pol II CTD phosphorylation and interaction with CE	Pathway
+Pathway::PC7_6790	RNA Polymerase I Chain Elongation	Pathway
+Pathway::PC7_6791	RNA Polymerase I Promoter Clearance	Pathway
+Pathway::PC7_6792	RNA Polymerase I Promoter Escape	Pathway
+Pathway::PC7_6793	RNA Polymerase I Promoter Opening	Pathway
+Pathway::PC7_6794	RNA Polymerase I Transcription	Pathway
+Pathway::PC7_6795	RNA Polymerase I Transcription Initiation	Pathway
+Pathway::PC7_6796	RNA Polymerase I Transcription Termination	Pathway
+Pathway::PC7_6797	RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription	Pathway
+Pathway::PC7_6799	RNA Polymerase II Pre-transcription Events	Pathway
+Pathway::PC7_6801	RNA Polymerase II Transcription	Pathway
+Pathway::PC7_6807	RNA Polymerase III Abortive And Retractive Initiation	Pathway
+Pathway::PC7_6808	RNA Polymerase III Chain Elongation	Pathway
+Pathway::PC7_6810	RNA Polymerase III Transcription Initiation	Pathway
+Pathway::PC7_6811	RNA Polymerase III Transcription Initiation From Type 1 Promoter	Pathway
+Pathway::PC7_6812	RNA Polymerase III Transcription Initiation From Type 2 Promoter	Pathway
+Pathway::PC7_6813	RNA Polymerase III Transcription Initiation From Type 3 Promoter	Pathway
+Pathway::PC7_6814	RNA Polymerase III Transcription Termination	Pathway
+Pathway::PC7_6815	RNF mutants show enhanced WNT signaling and proliferation	Pathway
+Pathway::PC7_6818	RORA activates circadian gene expression	Pathway
+Pathway::PC7_6826	RSK activation	Pathway
+Pathway::PC7_6828	RXR and RAR heterodimerization with other nuclear receptor	Pathway
+Pathway::PC7_6848	Rap1 signalling	Pathway
+Pathway::PC7_6849	Rapid glucocorticoid signaling	Pathway
+Pathway::PC7_685	3' -UTR-mediated translational regulation	Pathway
+Pathway::PC7_6852	Ras activation uopn Ca2+ infux through NMDA receptor	Pathway
+Pathway::PC7_6853	Ras signaling in the CD4+ TCR pathway	Pathway
+Pathway::PC7_6855	Reactions specific to the complex N-glycan synthesis pathway	Pathway
+Pathway::PC7_6860	Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor	Pathway
+Pathway::PC7_6863	Recruitment of NuMA to mitotic centrosomes	Pathway
+Pathway::PC7_6865	Recruitment of repair and signaling proteins to double-strand breaks	Pathway
+Pathway::PC7_6866	Recycling of bile acids and salts	Pathway
+Pathway::PC7_6867	Recycling of eIF2:GDP	Pathway
+Pathway::PC7_6868	Recycling pathway of L1	Pathway
+Pathway::PC7_6869	Reduction of cytosolic Ca++ levels	Pathway
+Pathway::PC7_6870	Reelin signaling pathway	Pathway
+Pathway::PC7_6871	Regulated proteolysis of p75NTR	Pathway
+Pathway::PC7_6874	Regulation of AMPK activity via LKB1	Pathway
+Pathway::PC7_6875	Regulation of APC/C activators between G1/S and early anaphase	Pathway
+Pathway::PC7_6876	Regulation of Androgen receptor activity	Pathway
+Pathway::PC7_6877	Regulation of Apoptosis	Pathway
+Pathway::PC7_6878	Regulation of CDC42 activity	Pathway
+Pathway::PC7_6879	Regulation of Commissural axon pathfinding by Slit and Robo	Pathway
+Pathway::PC7_6880	Regulation of Complement cascade	Pathway
+Pathway::PC7_6881	Regulation of DNA replication	Pathway
+Pathway::PC7_6882	Regulation of Glucokinase by Glucokinase Regulatory Protein	Pathway
+Pathway::PC7_6883	Regulation of HSF1-mediated heat shock response	Pathway
+Pathway::PC7_6885	Regulation of IFNA signaling	Pathway
+Pathway::PC7_6886	Regulation of IFNG signaling	Pathway
+Pathway::PC7_6887	Regulation of IGF Activity by IGFBP	Pathway
+Pathway::PC7_6888	Regulation of KIT signaling	Pathway
+Pathway::PC7_6890	Regulation of PLK1 Activity at G2/M Transition	Pathway
+Pathway::PC7_6891	Regulation of RAC1 activity	Pathway
+Pathway::PC7_6892	Regulation of Ras family activation	Pathway
+Pathway::PC7_6893	Regulation of Rheb GTPase activity by AMPK	Pathway
+Pathway::PC7_6894	Regulation of RhoA activity	Pathway
+Pathway::PC7_6895	Regulation of Telomerase	Pathway
+Pathway::PC7_6896	Regulation of actin dynamics for phagocytic cup formation	Pathway
+Pathway::PC7_6897	Regulation of activated PAK-2p34 by proteasome mediated degradation	Pathway
+Pathway::PC7_6898	Regulation of beta-cell development	Pathway
+Pathway::PC7_6899	Regulation of cholesterol biosynthesis by SREBP (SREBF)	Pathway
+Pathway::PC7_6900	Regulation of cytoplasmic and nuclear SMAD2/3 signaling	Pathway
+Pathway::PC7_6901	Regulation of cytoskeletal remodeling and cell spreading by IPP complex components	Pathway
+Pathway::PC7_6902	Regulation of gap junction activity	Pathway
+Pathway::PC7_6903	Regulation of gene expression by Hypoxia-inducible Factor	Pathway
+Pathway::PC7_6904	Regulation of gene expression in beta cells	Pathway
+Pathway::PC7_6905	Regulation of gene expression in early pancreatic precursor cells	Pathway
+Pathway::PC7_6906	Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells	Pathway
+Pathway::PC7_6907	Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells	Pathway
+Pathway::PC7_6908	Regulation of innate immune responses to cytosolic DNA	Pathway
+Pathway::PC7_6909	Regulation of insulin secretion	Pathway
+Pathway::PC7_6910	Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)	Pathway
+Pathway::PC7_6911	Regulation of mRNA stability by proteins that bind AU-rich elements	Pathway
+Pathway::PC7_6913	Regulation of nuclear SMAD2/3 signaling	Pathway
+Pathway::PC7_6914	Regulation of nuclear beta catenin signaling and target gene transcription	Pathway
+Pathway::PC7_6915	Regulation of ornithine decarboxylase (ODC)	Pathway
+Pathway::PC7_6916	Regulation of p38-alpha and p38-beta	Pathway
+Pathway::PC7_6917	Regulation of pyruvate dehydrogenase (PDH) complex	Pathway
+Pathway::PC7_6918	Regulation of retinoblastoma protein	Pathway
+Pathway::PC7_6919	Regulation of signaling by CBL	Pathway
+Pathway::PC7_6920	Regulation of signaling by NODAL	Pathway
+Pathway::PC7_6921	Regulation of the Fanconi anemia pathway	Pathway
+Pathway::PC7_6922	Regulation of thyroid hormone activity	Pathway
+Pathway::PC7_6923	Regulatory RNA pathways	Pathway
+Pathway::PC7_6924	Relaxin receptors	Pathway
+Pathway::PC7_6925	Release of Hh-Np from the secreting cell	Pathway
+Pathway::PC7_6926	Release of apoptotic factors from the mitochondria	Pathway
+Pathway::PC7_6927	Release of eIF4E	Pathway
+Pathway::PC7_6928	Removal of DNA patch containing abasic residue	Pathway
+Pathway::PC7_6929	Removal of aminoterminal propeptides from gamma-carboxylated proteins	Pathway
+Pathway::PC7_6930	Removal of licensing factors from origins	Pathway
+Pathway::PC7_6931	Removal of the Flap Intermediate	Pathway
+Pathway::PC7_6932	Removal of the Flap Intermediate from the C-strand	Pathway
+Pathway::PC7_6933	Repair synthesis for gap-filling by DNA polymerase in TC-NER	Pathway
+Pathway::PC7_6937	Resolution of AP sites via the single-nucleotide replacement pathway	Pathway
+Pathway::PC7_6939	Resolution of D-loop structures	Pathway
+Pathway::PC7_6941	Resolution of Sister Chromatid Cohesion	Pathway
+Pathway::PC7_6942	Respiratory electron transport	Pathway
+Pathway::PC7_6943	Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	Pathway
+Pathway::PC7_6945	Response to elevated platelet cytosolic Ca2+	Pathway
+Pathway::PC7_6946	Retinoic acid receptors-mediated signaling	Pathway
+Pathway::PC7_6947	Retinoid cycle disease events	Pathway
+Pathway::PC7_6948	Retinoid metabolism and transport	Pathway
+Pathway::PC7_6950	Retrograde neurotrophin signalling	Pathway
+Pathway::PC7_6951	Reuptake of GABA	Pathway
+Pathway::PC7_6952	Rev-mediated nuclear export of HIV RNA	Pathway
+Pathway::PC7_6953	Reversal of Alkylation Damage By DNA Dioxygenases	Pathway
+Pathway::PC7_6955	Reversible hydration of carbon dioxide	Pathway
+Pathway::PC7_6956	Rhesus glycoproteins mediate ammonium transport.	Pathway
+Pathway::PC7_6957	Rho GTPase cycle	Pathway
+Pathway::PC7_6958	RhoA signaling pathway	Pathway
+Pathway::PC7_6966	Ribosomal scanning and start codon recognition	Pathway
+Pathway::PC7_6991	Role of Abl in Robo-Slit signaling	Pathway
+Pathway::PC7_6992	Role of Calcineurin-dependent NFAT signaling in lymphocytes	Pathway
+Pathway::PC7_6993	Role of DCC in regulating apoptosis	Pathway
+Pathway::PC7_6994	Role of LAT2/NTAL/LAB on calcium mobilization	Pathway
+Pathway::PC7_6995	Role of phospholipids in phagocytosis	Pathway
+Pathway::PC7_6996	Role of second messengers in netrin-1 signaling	Pathway
+Pathway::PC7_7024	S Phase	Pathway
+Pathway::PC7_7040	S1P1 pathway	Pathway
+Pathway::PC7_7041	S1P2 pathway	Pathway
+Pathway::PC7_7042	S1P3 pathway	Pathway
+Pathway::PC7_7043	S1P4 pathway	Pathway
+Pathway::PC7_7044	S1P5 pathway	Pathway
+Pathway::PC7_7048	S6K1 signalling	Pathway
+Pathway::PC7_7049	S6K1-mediated signalling	Pathway
+Pathway::PC7_7230	SCF(Skp2)-mediated degradation of p27/p21	Pathway
+Pathway::PC7_7231	SCF-beta-TrCP mediated degradation of Emi1	Pathway
+Pathway::PC7_7249	SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion	Pathway
+Pathway::PC7_7261	SHC activation	Pathway
+Pathway::PC7_7262	SHC-mediated cascade	Pathway
+Pathway::PC7_7263	SHC-mediated signalling	Pathway
+Pathway::PC7_7264	SHC-related events	Pathway
+Pathway::PC7_7265	SHC-related events triggered by IGF1R	Pathway
+Pathway::PC7_7266	SHC1 events in EGFR signaling	Pathway
+Pathway::PC7_7267	SHC1 events in ERBB2 signaling	Pathway
+Pathway::PC7_7268	SHC1 events in ERBB4 signaling	Pathway
+Pathway::PC7_7269	SHP2 signaling	Pathway
+Pathway::PC7_7272	SIRT1 negatively regulates rRNA Expression	Pathway
+Pathway::PC7_7288	SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	Pathway
+Pathway::PC7_7289	SLBP independent Processing of Histone Pre-mRNAs	Pathway
+Pathway::PC7_7290	SLC-mediated transmembrane transport	Pathway
+Pathway::PC7_7307	SMAC binds to IAPs	Pathway
+Pathway::PC7_7313	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	Pathway
+Pathway::PC7_7341	SOS-mediated signalling	Pathway
+Pathway::PC7_7357	SRP-dependent cotranslational protein targeting to membrane	Pathway
+Pathway::PC7_7371	STAT6-mediated induction of chemokines	Pathway
+Pathway::PC7_7372	STING mediated induction of host immune responses	Pathway
+Pathway::PC7_7384	SUMO is conjugated to E1 (UBA2:SAE1)	Pathway
+Pathway::PC7_7385	SUMO is proteolytically processed	Pathway
+Pathway::PC7_7386	SUMO is transferred from E1 to E2 (UBE2I, UBC9)	Pathway
+Pathway::PC7_7392	Scavenging by Class A Receptors	Pathway
+Pathway::PC7_7393	Scavenging by Class B Receptors	Pathway
+Pathway::PC7_7394	Scavenging by Class F Receptors	Pathway
+Pathway::PC7_7395	Scavenging by Class H Receptors	Pathway
+Pathway::PC7_7396	Scavenging of heme from plasma	Pathway
+Pathway::PC7_7421	Sema3A PAK dependent Axon repulsion	Pathway
+Pathway::PC7_7422	Sema4D in semaphorin signaling	Pathway
+Pathway::PC7_7423	Sema4D induced cell migration and growth-cone collapse	Pathway
+Pathway::PC7_7424	Sema4D mediated inhibition of cell attachment and migration	Pathway
+Pathway::PC7_7425	Semaphorin interactions	Pathway
+Pathway::PC7_7426	Senescence-Associated Secretory Phenotype (SASP)	Pathway
+Pathway::PC7_7427	Separation of Sister Chromatids	Pathway
+Pathway::PC7_7428	Serine biosynthesis	Pathway
+Pathway::PC7_7431	Serotonin and melatonin biosynthesis	Pathway
+Pathway::PC7_7432	Serotonin receptors	Pathway
+Pathway::PC7_7434	Sialic acid metabolism	Pathway
+Pathway::PC7_7435	Signal amplification	Pathway
+Pathway::PC7_7436	Signal attenuation	Pathway
+Pathway::PC7_7437	Signal regulatory protein (SIRP) family interactions	Pathway
+Pathway::PC7_7438	Signal transduction by L1	Pathway
+Pathway::PC7_7439	Signaling Pathways	Pathway
+Pathway::PC7_7440	Signaling by Activin	Pathway
+Pathway::PC7_7441	Signaling by Aurora kinases	Pathway
+Pathway::PC7_7442	Signaling by BMP	Pathway
+Pathway::PC7_7443	Signaling by EGFR	Pathway
+Pathway::PC7_7444	Signaling by EGFR in Cancer	Pathway
+Pathway::PC7_7445	Signaling by ERBB2	Pathway
+Pathway::PC7_7446	Signaling by ERBB4	Pathway
+Pathway::PC7_7447	Signaling by FGFR	Pathway
+Pathway::PC7_7448	Signaling by FGFR in disease	Pathway
+Pathway::PC7_7449	Signaling by FGFR mutants	Pathway
+Pathway::PC7_7451	Signaling by FGFR1 fusion mutants	Pathway
+Pathway::PC7_7452	Signaling by FGFR1 mutants	Pathway
+Pathway::PC7_7457	Signaling by GPCR	Pathway
+Pathway::PC7_7458	Signaling by Hedgehog	Pathway
+Pathway::PC7_7459	Signaling by Hippo	Pathway
+Pathway::PC7_7460	Signaling by Insulin receptor	Pathway
+Pathway::PC7_7461	Signaling by Interleukins	Pathway
+Pathway::PC7_7462	Signaling by Leptin	Pathway
+Pathway::PC7_7463	Signaling by NGF	Pathway
+Pathway::PC7_7464	Signaling by NODAL	Pathway
+Pathway::PC7_7465	Signaling by NOTCH	Pathway
+Pathway::PC7_7472	Signaling by NOTCH2	Pathway
+Pathway::PC7_7473	Signaling by NOTCH3	Pathway
+Pathway::PC7_7474	Signaling by NOTCH4	Pathway
+Pathway::PC7_7475	Signaling by PDGF	Pathway
+Pathway::PC7_7477	Signaling by Robo receptor	Pathway
+Pathway::PC7_7478	Signaling by SCF-KIT	Pathway
+Pathway::PC7_7482	Signaling by VEGF	Pathway
+Pathway::PC7_7483	Signaling by WNT in cancer	Pathway
+Pathway::PC7_7484	Signaling by Wnt	Pathway
+Pathway::PC7_7487	Signaling by constitutively active EGFR	Pathway
+Pathway::PC7_7488	Signaling events mediated by HDAC Class I	Pathway
+Pathway::PC7_7489	Signaling events mediated by HDAC Class II	Pathway
+Pathway::PC7_7490	Signaling events mediated by HDAC Class III	Pathway
+Pathway::PC7_7491	Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)	Pathway
+Pathway::PC7_7492	Signaling events mediated by PRL	Pathway
+Pathway::PC7_7493	Signaling events mediated by PTP1B	Pathway
+Pathway::PC7_7494	Signaling events mediated by Stem cell factor receptor (c-Kit)	Pathway
+Pathway::PC7_7495	Signaling events mediated by TCPTP	Pathway
+Pathway::PC7_7496	Signaling events mediated by VEGFR1 and VEGFR2	Pathway
+Pathway::PC7_7497	Signaling events mediated by focal adhesion kinase	Pathway
+Pathway::PC7_7498	Signaling events mediated by the Hedgehog family	Pathway
+Pathway::PC7_7499	Signaling events regulated by Ret tyrosine kinase	Pathway
+Pathway::PC7_7500	Signaling mediated by p38-alpha and p38-beta	Pathway
+Pathway::PC7_7501	Signaling mediated by p38-gamma and p38-delta	Pathway
+Pathway::PC7_7502	Signalling to ERK5	Pathway
+Pathway::PC7_7503	Signalling to ERKs	Pathway
+Pathway::PC7_7504	Signalling to RAS	Pathway
+Pathway::PC7_7505	Signalling to STAT3	Pathway
+Pathway::PC7_7506	Signalling to p38 via RIT and RIN	Pathway
+Pathway::PC7_7623	Small interfering RNA (siRNA) biogenesis	Pathway
+Pathway::PC7_7625	Smooth Muscle Contraction	Pathway
+Pathway::PC7_7642	Sodium-coupled phosphate cotransporters	Pathway
+Pathway::PC7_7643	Sodium-coupled sulphate, di- and tri-carboxylate transporters	Pathway
+Pathway::PC7_7644	Sodium/Calcium exchangers	Pathway
+Pathway::PC7_7645	Sodium/Proton exchangers	Pathway
+Pathway::PC7_7646	Sperm Motility And Taxes	Pathway
+Pathway::PC7_7647	Sperm:Oocyte Membrane Binding	Pathway
+Pathway::PC7_7649	Sphingolipid de novo biosynthesis	Pathway
+Pathway::PC7_7651	Sphingolipid metabolism	Pathway
+Pathway::PC7_7652	Sphingosine 1-phosphate (S1P) pathway	Pathway
+Pathway::PC7_7659	Spry regulation of FGF signaling	Pathway
+Pathway::PC7_7660	Stabilization and expansion of the E-cadherin adherens junction	Pathway
+Pathway::PC7_7661	Stabilization of p53	Pathway
+Pathway::PC7_7679	Sterols are 12-hydroxylated by CYP8B1	Pathway
+Pathway::PC7_7680	Stimulation of the cell death response by PAK-2p34	Pathway
+Pathway::PC7_7681	Stimuli-sensing channels	Pathway
+Pathway::PC7_7682	Striated Muscle Contraction	Pathway
+Pathway::PC7_7701	Sulfide oxidation to sulfate	Pathway
+Pathway::PC7_7703	Sulfur amino acid metabolism	Pathway
+Pathway::PC7_7707	Sumoylation by RanBP2 regulates transcriptional repression	Pathway
+Pathway::PC7_7717	Syndecan interactions	Pathway
+Pathway::PC7_7718	Syndecan-1-mediated signaling events	Pathway
+Pathway::PC7_7719	Syndecan-2-mediated signaling events	Pathway
+Pathway::PC7_7720	Syndecan-3-mediated signaling events	Pathway
+Pathway::PC7_7721	Syndecan-4-mediated signaling events	Pathway
+Pathway::PC7_7723	Synthesis and interconversion of nucleotide di- and triphosphates	Pathway
+Pathway::PC7_7726	Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)	Pathway
+Pathway::PC7_7727	Synthesis of 12-eicosatetraenoic acid derivatives	Pathway
+Pathway::PC7_7728	Synthesis of 15-eicosatetraenoic acid derivatives	Pathway
+Pathway::PC7_7729	Synthesis of 5-eicosatetraenoic acids	Pathway
+Pathway::PC7_7731	Synthesis of DNA	Pathway
+Pathway::PC7_7732	Synthesis of Dolichyl-phosphate	Pathway
+Pathway::PC7_7733	Synthesis of GDP-mannose	Pathway
+Pathway::PC7_7735	Synthesis of IP2, IP, and Ins in the cytosol	Pathway
+Pathway::PC7_7736	Synthesis of IP3 and IP4 in the cytosol	Pathway
+Pathway::PC7_7738	Synthesis of IPs in the nucleus	Pathway
+Pathway::PC7_7739	Synthesis of Ketone Bodies	Pathway
+Pathway::PC7_7740	Synthesis of Leukotrienes (LT) and Eoxins (EX)	Pathway
+Pathway::PC7_7741	Synthesis of Lipoxins (LX)	Pathway
+Pathway::PC7_7742	Synthesis of PA	Pathway
+Pathway::PC7_7743	Synthesis of PC	Pathway
+Pathway::PC7_7744	Synthesis of PE	Pathway
+Pathway::PC7_7745	Synthesis of PG	Pathway
+Pathway::PC7_7746	Synthesis of PI	Pathway
+Pathway::PC7_7747	Synthesis of PIPs at the ER membrane	Pathway
+Pathway::PC7_7748	Synthesis of PIPs at the Golgi membrane	Pathway
+Pathway::PC7_7749	Synthesis of PIPs at the early endosome membrane	Pathway
+Pathway::PC7_7750	Synthesis of PIPs at the late endosome membrane	Pathway
+Pathway::PC7_7751	Synthesis of PIPs at the plasma membrane	Pathway
+Pathway::PC7_7752	Synthesis of PS	Pathway
+Pathway::PC7_7753	Synthesis of Prostaglandins (PG) and Thromboxanes (TX)	Pathway
+Pathway::PC7_7754	Synthesis of UDP-N-acetyl-glucosamine	Pathway
+Pathway::PC7_7755	Synthesis of bile acids and bile salts	Pathway
+Pathway::PC7_7756	Synthesis of bile acids and bile salts via 24-hydroxycholesterol	Pathway
+Pathway::PC7_7757	Synthesis of bile acids and bile salts via 27-hydroxycholesterol	Pathway
+Pathway::PC7_7758	Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	Pathway
+Pathway::PC7_7759	Synthesis of dolichyl-phosphate mannose	Pathway
+Pathway::PC7_7761	Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)	Pathway
+Pathway::PC7_7762	Synthesis of glycosylphosphatidylinositol (GPI)	Pathway
+Pathway::PC7_7763	Synthesis of pyrophosphates in the cytosol	Pathway
+Pathway::PC7_7764	Synthesis of substrates in N-glycan biosythesis	Pathway
+Pathway::PC7_7765	Synthesis of very long-chain fatty acyl-CoAs	Pathway
+Pathway::PC7_7766	Synthesis, secretion, and deacylation of Ghrelin	Pathway
+Pathway::PC7_7767	Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)	Pathway
+Pathway::PC7_7768	Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)	Pathway
+Pathway::PC7_7778	TAK1 activates NFkB by phosphorylation and activation of IKKs complex	Pathway
+Pathway::PC7_7784	TCF dependent signaling in response to WNT	Pathway
+Pathway::PC7_7786	TCR signaling	Pathway
+Pathway::PC7_7787	TCR signaling in naïve CD4+ T cells	Pathway
+Pathway::PC7_7788	TCR signaling in naïve CD8+ T cells	Pathway
+Pathway::PC7_7795	TGF-beta receptor signaling	Pathway
+Pathway::PC7_7796	TGF-beta receptor signaling activates SMADs	Pathway
+Pathway::PC7_7797	TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	Pathway
+Pathway::PC7_7851	TNF receptor signaling pathway 	Pathway
+Pathway::PC7_7852	TNF signaling	Pathway
+Pathway::PC7_8053	TRAF3-dependent IRF activation pathway	Pathway
+Pathway::PC7_8054	TRAF6 Mediated Induction of proinflammatory cytokines	Pathway
+Pathway::PC7_8055	TRAF6 mediated IRF7 activation	Pathway
+Pathway::PC7_8056	TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling	Pathway
+Pathway::PC7_8057	TRAF6 mediated NF-kB activation	Pathway
+Pathway::PC7_8058	TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	Pathway
+Pathway::PC7_8059	TRAF6 mediated induction of TAK1 complex	Pathway
+Pathway::PC7_8060	TRAIL signaling	Pathway
+Pathway::PC7_8061	TRAIL signaling pathway	Pathway
+Pathway::PC7_8064	TRIF-mediated programmed cell death	Pathway
+Pathway::PC7_8065	TRKA activation by NGF	Pathway
+Pathway::PC7_8066	TRP channels	Pathway
+Pathway::PC7_8074	TWIK related potassium channel (TREK)	Pathway
+Pathway::PC7_8075	TWIK-related alkaline pH activated K+ channel (TALK)	Pathway
+Pathway::PC7_8077	TWIK-releated acid-sensitive K+ channel (TASK)	Pathway
+Pathway::PC7_8093	Tachykinin receptors bind tachykinins	Pathway
+Pathway::PC7_8130	Tandem of pore domain in a weak inwardly rectifying K+ channels (TWIK)	Pathway
+Pathway::PC7_8132	Tandem pore domain potassium channels	Pathway
+Pathway::PC7_8138	Telomere C-strand (Lagging Strand) Synthesis	Pathway
+Pathway::PC7_8140	Telomere Extension By Telomerase	Pathway
+Pathway::PC7_8141	Telomere Maintenance	Pathway
+Pathway::PC7_8154	Terminal pathway of complement	Pathway
+Pathway::PC7_8155	Termination of O-glycan biosynthesis	Pathway
+Pathway::PC7_8208	Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation	Pathway
+Pathway::PC7_8223	The AIM2 inflammasome	Pathway
+Pathway::PC7_8224	The IPAF inflammasome	Pathway
+Pathway::PC7_8225	The NLRP1 inflammasome	Pathway
+Pathway::PC7_8226	The NLRP3 inflammasome	Pathway
+Pathway::PC7_8227	The activation of arylsulfatases	Pathway
+Pathway::PC7_8228	The canonical retinoid cycle in rods (twilight vision)	Pathway
+Pathway::PC7_8229	The citric acid (TCA) cycle and respiratory electron transport	Pathway
+Pathway::PC7_8231	The phototransduction cascade	Pathway
+Pathway::PC7_8233	The retinoid cycle in cones (daylight vision)	Pathway
+Pathway::PC7_8234	The role of Nef in HIV-1 replication and disease pathogenesis	Pathway
+Pathway::PC7_8264	Thrombin signalling through proteinase activated receptors (PARs)	Pathway
+Pathway::PC7_8266	Thromboxane A2 receptor signaling	Pathway
+Pathway::PC7_8267	Thromboxane signalling through TP receptor	Pathway
+Pathway::PC7_8274	Thyroxine biosynthesis	Pathway
+Pathway::PC7_8275	Tie2 Signaling	Pathway
+Pathway::PC7_8276	Tight junction interactions	Pathway
+Pathway::PC7_8288	Toll Like Receptor 4 (TLR4) Cascade	Pathway
+Pathway::PC7_8291	Toll Like Receptor 9 (TLR9) Cascade	Pathway
+Pathway::PC7_8295	Toll-Like Receptors Cascades	Pathway
+Pathway::PC7_8303	Toxicity of botulinum toxin type A (BoNT/A)	Pathway
+Pathway::PC7_8304	Toxicity of botulinum toxin type B (BoNT/B)	Pathway
+Pathway::PC7_8305	Toxicity of botulinum toxin type C (BoNT/C)	Pathway
+Pathway::PC7_8306	Toxicity of botulinum toxin type D (BoNT/D)	Pathway
+Pathway::PC7_8307	Toxicity of botulinum toxin type E (BoNT/E)	Pathway
+Pathway::PC7_8309	Toxicity of botulinum toxin type G (BoNT/G)	Pathway
+Pathway::PC7_8310	Trafficking and processing of endosomal TLR	Pathway
+Pathway::PC7_8312	Trafficking of GluR2-containing AMPA receptors	Pathway
+Pathway::PC7_8313	Trafficking of dietary sterols	Pathway
+Pathway::PC7_8317	Transcription	Pathway
+Pathway::PC7_8318	Transcription from mitochondrial promoters	Pathway
+Pathway::PC7_8319	Transcription of the HIV genome	Pathway
+Pathway::PC7_8321	Transcription-coupled NER (TC-NER)	Pathway
+Pathway::PC7_8322	Transcriptional activation of cell cycle inhibitor p21	Pathway
+Pathway::PC7_8323	Transcriptional activation of mitochondrial biogenesis	Pathway
+Pathway::PC7_8325	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	Pathway
+Pathway::PC7_8326	Transcriptional regulation by small RNAs	Pathway
+Pathway::PC7_8327	Transcriptional regulation of pluripotent stem cells	Pathway
+Pathway::PC7_8328	Transcriptional regulation of white adipocyte differentiation	Pathway
+Pathway::PC7_8329	Transfer of LPS from LBP carrier to CD14	Pathway
+Pathway::PC7_8330	Transferrin endocytosis and recycling	Pathway
+Pathway::PC7_8331	Translation	Pathway
+Pathway::PC7_8332	Translation initiation complex formation	Pathway
+Pathway::PC7_8337	Translocation of GLUT4 to the plasma membrane	Pathway
+Pathway::PC7_8338	Translocation of ZAP-70 to Immunological synapse	Pathway
+Pathway::PC7_8339	Transmembrane transport of small molecules	Pathway
+Pathway::PC7_8340	Transmission across Chemical Synapses	Pathway
+Pathway::PC7_8342	Transport and synthesis of PAPS	Pathway
+Pathway::PC7_8343	Transport of Mature Transcript to Cytoplasm	Pathway
+Pathway::PC7_8344	Transport of Mature mRNA Derived from an Intronless Transcript	Pathway
+Pathway::PC7_8345	Transport of Mature mRNA derived from an Intron-Containing Transcript	Pathway
+Pathway::PC7_8346	Transport of Mature mRNAs Derived from Intronless Transcripts	Pathway
+Pathway::PC7_8347	Transport of Ribonucleoproteins into the Host Nucleus	Pathway
+Pathway::PC7_8349	Transport of connexons to the plasma membrane	Pathway
+Pathway::PC7_8350	Transport of fatty acids	Pathway
+Pathway::PC7_8351	Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus	Pathway
+Pathway::PC7_8352	Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds	Pathway
+Pathway::PC7_8353	Transport of glycerol from adipocytes to the liver by Aquaporins	Pathway
+Pathway::PC7_8354	Transport of inorganic cations/anions and amino acids/oligopeptides	Pathway
+Pathway::PC7_8355	Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane	Pathway
+Pathway::PC7_8356	Transport of nucleotide sugars	Pathway
+Pathway::PC7_8357	Transport of organic anions	Pathway
+Pathway::PC7_8358	Transport of the SLBP Dependant Mature mRNA	Pathway
+Pathway::PC7_8359	Transport of the SLBP independent Mature mRNA	Pathway
+Pathway::PC7_8360	Transport of vitamins, nucleosides, and related molecules	Pathway
+Pathway::PC7_8361	Transport to the Golgi and subsequent modification	Pathway
+Pathway::PC7_8424	Triglyceride Biosynthesis	Pathway
+Pathway::PC7_8429	Tristetraprolin (TTP) destabilizes mRNA	Pathway
+Pathway::PC7_8430	Trk receptor signaling mediated by PI3K and PLC-gamma	Pathway
+Pathway::PC7_8431	Trk receptor signaling mediated by the MAPK pathway	Pathway
+Pathway::PC7_8432	Tryptophan catabolism	Pathway
+Pathway::PC7_8444	Type I hemidesmosome assembly	Pathway
+Pathway::PC7_8445	Type II Na+/Pi cotransporters	Pathway
+Pathway::PC7_8609	U12 Dependent Splicing	Pathway
+Pathway::PC7_8621	Ubiquinol biosynthesis	Pathway
+Pathway::PC7_8625	Ubiquitin Mediated Degradation of Phosphorylated Cdc25A	Pathway
+Pathway::PC7_8627	Ubiquitin-dependent degradation of Cyclin D	Pathway
+Pathway::PC7_8629	Unblocking of NMDA receptor, glutamate binding and activation	Pathway
+Pathway::PC7_8631	Unfolded Protein Response (UPR)	Pathway
+Pathway::PC7_8632	Unwinding of DNA	Pathway
+Pathway::PC7_8633	Uptake and actions of bacterial toxins	Pathway
+Pathway::PC7_8634	Uptake and function of anthrax toxins	Pathway
+Pathway::PC7_8635	Urea cycle	Pathway
+Pathway::PC7_8639	Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling	Pathway
+Pathway::PC7_8659	VEGF and VEGFR signaling network	Pathway
+Pathway::PC7_8660	VEGF binds to VEGFR leading to receptor dimerization	Pathway
+Pathway::PC7_8664	VEGFA-VEGFR2 Pathway	Pathway
+Pathway::PC7_8665	VEGFR1 specific signals	Pathway
+Pathway::PC7_8666	VEGFR2 mediated cell proliferation	Pathway
+Pathway::PC7_8667	VEGFR2 mediated vascular permeability	Pathway
+Pathway::PC7_8668	VEGFR3 signaling in lymphatic endothelium	Pathway
+Pathway::PC7_8675	Validated nuclear estrogen receptor alpha network	Pathway
+Pathway::PC7_8676	Validated nuclear estrogen receptor beta network	Pathway
+Pathway::PC7_8677	Validated targets of C-MYC transcriptional activation	Pathway
+Pathway::PC7_8678	Validated targets of C-MYC transcriptional repression	Pathway
+Pathway::PC7_8679	Validated transcriptional targets of AP1 family members Fra1 and Fra2	Pathway
+Pathway::PC7_8680	Validated transcriptional targets of TAp63 isoforms	Pathway
+Pathway::PC7_8681	Validated transcriptional targets of deltaNp63 isoforms	Pathway
+Pathway::PC7_8701	Vasopressin regulates renal water homeostasis via Aquaporins	Pathway
+Pathway::PC7_8703	Vasopressin-like receptors	Pathway
+Pathway::PC7_8709	Vif-mediated degradation of APOBEC3G	Pathway
+Pathway::PC7_8710	Viral Messenger RNA Synthesis	Pathway
+Pathway::PC7_8711	Viral RNP Complexes in the Host Cell Nucleus	Pathway
+Pathway::PC7_8712	Viral mRNA Translation	Pathway
+Pathway::PC7_8715	Visual signal transduction: Cones	Pathway
+Pathway::PC7_8716	Visual signal transduction: Rods	Pathway
+Pathway::PC7_8720	Vitamin B1 (thiamin) metabolism	Pathway
+Pathway::PC7_8721	Vitamin B2 (riboflavin) metabolism	Pathway
+Pathway::PC7_8722	Vitamin B5 (pantothenate) metabolism	Pathway
+Pathway::PC7_8725	Vitamin C (ascorbate) metabolism	Pathway
+Pathway::PC7_8726	Vitamin D (calciferol) metabolism	Pathway
+Pathway::PC7_8761	Vitamins	Pathway
+Pathway::PC7_8762	Vitamins B6 activation to pyridoxal phosphate	Pathway
+Pathway::PC7_8763	Voltage gated Potassium channels	Pathway
+Pathway::PC7_8764	Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization	Pathway
+Pathway::PC7_8765	Vpr-mediated nuclear import of PICs	Pathway
+Pathway::PC7_8766	Vpu mediated degradation of CD4	Pathway
+Pathway::PC7_8771	WNT ligand biogenesis and trafficking	Pathway
+Pathway::PC7_8773	WNT mediated activation of DVL	Pathway
+Pathway::PC7_8775	WNT5A-dependent internalization of FZD2, FZD5 and ROR2	Pathway
+Pathway::PC7_8776	WNT5A-dependent internalization of FZD4	Pathway
+Pathway::PC7_8783	Wnt signaling network	Pathway
+Pathway::PC7_8786	XBP1(S) activates chaperone genes	Pathway
+Pathway::PC7_8790	Xenobiotics	Pathway
+Pathway::PC7_8798	YAP1- and WWTR1 (TAZ)-stimulated gene expression	Pathway
+Pathway::PC7_8803	ZBP1(DAI) mediated induction of type I IFNs	Pathway
+Pathway::PC7_8833	Zinc efflux and compartmentalization by the SLC30 family	Pathway
+Pathway::PC7_8834	Zinc influx into cells by the SLC39 gene family	Pathway
+Pathway::PC7_8856	Zinc transporters	Pathway
+Pathway::PC7_965	A tetrasaccharide linker sequence is required for GAG synthesis	Pathway
+Pathway::PC7_966	A third proteolytic cleavage releases NICD	Pathway
+Pathway::PC7_967	ABC-family proteins mediated transport	Pathway
+Pathway::PC7_968	ABCA transporters in lipid homeostasis	Pathway
+Pathway::PC7_983	ADP signalling through P2Y purinoceptor 1	Pathway
+Pathway::PC7_984	ADP signalling through P2Y purinoceptor 12	Pathway
+Pathway::WP100_r74146	Glutathione metabolism	Pathway
+Pathway::WP106_r74147	Alanine and aspartate metabolism	Pathway
+Pathway::WP107_r78489	Translation Factors	Pathway
+Pathway::WP111_r82216	Electron Transport Chain	Pathway
+Pathway::WP117_r82985	GPCRs, Other	Pathway
+Pathway::WP127_r78498	IL-5 Signaling Pathway	Pathway
+Pathway::WP129_r72054	Matrix Metalloproteinases	Pathway
+Pathway::WP12_r81176	Osteoclast Signaling	Pathway
+Pathway::WP134_r82700	Pentose Phosphate Pathway	Pathway
+Pathway::WP136_r80005	Phase I biotransformations, non P450	Pathway
+Pathway::WP138_r79958	Androgen receptor signaling pathway	Pathway
+Pathway::WP1403_r79471	AMPK Signaling	Pathway
+Pathway::WP1422_r79871	Sphingolipid Metabolism	Pathway
+Pathway::WP1423_r79812	Ganglio Sphingolipid Metabolism	Pathway
+Pathway::WP1424_r83526	Globo Sphingolipid Metabolism	Pathway
+Pathway::WP1425_r74390	BMP Signalling and Regulation	Pathway
+Pathway::WP1433_r83527	NOD pathway	Pathway
+Pathway::WP1434_r78545	Osteopontin Signaling	Pathway
+Pathway::WP143_r79783	Fatty Acid Beta Oxidation	Pathway
+Pathway::WP1449_r81172	Regulation of toll-like receptor signaling pathway	Pathway
+Pathway::WP1455_r68965	Serotonin Transporter Activity	Pathway
+Pathway::WP1471_r82750	TOR Signaling	Pathway
+Pathway::WP1528_r78581	Physiological and Pathological Hypertrophy  of the Heart	Pathway
+Pathway::WP1530_r84694	miRNA Regulation of DNA Damage Response	Pathway
+Pathway::WP1531_r82221	Vitamin D Metabolism	Pathway
+Pathway::WP1533_r82707	Vitamin B12 Metabolism	Pathway
+Pathway::WP1539_r79949	Angiogenesis	Pathway
+Pathway::WP1544_r84696	MicroRNAs in cardiomyocyte hypertrophy	Pathway
+Pathway::WP1545_r84697	miRNAs involved in DNA damage response	Pathway
+Pathway::WP1559_r84698	TFs Regulate miRNAs related to cardiac hypertrophy	Pathway
+Pathway::WP1584_r81779	Type II diabetes mellitus	Pathway
+Pathway::WP1589_r82223	Folate-Alcohol and Cancer Pathway	Pathway
+Pathway::WP1591_r84699	Heart Development	Pathway
+Pathway::WP15_r82705	Selenium Micronutrient Network	Pathway
+Pathway::WP1600_r70113	Nicotine Metabolism	Pathway
+Pathway::WP1601_r84700	Fluoropyrimidine Activity	Pathway
+Pathway::WP1602_r78486	Nicotine Activity on Dopaminergic Neurons	Pathway
+Pathway::WP1603_r78574	Nicotine Activity on Chromaffin Cells	Pathway
+Pathway::WP1604_r74317	Codeine and Morphine Metabolism	Pathway
+Pathway::WP167_r82702	Eicosanoid Synthesis	Pathway
+Pathway::WP170_r71083	Nuclear Receptors	Pathway
+Pathway::WP1742_r71700	TP53 Network	Pathway
+Pathway::WP176_r82704	Folate Metabolism	Pathway
+Pathway::WP1772_r84701	Apoptosis Modulation and Signaling	Pathway
+Pathway::WP179_r70629	Cell Cycle	Pathway
+Pathway::WP183_r81161	Proteasome Degradation	Pathway
+Pathway::WP185_r80036	Integrin-mediated Cell Adhesion	Pathway
+Pathway::WP186_r68935	Homologous recombination	Pathway
+Pathway::WP1941_r73548	Peroxisomal beta-oxidation of tetracosanoyl-CoA	Pathway
+Pathway::WP1946_r79691	Cori Cycle	Pathway
+Pathway::WP195_r79965	IL-1 signaling pathway	Pathway
+Pathway::WP1971_r82939	Integrated Cancer Pathway	Pathway
+Pathway::WP197_r81059	Cholesterol Biosynthesis	Pathway
+Pathway::WP1981_r70955	Thyroxine (Thyroid Hormone) Production	Pathway
+Pathway::WP1982_r79943	SREBP signalling	Pathway
+Pathway::WP1984_r82941	Integrated Breast Cancer Pathway	Pathway
+Pathway::WP1991_r82940	SRF and miRs in Smooth Muscle Differentiation and Proliferation	Pathway
+Pathway::WP1992_r78296	TarBasePathway	Pathway
+Pathway::WP1995_r69910	Effects of Nitric Oxide	Pathway
+Pathway::WP2007_r69751	Iron metabolism in placenta	Pathway
+Pathway::WP2011_r75253	SREBF and miR33 in cholesterol and lipid homeostasis	Pathway
+Pathway::WP2012_r82900	miRs in Muscle Cell Differentiation	Pathway
+Pathway::WP2018_r79959	RANKL/RANK Signaling Pathway	Pathway
+Pathway::WP2029_r82903	Cell Differentiation - Index	Pathway
+Pathway::WP2032_r79960	TSH signaling pathway	Pathway
+Pathway::WP2034_r80016	Leptin signaling pathway	Pathway
+Pathway::WP2035_r78536	FSH signaling pathway	Pathway
+Pathway::WP2036_r84527	TWEAK Signaling Pathway	Pathway
+Pathway::WP2059_r82906	Alzheimers Disease	Pathway
+Pathway::WP205_r80223	IL-7 Signaling Pathway	Pathway
+Pathway::WP2064_r79263	Neural Crest Differentiation	Pathway
+Pathway::WP206_r68882	Fatty Acid Omega Oxidation	Pathway
+Pathway::WP2112_r63216	IL17 signaling pathway	Pathway
+Pathway::WP2113_r70107	Type III interferon signaling	Pathway
+Pathway::WP2118_r71265	Arrhythmogenic Right Ventricular Cardiomyopathy	Pathway
+Pathway::WP2197_r74852	Endothelin Pathways	Pathway
+Pathway::WP2203_r78549	TSLP Signaling Pathway	Pathway
+Pathway::WP2249_r84646	Metastatic brain tumor	Pathway
+Pathway::WP2253_r74520	Pilocytic astrocytoma	Pathway
+Pathway::WP2261_r81197	Signaling Pathways in Glioblastoma	Pathway
+Pathway::WP2267_r78595	Synaptic Vesicle Pathway	Pathway
+Pathway::WP2272_r78594	Pathogenic Escherichia coli infection	Pathway
+Pathway::WP2276_r63194	Glial Cell Differentiation	Pathway
+Pathway::WP2289_r78511	Drug Induction of Bile Acid Pathway	Pathway
+Pathway::WP2290_r79988	RalA downstream regulated genes	Pathway
+Pathway::WP2291_r68922	Deregulation of Rab and Rab Effector Genes in Bladder Cancer	Pathway
+Pathway::WP229_r68389	Irinotecan Pathway	Pathway
+Pathway::WP22_r79264	IL-9 Signaling Pathway	Pathway
+Pathway::WP231_r81070	TNF alpha Signaling Pathway	Pathway
+Pathway::WP2324_r78487	AGE/RAGE pathway	Pathway
+Pathway::WP2328_r84648	Allograft Rejection	Pathway
+Pathway::WP2332_r79525	Interleukin-11 Signaling Pathway	Pathway
+Pathway::WP2333_r72015	Trans-sulfuration pathway	Pathway
+Pathway::WP2338_r78504	miRNA Biogenesis	Pathway
+Pathway::WP2355_r79973	Corticotropin-releasing hormone	Pathway
+Pathway::WP2359_r72121	Parkin-Ubiquitin Proteasomal System pathway	Pathway
+Pathway::WP2361_r84551	Gastric Cancer Network 1	Pathway
+Pathway::WP2363_r84552	Gastric Cancer Network 2	Pathway
+Pathway::WP2366_r73980	Butyrate-induced histone acetylation	Pathway
+Pathway::WP2369_r83012	Histone Modifications	Pathway
+Pathway::WP236_r80209	Adipogenesis	Pathway
+Pathway::WP2371_r84649	Parkinsons Disease Pathway	Pathway
+Pathway::WP2374_r73668	Oncostatin M Signaling Pathway	Pathway
+Pathway::WP2377_r80437	Integrated Pancreatic Cancer Pathway	Pathway
+Pathway::WP237_r78497	Glucocorticoid & Mineralcorticoid Metabolism	Pathway
+Pathway::WP2380_r79953	BDNF signaling pathway	Pathway
+Pathway::WP23_r79985	B Cell Receptor Signaling Pathway	Pathway
+Pathway::WP2406_r73324	Cardiac Progenitor Differentiation	Pathway
+Pathway::WP241_r83818	One Carbon Metabolism	Pathway
+Pathway::WP2431_r84650	Spinal Cord Injury	Pathway
+Pathway::WP2435_r80008	Quercetin and Nf-kB/ AP-1 Induced Cell Apoptosis	Pathway
+Pathway::WP2436_r71387	Dopamine metabolism	Pathway
+Pathway::WP2446_r84651	Retinoblastoma (RB) in Cancer	Pathway
+Pathway::WP2447_r84415	Amyotrophic lateral sclerosis (ALS)	Pathway
+Pathway::WP244_r78506	Alpha 6 Beta 4 signaling pathway	Pathway
+Pathway::WP2453_r80143	TCA Cycle and PDHc	Pathway
+Pathway::WP247_r74422	Small Ligand GPCRs	Pathway
+Pathway::WP2485_r70025	NAD Biosynthesis II (from tryptophan)	Pathway
+Pathway::WP2491_r73891	Diclofenac Metabolic Pathway	Pathway
+Pathway::WP24_r79999	Peptide GPCRs	Pathway
+Pathway::WP2516_r84490	ATM Signaling Pathway	Pathway
+Pathway::WP2525_r80205	Trans-sulfuration and one carbon metabolism	Pathway
+Pathway::WP2526_r82681	PDGF Pathway	Pathway
+Pathway::WP2533_r84117	Glycerophospholipid Biosynthetic Pathway	Pathway
+Pathway::WP2542_r70621	Sulindac Metabolic Pathway	Pathway
+Pathway::WP254_r84652	Apoptosis	Pathway
+Pathway::WP2572_r79947	Primary Focal Segmental Glomerulosclerosis FSGS	Pathway
+Pathway::WP2583_r84488	T-Cell Receptor and Co-stimulatory Signaling	Pathway
+Pathway::WP2586_r79995	Aryl Hydrocarbon Receptor	Pathway
+Pathway::WP2596_r72724	Gastric acid production	Pathway
+Pathway::WP2597_r78485	Secretion of Hydrochloric Acid in Parietal Cells	Pathway
+Pathway::WP262_r84487	EBV LMP1 signaling	Pathway
+Pathway::WP2637_r80029	Structural Pathway of Interleukin 1 (IL-1)	Pathway
+Pathway::WP2643_r74251	Nanoparticle-mediated activation of receptor signaling	Pathway
+Pathway::WP2646_r74430	Lidocaine metabolism	Pathway
+Pathway::WP268_r70096	Notch Signaling Pathway	Pathway
+Pathway::WP26_r79950	Signal Transduction of S1P Receptor	Pathway
+Pathway::WP272_r84876	Blood Clotting Cascade	Pathway
+Pathway::WP2795_r78544	Cardiac Hypertrophic Response	Pathway
+Pathway::WP2804_r79882	Hair Follicle Development: Induction (Part 1 of 3)	Pathway
+Pathway::WP2805_r81654	RNA interference	Pathway
+Pathway::WP2816_r76465	Felbamate Metabolism	Pathway
+Pathway::WP2828_r79529	Bladder Cancer	Pathway
+Pathway::WP2848_r80009	Differentiation Pathway	Pathway
+Pathway::WP2849_r84764	Hematopoietic Stem Cell Differentiation	Pathway
+Pathway::WP2853_r83014	Endoderm Differentiation	Pathway
+Pathway::WP2854_r79970	Gene regulatory network modelling somitogenesis 	Pathway
+Pathway::WP2855_r79211	Dopaminergic Neurogenesis	Pathway
+Pathway::WP2857_r80151	Mesodermal Commitment Pathway	Pathway
+Pathway::WP2858_r83015	Ectoderm Differentiation	Pathway
+Pathway::WP2864_r79278	Apoptosis-related network due to altered Notch3 in ovarian cancer	Pathway
+Pathway::WP2865_r81650	IL1 and megakaryotyces in obesity	Pathway
+Pathway::WP2868_r78079	TCA Cycle Nutrient Utilization and Invasiveness of Ovarian Cancer	Pathway
+Pathway::WP286_r78583	IL-3 Signaling Pathway	Pathway
+Pathway::WP2870_r79555	Extracellular vesicle-mediated signaling in recipient cells	Pathway
+Pathway::WP2873_r79696	Aryl Hydrocarbon Receptor Pathway	Pathway
+Pathway::WP2874_r82709	Liver X Receptor Pathway	Pathway
+Pathway::WP2875_r79890	Constitutive Androstane Receptor Pathway	Pathway
+Pathway::WP2878_r79689	PPAR Alpha Pathway	Pathway
+Pathway::WP2879_r79602	Farnesoid X Receptor  Pathway	Pathway
+Pathway::WP2881_r79603	Estrogen Receptor Pathway	Pathway
+Pathway::WP2884_r83041	NRF2 pathway	Pathway
+Pathway::WP2889_r79753	Oxytocin signaling	Pathway
+Pathway::WP288_r80026	NLR Proteins	Pathway
+Pathway::WP2895_r79216	Differentiation of white and brown adipocyte   	Pathway
+Pathway::WP289_r81078	Myometrial Relaxation and Contraction Pathways	Pathway
+Pathway::WP28_r71888	Selenium Metabolism and Selenoproteins	Pathway
+Pathway::WP2911_r83020	miRNA targets in ECM and membrane receptors	Pathway
+Pathway::WP2916_r79908	Interactome of polycomb repressive complex 2 (PRC2) 	Pathway
+Pathway::WP2942_r84388	DDX1 as a regulatory component of the Drosha microprocessor	Pathway
+Pathway::WP2943_r83778	Hypoxia-mediated EMT and Stemness	Pathway
+Pathway::WP2946_r83779	Imatinib Resistance in Chronic Myeloid Leukemia	Pathway
+Pathway::WP299_r78587	Nuclear Receptors in Lipid Metabolism and Toxicity	Pathway
+Pathway::WP304_r78799	Kit receptor signaling pathway	Pathway
+Pathway::WP306_r80308	Focal Adhesion	Pathway
+Pathway::WP311_r68921	Synthesis and Degradation of Ketone Bodies	Pathway
+Pathway::WP313_r79946	Signaling of Hepatocyte Growth Factor Receptor	Pathway
+Pathway::WP314_r80438	FAS pathway and Stress induction of HSP regulation	Pathway
+Pathway::WP322_r79496	Osteoblast Signaling	Pathway
+Pathway::WP325_r71223	Triacylglyceride Synthesis	Pathway
+Pathway::WP3286_r84312	Copper homeostasis	Pathway
+Pathway::WP3287_r84570	Overview of nanoparticle effects	Pathway
+Pathway::WP3297_r83780	EV release from cardiac cells and their functional effects	Pathway
+Pathway::WP3298_r84382	Melatonin metabolism and effects	Pathway
+Pathway::WP3300_r81234	Dual hijack model of Vif in HIV infection	Pathway
+Pathway::WP3301_r81279	MFAP5-mediated ovarian cancer cell motility and invasiveness	Pathway
+Pathway::WP3302_r81679	eIF5A regulation in response to inhibition of the nuclear export system	Pathway
+Pathway::WP3303_r83781	Rac1/Pak1/p38/MMP-2 pathway	Pathway
+Pathway::WP334_r79716	GPCRs, Class B Secretin-like	Pathway
+Pathway::WP3407_r81707	FTO Obesity Variant Mechanism	Pathway
+Pathway::WP3408_r81714	Evolocumab Mechanism	Pathway
+Pathway::WP3413_r82217	NOTCH1 regulation of human endothelial cell calcification	Pathway
+Pathway::WP3414_r82252	Initiation of transcription and translation elongation at the HIV-1 LTR	Pathway
+Pathway::WP34_r72115	Ovarian Infertility Genes	Pathway
+Pathway::WP3527_r84571	Preimplantation Embryo	Pathway
+Pathway::WP3529_r84285	Zinc homeostasis	Pathway
+Pathway::WP357_r70641	Fatty Acid Biosynthesis	Pathway
+Pathway::WP3584_r84776	Mecp2 and Associated Rett Syndrome	Pathway
+Pathway::WP3585_r84793	Cytosine methylation	Pathway
+Pathway::WP3593_r84853	miR-148a/miR-31/FIH1/HIF1α-Notch signaling in glioblastoma 	Pathway
+Pathway::WP3594_r84573	Circadian rythm related genes	Pathway
+Pathway::WP3595_r84854	mir-124 predicted interactions with cell cycle and differentiation 	Pathway
+Pathway::WP3596_r84855	miR-517 relationship with ARCN1 and USP1	Pathway
+Pathway::WP3599_r84770	Transcription factor regulation in adipogenesis	Pathway
+Pathway::WP35_r79952	G Protein Signaling Pathways	Pathway
+Pathway::WP3601_r84331	Composition of Lipid Particles	Pathway
+Pathway::WP363_r78571	Wnt Signaling Pathway Netpath	Pathway
+Pathway::WP364_r83783	IL-6 signaling pathway	Pathway
+Pathway::WP366_r84196	TGF-beta Signaling Pathway	Pathway
+Pathway::WP368_r79271	Mitochondrial LC-Fatty Acid Beta-Oxidation	Pathway
+Pathway::WP382_r79951	MAPK Signaling Pathway	Pathway
+Pathway::WP383_r80200	Striated Muscle Contraction	Pathway
+Pathway::WP384_r67054	Apoptosis Modulation by HSP70	Pathway
+Pathway::WP391_r71373	Mitochondrial Gene Expression	Pathway
+Pathway::WP395_r79978	IL-4 Signaling Pathway	Pathway
+Pathway::WP399_r79474	Wnt Signaling Pathway and Pluripotency	Pathway
+Pathway::WP3_r79527	Transcriptional activation by NRF2	Pathway
+Pathway::WP400_r72084	p38 MAPK Signaling Pathway	Pathway
+Pathway::WP404_r68960	Nucleotide Metabolism	Pathway
+Pathway::WP405_r73594	Eukaryotic Transcription Initiation	Pathway
+Pathway::WP408_r78546	Oxidative Stress	Pathway
+Pathway::WP410_r84683	Diurnally Regulated Genes with Circadian Orthologs	Pathway
+Pathway::WP411_r79980	mRNA Processing	Pathway
+Pathway::WP422_r72129	MAPK Cascade	Pathway
+Pathway::WP428_r79854	Wnt Signaling Pathway	Pathway
+Pathway::WP430_r82344	Statin Pathway	Pathway
+Pathway::WP437_r79266	EGF/EGFR Signaling Pathway	Pathway
+Pathway::WP438_r80022	Non-homologous end joining	Pathway
+Pathway::WP43_r84102	Oxidation by Cytochrome P450	Pathway
+Pathway::WP453_r80206	Inflammatory Response Pathway	Pathway
+Pathway::WP455_r81793	GPCRs, Class A Rhodopsin-like	Pathway
+Pathway::WP45_r80001	G1 to S cell cycle control	Pathway
+Pathway::WP465_r79226	Tryptophan metabolism	Pathway
+Pathway::WP466_r79981	DNA Replication	Pathway
+Pathway::WP474_r80208	Endochondral Ossification	Pathway
+Pathway::WP477_r67139	Cytoplasmic Ribosomal Proteins	Pathway
+Pathway::WP47_r78542	Hedgehog Signaling Pathway	Pathway
+Pathway::WP481_r82731	Insulin Signaling	Pathway
+Pathway::WP496_r69016	Steroid Biosynthesis	Pathway
+Pathway::WP497_r72142	Urea cycle and metabolism of amino groups	Pathway
+Pathway::WP49_r78543	IL-2 Signaling Pathway	Pathway
+Pathway::WP500_r63201	Glycogen Metabolism	Pathway
+Pathway::WP501_r79715	GPCRs, Class C Metabotropic glutamate, pheromone	Pathway
+Pathway::WP516_r71358	Hypertrophy Model	Pathway
+Pathway::WP51_r79977	Regulation of Actin Cytoskeleton	Pathway
+Pathway::WP521_r63156	Amino acid conjugation of benzoic acid	Pathway
+Pathway::WP524_r72112	G13 Signaling Pathway	Pathway
+Pathway::WP528_r79855	Acetylcholine Synthesis	Pathway
+Pathway::WP530_r79331	Cytokines and Inflammatory Response	Pathway
+Pathway::WP531_r69021	Mismatch repair	Pathway
+Pathway::WP534_r78585	Glycolysis and Gluconeogenesis	Pathway
+Pathway::WP536_r80211	Calcium Regulation in the Cardiac Cell	Pathway
+Pathway::WP53_r67360	ID signaling pathway	Pathway
+Pathway::WP545_r82142	Complement Activation	Pathway
+Pathway::WP550_r81207	Biogenic Amine Synthesis	Pathway
+Pathway::WP554_r84372	ACE Inhibitor Pathway	Pathway
+Pathway::WP558_r79680	Complement and Coagulation Cascades	Pathway
+Pathway::WP560_r83868	TGF-beta Receptor Signaling	Pathway
+Pathway::WP561_r72035	Heme Biosynthesis	Pathway
+Pathway::WP581_r67199	EPO Receptor Signaling	Pathway
+Pathway::WP585_r80201	Interferon type I signaling pathways	Pathway
+Pathway::WP58_r80015	Monoamine GPCRs	Pathway
+Pathway::WP615_r81193	Senescence and Autophagy in Cancer	Pathway
+Pathway::WP619_r71168	Type II interferon signaling (IFNG)	Pathway
+Pathway::WP61_r78592	Notch Signaling Pathway	Pathway
+Pathway::WP623_r79961	Oxidative phosphorylation	Pathway
+Pathway::WP666_r68893	Hypothetical Network for Drug Addiction	Pathway
+Pathway::WP673_r80202	ErbB Signaling Pathway	Pathway
+Pathway::WP678_r71506	Arachidonate Epoxygenase / Epoxide Hydrolase	Pathway
+Pathway::WP688_r84769	Catalytic cycle of mammalian Flavin-containing MonoOxygenases (FMOs)	Pathway
+Pathway::WP690_r72132	Polyol Pathway	Pathway
+Pathway::WP691_r79986	Tamoxifen metabolism	Pathway
+Pathway::WP692_r69031	Sulfation Biotransformation Reaction	Pathway
+Pathway::WP694_r67062	Arylamine metabolism	Pathway
+Pathway::WP696_r72081	Benzo(a)pyrene metabolism	Pathway
+Pathway::WP697_r80025	Estrogen metabolism	Pathway
+Pathway::WP698_r79224	Glucuronidation	Pathway
+Pathway::WP699_r70509	Aflatoxin B1 metabolism	Pathway
+Pathway::WP69_r79955	TCR Signaling Pathway	Pathway
+Pathway::WP702_r73516	Metapathway biotransformation	Pathway
+Pathway::WP704_r79563	Methylation Pathways	Pathway
+Pathway::WP706_r80056	SIDS Susceptibility Pathways	Pathway
+Pathway::WP707_r82937	DNA Damage Response	Pathway
+Pathway::WP710_r79974	DNA Damage Response (only ATM dependent)	Pathway
+Pathway::WP712_r78491	Estrogen signaling pathway	Pathway
+Pathway::WP716_r83589	Vitamin A and Carotenoid Metabolism	Pathway
+Pathway::WP727_r79969	Monoamine Transport	Pathway
+Pathway::WP732_r80010	Serotonin Receptor 2 and ELK-SRF/GATA4 signaling	Pathway
+Pathway::WP733_r74441	Serotonin Receptor 2 and STAT3 Signaling	Pathway
+Pathway::WP734_r74438	Serotonin Receptor 4/6/7 and NR3C Signaling	Pathway
+Pathway::WP75_r83867	Toll-like Receptor Signaling Pathway	Pathway
+Pathway::WP78_r70014	TCA Cycle	Pathway
+Pathway::WP80_r68938	Nucleotide GPCRs	Pathway
+Pathway::WP98_r72088	Prostaglandin Synthesis and Regulation	Pathway
