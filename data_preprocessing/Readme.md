@@ -1,23 +1,31 @@
+⸻
+
+
 # Preprocessing Pipelines for Knowledge Graph
 
-This repository contains two core scripts designed to preprocess a biomedical knowledge graph for applications in drug discovery and drug–drug interaction (DDI) prediction.
-The preprocessing pipeline integrates Random Walk with Restart (RWR) to generate compound-centered subgraphs and identifies the shortest paths connecting compounds to biological pathways.
+This repository contains two core scripts designed to preprocess a biomedical knowledge graph for applications in **drug discovery** and **drug–drug interaction (DDI) prediction**.  
+The preprocessing pipeline integrates **Random Walk with Restart (RWR)** to generate compound-centered subgraphs and identifies the **shortest paths connecting compounds to biological pathways**.
 
+---
 
 ## Files
 
 | Script File | Description |
-|-------------|--------------|
-| `randomwalk_mp.py` | Scripts to generate a subgraph for each compound using RWR on a knowledge graph. Supports multiprocessing to efficiently process large-scale data.|
-|  `extract_hop.py` | Script to extract the shortest paths (within k-hops) from each compound to its related biological pathways within the generated subgraphs. |
+|-------------|-------------|
+| `randomwalk_mp.py` | Generates a subgraph for each compound using RWR on a knowledge graph. Supports multiprocessing to efficiently process large-scale data. |
+| `extract_hop.py` | Extracts the shortest paths (within k-hops) from each compound to its related biological pathways within the generated subgraphs. |
 
+---
 
 ## Data Preparation
-Ensure the follwing files are available:
-- DRKG entitey TSV file:: `/path/to/data/drkg/nodes.tsv` 
-- DRKG relations TSV file: `/path/to/data/drkg/edges.tsv`
 
-### Downloading the DRKG Dataset
+Ensure the following files are available before execution:
+
+- DRKG entity TSV file: `/path/to/data/drkg/embed/entities.tsv`
+- DRKG relations TSV file: `/path/to/data/drkg/embed/relations.tsv`
+- DRKG embeddings: `/path/to/data/drkg/embed/DRKG_TransE_l2_entity.npy`, `/path/to/data/drkg/embed/DRKG_TransE_l2_relation.npy`
+
+### 🔗 Downloading the DRKG Dataset
 
 Download the **Drug Repurposing Knowledge Graph (DRKG)** dataset from the official repository:
 
@@ -42,97 +50,89 @@ drkg/
     ├── mol_edgepred.npy
     └── Readme.md
 
-> Move the files to your project path, e.g., `/path/to/data/drkg/`.
+Move the files to your project path, e.g., /path/to/data/drkg/.
 
+⸻
 
-## Usage
-### Step 1: Extract subgraph on Knowledge Graph
+Usage
 
-Run `randomwalk_mp.py` to generate a subgraph for each compound using Random Walk with Restart (RWR).
+Step 1: Extract Subgraphs on Knowledge Graph
 
+Run randomwalk_mp.py to generate a subgraph for each compound using Random Walk with Restart (RWR).
 
-### Key functions
-The key functions and their roles in randomwalk_mp.py are as follows:
+Key Functions
+1. extract_nodes_and_edges
+	•	Filters the full knowledge graph to retain only selected biological node types (e.g., compounds, genes, pathways).
+	•	Saves the filtered data as nodes_{nodes_name}.tsv and edges_{nodes_name}.tsv under /path/to/save/data/{nodes_name}.
+	•	Example: if you select compounds, genes, diseases, and pathways as node types, set the argument --nodes_name CGPDS.
 
-**1. extract_nodes_and_edges:**
-- Filters the full knowledge graph to retain only the selected biological node types `(e.g., compounds, genes, pathways)`.
+2. load_or_create_subgraph
+	•	Loads or builds a subgraph containing only the selected node types.
 
--  Saves the filtered data to `nodes_{nodes_name}.tsv` and `edges_{nodes_name}.tsv` under `/path/to/save/data/{nodes_name}` directory.
+3. random_walk_process
+	•	Performs RWR on the subgraph.
+Starting from 1,705 compound seed nodes, it generates one subgraph per compound using multiprocessing with restart probability.
 
-- ex. If you are select compounds, gene, disease and pathway as node types, set the nodes_name as argument nodes_name is `CGPDS`.
+Output Summary
+	•	Total compounds not reaching any pathway list: Number of compounds for which RWR failed to reach any pathway nodes.
 
-**2. load_or_create_subgraph:**
-- Loads and builds a subgraph with previously selected node types. 
+Output Files
+	•	Node files: /path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/nodes/compound{i}_nodes.tsv
+	•	Edge files: /path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/edges/compound{i}_edges.tsv
 
-**3. random_walk_process**
-- Perform Random Walk with Restart on the subgraph. Starting from 1,705 compound seed nodes, it generates subgraph for each compound by iteratively exploring neighboring nodes with restart probability using multiprocessing.
+Command
 
-**Output Summary:**
-- `Total compouns not reaching any pathway list`: Number of compounds for which the RWR failed to reach any pathway nodes.
-
-**Output Files:**
-- node files in sub graph: `/path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{0.3}/node/compound{}.tsv`
-
-- edges files in sub graph: `/path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/edges/compound{}.tsv`
-
-
-**Command:**
-```bash
 python randomwalk_mp.py --nodes_name CGPD --prob 0.3 --steps 20000 --num_workers 50 --iteration 10000
-```
-
-<br><br>  
 
 
-## Step 2: Extract k-hop shortest paths
+⸻
 
-Run `extract_hop.py` to extract the shortest paths between compounds and pathway nodes from each subgraph.
+Step 2: Extract k-hop Shortest Paths
 
-### Key actions
-The key steps are as follows:
+Run extract_hop.py to extract the shortest paths between compounds and pathway nodes from each subgraph.
 
-- For each compound, identifies all accessible pathway nodes within its subgraph.
+Key Actions
+	•	For each compound, identifies all accessible pathway nodes within its subgraph.
+	•	Computes distances between a compound and all identified pathways using the NetworkX library.
+	•	Filters paths based on the maximum allowed k-hop.
+	•	Saves nodes and edges corresponding to valid shortest paths.
 
-- Computes the distance btween a compound and all identified pathways using networkX library.
+Output Summary
+	•	Total compounds processed: Number of compounds processed.
+	•	Missing pathway info: Number of compounds without pathway information.
+	•	Missing meta-path: Number of compounds without valid meta-paths within the hop limit.
+	•	Missing meta-path compounds: IDs of compounds missing pathway or meta-path data.
 
-- Filters paths based on the maximum allowed  k-hop.
+Output Files
+	•	Node files: /path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes/compound{i}_nodes.tsv
+	•	Edge files: /path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges/compound{i}_edges.tsv
 
-- Save extracted nodes and edges corresponding to valid shortest paths files.
+Command
 
-**Output Summary:**
-- `Total compounds processed`: Total number of compounds in DDI dataset.
--  `Missing pathway info`: Number of compounds without pathway information.
-- `Missing meta-path`: 	Number of compounds without valid meta-paths (within the specified hop limit).
-
-- `Missing meta-path compounds`: Lists of compound IDs missing pathway or meta-path data
-
-
-**Output Files:**
-- node files in shortest path graph: `/path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/node/compound{}.tsv`
-
-- edges files in shortest path graph: `/path/to/save/data/{nodes_type}/rw_mean/steps_20000/prob_0.3/hop5/edges/compound{}.tsv`
-
-**Command:**
-```bash
 python extract_hop.py --nodes_type CGPD --steps 20000 --num_hop 5 --prob 0.3
-```
 
 
+⸻
 
+Directory Structure
 
-##  Directory Structure
-```text
-your project derectory/
+your_project_directory/
 │
-├── data/                        
-│   ├── drkg/                     
-│   │   ├── nodes.tsv
-│   │   └── edges.tsv
+├── data/
+│   ├── drkg/
+│   │   ├── drkg.tsv
+│   │   ├── entity2src.tsv
+│   │   ├── relation_glossary.tsv
+│   │   └── embed/
+│   │       ├── DRKG_TransE_l2_entity.npy
+│   │       ├── DRKG_TransE_l2_relation.npy
+│   │       ├── entities.tsv
+│   │       └── relations.tsv
 │   │
-│   └── CGPD/                     
+│   └── CGPD/
 │       ├── nodes_CGPD.tsv
 │       ├── edges_CGPD.tsv
-│       └── rw_mean/              
+│       └── rw_mean/
 │           ├── steps_20000/
 │           │   ├── prob_0.3/
 │           │   │   ├── nodes/
@@ -141,18 +141,21 @@ your project derectory/
 │           │   │   └── edges/
 │           │   │       ├── compound0_edges.tsv
 │           │   │       └── ...
-│           │   │
-│           │   └── hop5/          
+│           │   └── hop5/
 │           │       ├── nodes/
 │           │       │   ├── compound0_nodes.tsv
 │           │       │   └── ...
 │           │       └── edges/
 │           │           ├── compound0_edges.tsv
 │           │           └── ...
-│           └── ...                
-│
-├── data_preprocessing/                      
-   ├── randomwalk_mp.py          
-   └── extract_hop.py            
+│           └── ...
 
-```
+⸻
+
+Notes
+	•	Ensure consistent entity and relation indices across all DRKG-derived files.
+	•	The default number of compounds (1,705) corresponds to the DDI dataset used in TRACE-DDI.
+	•	Parameters such as restart probability (--prob) and steps (--steps) can be adjusted according to the graph scale.
+	•	Generated subgraphs and shortest-path files are required inputs for subsequent embedding and DDI prediction modules.
+
+---
