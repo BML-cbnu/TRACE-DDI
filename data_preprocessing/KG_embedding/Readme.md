@@ -14,8 +14,7 @@ The workflow extends the prior subgraph extraction pipeline (`randomwalk_mp.py`,
 |--------------|-------------|
 | `subG_add_info.py` | Augments each compound subgraph with original entity and relation identifiers from the DRKG embedding index. Adds cross-references (`ori_node_num`) to ensure compatibility with embedding lookups. |
 | `remove_compounds.py` | Removes specified problematic compounds and all related subgraph files (nodes, edges) from the dataset, ensuring graph consistency before embedding. |
-| `subG_info_Extract_weight.py` | Computes compound-level embedding vectors using entity and relation embeddings, applying weighting and convolutional or PCA-based transformations. Supports multiple aggregation methods (`sum`, `mean`, `product`, `pca`, `conv`). |
-
+| `subG_info_Extract_weight.py` | Computes compound-level vectors using entity and relation embeddings. Supports weighting as well as PCA or convolution-based transformations, with **`conv` used as the default method in this study**. Supported aggregation methods: `sum`, `mean`, `product`, `pca`, `conv`. |
 ---
 
 ## Data Preparation
