@@ -1,147 +1,143 @@
-# Preprocessing Pipelines for Knowledge Graph Embedding
+# Subgraph Embedding Generation Pipeline for DDI Prediction
 
-This directory contains scripts for **preprocessing and embedding biomedical knowledge graphs** in preparation for downstream tasks such as **drug–drug interaction (DDI) prediction** or **pathway-centric drug representation learning**.  
-The workflow extends the prior subgraph extraction pipeline (`randomwalk_mp.py`, `extract_hop.py`) by cleaning compound-level data and generating low-dimensional embeddings from compound-centered subgraphs.
+This repository contains scripts to preprocess compound-centered subgraphs and generate embeddings for use in Drug-Drug Interaction (DDI) prediction models. The pipeline consists of modifying raw subgraphs, cleaning DDI/SMILES datasets, and computing 
+compound-level vectors using various aggregation methods.
 
 ---
 
-## Overview
+## Files
 
 | Script File | Description |
-|--------------|-------------|
-| `subG_add_info.py` | Augments each compound subgraph with original entity and relation identifiers from the DRKG embedding index. Adds cross-references (`ori_node_num`) to ensure compatibility with embedding lookups. |
-| `remove_compounds.py` | Removes specified problematic compounds and all related subgraph files (nodes, edges) from the dataset, ensuring graph consistency before embedding. |
-| `subG_info_Extract_weight.py` | Computes compound-level vectors using entity and relation embeddings. Supports weighting as well as PCA or convolution-based transformations, with **`conv` used as the default method in this study**. Supported aggregation methods: `sum`, `mean`, `product`, `pca`, `conv`. |
+|-------------|-------------|
+| `subG_add_info.py` | Modify subgraph files by mapping nodes to original entity IDs. Cleans DDI/SMILES datasets and deletes subgraphs for specific compounds. |
+| `subG_info_Extract_weight.py` | Generates compound-level vectors using modified subgraphs. Supports multiple aggregation methods (`pca`, `sum`, `mean`, `product`, `conv`). |
 
 ---
 
 ## Data Preparation
 
-Ensure that the following files are available before execution:
-
-| File | Path | Description |
-|------|------|-------------|
-| **DDI file** | `/path/to/data/DDI/ddi.tsv` | DDI triples (drug1, drug2, interaction_type) |
-| **Smiles file** | `/path/to/data/DDI/smiles.tsv` | Compound SMILES strings |
-| **DRKG entities** | `/path/to/data/drkg/entities.tsv` | Mapping of node names to embedding indices |
-| **DRKG relations** | `/path/to/data/drkg/relations.tsv` | Mapping of relation types to embedding indices |
-| **DRKG embeddings** | `/path/to/data/drkg/embed/DRKG_TransE_l2_entity.npy`<br>`/path/to/data/drkg/embed/DRKG_TransE_l2_relation.npy` | Pretrained entity/relation embeddings from DRKG |
-| **Subgraph files** | `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/{nodes,edges}/compound{i}_*.tsv` | Compound-centered subgraphs generated via RWR |
+Ensure the following files are available:
+- DDI dataset TSV: `/path/to/data/DDI/ddi.tsv`
+- SMILES dataset TSV: `path/to/data/DDI/smiles.tsv`
+- DRKG entity TSV: `/path/to/data/drkg/embed/entities.tsv`
+- DRKG relation TSV: `/path/to/data/drkg/embed/relations.tsv`
+- DRKG enetity TransE npy: `/path/to/data/drkg/embed/DRKG_TransE_l2_entity.npy`
+- DRKG relation TransE npy: `/path/to/data/drkg/embed/DRKG_TransE_l2_relation.npy`
+- Subgraph nodes files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/nodes/comopound{}_nodes.tsv`
+- Subgraph edges files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/edges/compouond{}_edges.tsv`
 
 ---
 
-## Step 1. Add Original Entity and Relation IDs
+## Step 1: Modify Subgraphs and Cleanup
 
-**Script:** `subG_add_info.py`
+`subG_add_info.py` maps subgraph nodes to original DRKG entity IDs, cleans DDI/SMILES datasets, and deletes invalid subgraphs.
 
-This step augments each subgraph (nodes, edges) by mapping local node IDs to their corresponding DRKG embedding indices.
+### Key Functions
 
-**Key Actions**
-- Reads each compound’s `nodes.tsv` and `edges.tsv`.
-- Maps node names to their original numeric IDs (`ori_node_num`).
-- Updates edge files with corresponding `ori_node_1`, `ori_node_2` fields.
-- Writes modified files to `/CGPD/subG_modify/{nodes,edges}/`.
+**1. `modify_subgraphs()`**  
+- Maps subgraph nodes to original entity numbers  
+- Adds original node names to edge files  
+- Saves modified node/edge files under `output_node_path` and `output_edge_path`  
 
-**Command**
+**2. `cleanup_ddi_and_subgraphs()`**  
+- Filters DDI and SMILES datasets to remove **fixed list of compounds**  
+- Deletes corresponding subgraph files  
+
+**Fixed compounds to remove:**  
+- The compounds(651, 1170, 1359, 1475, 1509, 1603, 1612, 1623, 1627, 1634, 1653, 1684, 1696, 1698) were removed because either:
+- Random Walk failed to reach any pathway nodes in their subgraphs, or no valid shortest path to pathway nodes could be extracted during the k-hop path extraction step.
+
+### Command
+
 ```bash
-python subG_add_info.py
+python subG_add_info.py \
+  --embed_path /path/to/data/drkg/embed \
+  --subG_path /path/to/data/CGPD/hop4/steps_20000/prob_0.3 \
+  --output_node_path /path/to/data/CGPD/subG_modify/nodes \
+  --output_edge_path /path/to/data/CGPD/subG_modify/edges \
+  --ddi_file /path/to/data/DDI/ddi.tsv \
+  --smiles_file /path/to/data/DDI/smiles.tsv \
+  --ddi_output_file /path/to/data/DDI/ddi_01.tsv \
+  --smiles_output_file /path/to/data/DDI/smiles_01.tsv \
+  --base_edge_path /path/to/data/CGPD/subG_modify/edges/compound{}_edges.tsv \
+  --base_node_path /path/to/data/CGPD/subG_modify/nodes/compound{}_nodes.tsv
+
 ```
 
-**Output**
-- `/path/to/data/CGPD/subG_modify/nodes/compound{i}_nodes.tsv`  
-- `/path/to/data/CGPD/subG_modify/edges/compound{i}_edges.tsv`
 
 ---
 
-## Step 2. Remove Invalid Compounds
+## Step 2: Generate Compound Vectors
 
-**Script:** `remove_compounds.py`
+`subG_info_Extract_weight.py` generates fixed-length vectors for each compound from the modified subgraphs.
 
-Removes specific compounds and their associated node/edge files from the dataset, ensuring only valid compound graphs remain.
+### Key modules
 
-**Key Actions**
-- Reads DDI and SMILES files.  
-- Filters out rows containing invalid compound IDs (e.g., 651, 1170, 1359, ...).  
-- Deletes corresponding subgraph files from `/subG_modify/nodes` and `/subG_modify/edges/`.
+**1. `SubCon2d`**  
+- 2D CNN-based subgraph encoder  
+- Generates fixed-length vectors from combined node and edge embeddings
 
-**Command**
+**2. `SubCon1d`**  
+- 1D CNN for dimensionality reduction of aggregated embeddings (`sum`, `mean`, `product`)  
+
+**3. `process_single_compound()`**  
+- Loads subgraph nodes and edges  
+- Applies node weights based on `spread_value` and `visited_count` for drug nodes  
+- Generates a vector using the selected method: `pca`, `sum`, `mean`, `product`, `conv`  
+
+**4. `generate_compound_vectors()`**  
+- Processes all compounds sequentially  
+- Saves the vectors to CSV
+
+### Command
+
 ```bash
-python remove_compounds.py
+python subG_info_Extract_weight.py \
+  --base_dir /path/to/data/CGPD/subG_modify \
+  --embed_dir /path/to/data/drkg/embed \
+  --save_dir /path/to/data/CGPD \
+  --vector_length 20 \
+  --method conv \
 ```
 
-**Output**
-- Filtered DDI and SMILES TSVs  
-  `/path/to/data/DDI/ddi_01.tsv`  
-  `/path/to/data/DDI/smiles_01.tsv`  
-- Deleted files (logged to stdout)
 
----
-
-## Step 3. Extract Weighted Compound Embeddings
-
-**Script:** `subG_info_Extract_weight.py`
-
-Generates compound-level vector representations using various aggregation or convolutional methods.
-
-**Supported Methods**
-
-| Method | Description |
-|--------|--------------|
-| `pca` | Applies PCA to combined entity + relation embeddings |
-| `sum` / `mean` / `product` | Aggregates embeddings and reduces dimensionality via Conv1D |
-| `conv` | Applies 2D convolution (subCon model) for nonlinear feature extraction |
-
-**Key Steps**
-1. Loads DRKG entity/relation embeddings.  
-2. Reads each compound’s modified subgraph files.  
-3. Scales node attributes (`spread_value`, `visited_count`) using `MinMaxScaler`.  
-4. Applies node-specific weights to embeddings.  
-5. Combines and transforms embeddings according to the selected method.
-
-**Command**
-```bash
-python subG_info_Extract_weight.py --vector_length 20 --method conv
-```
-
-**Output**
-- Compound-level embedding CSV:  
-  `/path/to/data/vec20_conv.csv`
-
----
-
-## Directory Structure
-
+##  Directory Structure
 ```text
-your_project_directory/
+/path/to/
 │
 ├── data/
-│   ├── drkg/
+│   ├── drkg/embed/
 │   │   ├── entities.tsv
 │   │   ├── relations.tsv
-│   │   ├── embed/
-│   │   │   ├── DRKG_TransE_l2_entity.npy
-│   │   │   └── DRKG_TransE_l2_relation.npy
+│   │   ├── DRKG_TransE_l2_entity.npy
+│   │   └── DRKG_TransE_l2_relation.npy
 │   │
 │   ├── DDI/
 │   │   ├── ddi.tsv
-│   │   ├── smiles.tsv
 │   │   ├── ddi_01.tsv
+│   │   ├── smiles.tsv
 │   │   └── smiles_01.tsv
 │   │
 │   └── CGPD/
-│       ├── hop4/
-│       │   └── steps_20000/prob_0.3/{nodes,edges}/compound{i}_*.tsv
+│       ├── hop4/steps_20000/prob_0.3/
+│       │   ├── nodes/
+│       │   │   ├── compound0_nodes.tsv
+│       │   │   └── ...
+│       │   └── edges/
+│       │       ├── compound0_edges.tsv
+│       │       └── ...
+│       │
 │       ├── subG_modify/
-│       │   ├── nodes/compound{i}_nodes.tsv
-│       │   └── edges/compound{i}_edges.tsv
-│       └── vec20_conv.csv
-```
-
----
-
-## Notes
-
-- All scripts assume consistent DRKG entity and relation indexing across files.  
-- The compound count (1,706) can be adjusted in the loop range if new nodes are added.  
-- Recommended to use a GPU-enabled environment for the convolutional embedding step (`--method conv`).  
-- After vector extraction, embeddings can be directly used as input features for TRACE-DDI or related models.
+│       │   ├── nodes/
+│       │   │   ├── compound0_nodes.tsv
+│       │   │   └── ...
+│       │   └── edges/
+│       │       ├── compound0_edges.tsv
+│       │       └── ...
+│       │
+│       └── vec_{vector_length}_{method}.csv
+│
+├── model/
+│   ├── subG_add_info.py
+│   ├── subG_info_Extract_weight.py
+│   └── trace_ddi.py
