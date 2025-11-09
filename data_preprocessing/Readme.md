@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Preprocessing Pipelines for Knowledge Graph
 
 This repository contains two core scripts designed to preprocess a biomedical knowledge graph for applications in drug discovery and drug–drug interaction (DDI) prediction.
