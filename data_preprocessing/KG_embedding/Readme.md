@@ -23,8 +23,8 @@ Ensure the following files are available:
 - DRKG relation TSV: `/path/to/data/drkg/embed/relations.tsv`
 - DRKG enetity TransE npy: `/path/to/data/drkg/embed/DRKG_TransE_l2_entity.npy`
 - DRKG relation TransE npy: `/path/to/data/drkg/embed/DRKG_TransE_l2_relation.npy`
-- Subgraph nodes files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/nodes/comopound{}_nodes.tsv`
-- Subgraph edges files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/edges/compouond{}_edges.tsv`
+- Subgraph nodes files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/nodes/compound{}_nodes.tsv`
+- Subgraph edges files: `/path/to/data/CGPD/hop4/steps_20000/prob_0.3/edges/compound{}_edges.tsv`
 
 ---
 
