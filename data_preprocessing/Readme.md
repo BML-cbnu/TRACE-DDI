@@ -22,6 +22,28 @@ Ensure the follwing files are available:
 - DRKG entitey TSV file:: `/path/to/data/drkg/nodes.tsv` 
 - DRKG relations TSV file: `/path/to/data/drkg/edges.tsv`
 
+### 🔗 Downloading the DRKG Dataset
+
+The **Drug Repurposing Knowledge Graph (DRKG)** dataset can be downloaded from the official source:
+
+> **DRKG (Drug Repurposing Knowledge Graph)**  
+> Repository: [https://github.com/gnn4dr/DRKG](https://github.com/gnn4dr/DRKG)  
+> Direct download link: [https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip](https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip)  
+>  
+> After extraction, you will find:  
+> ```
+> drkg/
+> ├── drkg.tsv
+> ├── entities.tsv
+> ├── relations.tsv
+> └── embeddings/
+>     ├── DRKG_TransE_l2_entity.npy
+>     ├── DRKG_TransE_l2_relation.npy
+>     └── ...
+> ```
+> Move the files to your project path, e.g., `/path/to/data/drkg/`.
+
+
 
 <br> <br> 
 ## Usage
