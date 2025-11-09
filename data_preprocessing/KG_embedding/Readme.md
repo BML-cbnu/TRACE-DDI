@@ -47,7 +47,7 @@ Ensure the following files are available:
 - The compounds(651, 1170, 1359, 1475, 1509, 1603, 1612, 1623, 1627, 1634, 1653, 1684, 1696, 1698) were removed because either:
 - Random Walk failed to reach any pathway nodes in their subgraphs, or no valid shortest path to pathway nodes could be extracted during the k-hop path extraction step.
 
-### Command
+### Usage
 
 ```bash
 python subG_add_info.py \
