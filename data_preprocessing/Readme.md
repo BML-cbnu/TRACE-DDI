@@ -28,7 +28,6 @@ The **Drug Repurposing Knowledge Graph (DRKG)** dataset can be downloaded from t
 
 > **DRKG (Drug Repurposing Knowledge Graph)**  
 > Repository: [https://github.com/gnn4dr/DRKG](https://github.com/gnn4dr/DRKG)  
-> Direct download link: [https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip](https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip)  
 >  
 After extraction, the structure should look like this:
 
