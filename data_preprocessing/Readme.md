@@ -162,12 +162,6 @@ your_project_directory/
 │           │           ├── compound0_edges.tsv
 │           │           └── ...
 │           └── ...
-│
-├── data_preprocessing/
-│   ├── randomwalk_mp.py
-│   └── extract_hop.py
-│
-└── README.md
 ```
 
 ---
