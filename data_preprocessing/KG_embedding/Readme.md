@@ -1,10 +1,4 @@
 ⸻
-
-
----
-output:
-  html_document: default
-  pdf_document: default
 ---
 
 # Preprocessing Pipelines for Knowledge Graph Embedding
