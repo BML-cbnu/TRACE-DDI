@@ -51,8 +51,6 @@ drkg/
 > Move the files to your project path, e.g., `/path/to/data/drkg/`.
 
 
-
-<br> <br> 
 ## Usage
 ### Step 1: Extract subgraph on Knowledge Graph
 
