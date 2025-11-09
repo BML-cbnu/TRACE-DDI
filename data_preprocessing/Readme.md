@@ -32,9 +32,13 @@ Download the **Drug Repurposing Knowledge Graph (DRKG)** dataset from the offici
 > **Repository:** [https://github.com/gnn4dr/DRKG](https://github.com/gnn4dr/DRKG)  
 > **Direct download (tar.gz):** [https://dgl-data.s3-us-west-2.amazonaws.com/dataset/DRKG/drkg.tar.gz](https://dgl-data.s3-us-west-2.amazonaws.com/dataset/DRKG/drkg.tar.gz)
 
-After extraction (`tar -xzvf drkg.tar.gz`), you will see the following structure:
+After extraction:
 
-```text
+```bash
+tar -xzvf drkg.tar.gz
+
+You will see the following structure:
+
 drkg/
 ├── drkg.tsv
 ├── entity2src.tsv
@@ -50,7 +54,10 @@ drkg/
     ├── mol_edgepred.npy
     └── Readme.md
 
-Move the files to your project path, e.g., /path/to/data/drkg/.
+Move the files to your project path, e.g.:
+
+/path/to/data/drkg/
+
 
 ⸻
 
@@ -61,24 +68,24 @@ Step 1: Extract Subgraphs on Knowledge Graph
 Run randomwalk_mp.py to generate a subgraph for each compound using Random Walk with Restart (RWR).
 
 Key Functions
-1. extract_nodes_and_edges
+	1.	extract_nodes_and_edges
 	•	Filters the full knowledge graph to retain only selected biological node types (e.g., compounds, genes, pathways).
 	•	Saves the filtered data as nodes_{nodes_name}.tsv and edges_{nodes_name}.tsv under /path/to/save/data/{nodes_name}.
-	•	Example: if you select compounds, genes, diseases, and pathways as node types, set the argument --nodes_name CGPDS.
-
-2. load_or_create_subgraph
+	•	Example: if you select compounds, genes, diseases, and pathways as node types, set --nodes_name CGPDS.
+	2.	load_or_create_subgraph
 	•	Loads or builds a subgraph containing only the selected node types.
-
-3. random_walk_process
+	3.	random_walk_process
 	•	Performs RWR on the subgraph.
-Starting from 1,705 compound seed nodes, it generates one subgraph per compound using multiprocessing with restart probability.
+	•	Starting from 1,705 compound seed nodes, it generates one subgraph per compound using multiprocessing with restart probability.
 
 Output Summary
-	•	Total compounds not reaching any pathway list: Number of compounds for which RWR failed to reach any pathway nodes.
+	•	Total compounds not reaching any pathway list: number of compounds for which RWR failed to reach any pathway nodes.
 
 Output Files
-	•	Node files: /path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/nodes/compound{i}_nodes.tsv
-	•	Edge files: /path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/edges/compound{i}_edges.tsv
+	•	Node files:
+/path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/nodes/compound{i}_nodes.tsv
+	•	Edge files:
+/path/to/save/data/{nodes_name}/rw_mean/steps_{steps}/prob_{prob}/edges/compound{i}_edges.tsv
 
 Command
 
@@ -98,14 +105,16 @@ Key Actions
 	•	Saves nodes and edges corresponding to valid shortest paths.
 
 Output Summary
-	•	Total compounds processed: Number of compounds processed.
-	•	Missing pathway info: Number of compounds without pathway information.
-	•	Missing meta-path: Number of compounds without valid meta-paths within the hop limit.
+	•	Total compounds processed: number of compounds processed.
+	•	Missing pathway info: number of compounds without pathway information.
+	•	Missing meta-path: number of compounds without valid meta-paths within the hop limit.
 	•	Missing meta-path compounds: IDs of compounds missing pathway or meta-path data.
 
 Output Files
-	•	Node files: /path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes/compound{i}_nodes.tsv
-	•	Edge files: /path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges/compound{i}_edges.tsv
+	•	Node files:
+/path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes/compound{i}_nodes.tsv
+	•	Edge files:
+/path/to/save/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges/compound{i}_edges.tsv
 
 Command
 
