@@ -30,17 +30,24 @@ The **Drug Repurposing Knowledge Graph (DRKG)** dataset can be downloaded from t
 > Repository: [https://github.com/gnn4dr/DRKG](https://github.com/gnn4dr/DRKG)  
 > Direct download link: [https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip](https://github.com/gnn4dr/DRKG/archive/refs/heads/master.zip)  
 >  
-> After extraction, you will find:  
-> ```
-> drkg/
-> ├── drkg.tsv
-> ├── entities.tsv
-> ├── relations.tsv
-> └── embeddings/
->     ├── DRKG_TransE_l2_entity.npy
->     ├── DRKG_TransE_l2_relation.npy
->     └── ...
-> ```
+After extraction, the structure should look like this:
+
+```text
+drkg/
+├── drkg.tsv
+├── entity2src.tsv
+├── relation_glossary.tsv
+└── embed/
+    ├── DRKG_TransE_l2_entity.npy
+    ├── DRKG_TransE_l2_relation.npy
+    ├── entities.tsv
+    ├── relations.tsv
+    ├── mol_contextpred.npy
+    ├── mol_masking.npy
+    ├── mol_infomax.npy
+    ├── mol_edgepred.npy
+    └── Readme.md
+
 > Move the files to your project path, e.g., `/path/to/data/drkg/`.
 
 
