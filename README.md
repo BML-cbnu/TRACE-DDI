@@ -75,39 +75,39 @@ Each data file (TSV/CSV) must include aligned drug identifiers across SMILES and
 
 ## Repository Structure
 
-repo-root/
-│
-├── trace-ddi.py                  # Main launcher
-├── data_preprocessing/           # Subgraph extraction and compound vector generation
-└── utils/
-    ├── __init__.py
-    ├── data.py                   # Data loading, tokenization, adjacency, dataset
-    ├── model.py                  # Transformer, GAT, and classifier modules
-    └── train_eval.py             # Stratified K-Fold training, evaluation, saving
+repo-root/  
+│  
+├── trace-ddi.py          # Main launcher  
+├── data_preprocessing/     # Subgraph extraction and compound vector generation  
+└── utils/  
+  ├── __init__.py  
+  ├── data.py         # Data loading, tokenization, adjacency, dataset  
+  ├── model.py        # Transformer, GAT, and classifier modules  
+  └── train_eval.py     # Stratified K-Fold training, evaluation, saving  
 
 ---
 
 ## Best-Parameter Command
 
 python trace-ddi.py \
-  --num_epochs 100 \
-  --batch_size 32 \
-  --lr 2.831e-05 \
-  --log_dir path/to/your/result_TRACE/log/ \
-  --model_save_dir path/to/your/result_TRACE/savedModel/ \
-  --result_dir path/to/your/result_TRACE/ \
-  --ddi_data_path path/to/your/data/ddi.tsv \
-  --smiles_data_path path/to/your/data/smiles.tsv \
-  --compound_vector_path path/to/your/data/vec20_conv.csv \
-  --embedding_dim 256 \
-  --d_model 128 \
-  --nhead 8 \
-  --num_encoder_layers 6 \
-  --dim_feedforward 3072 \
-  --hidden_dim 256 \
-  --classifier_dropout 0.05 \
-  --gat_dropout 0.0107 \
-  --gat_alpha 0.3738
+ --num_epochs 100 \
+ --batch_size 32 \
+ --lr 2.831e-05 \
+ --log_dir path/to/your/result_TRACE/log/ \
+ --model_save_dir path/to/your/result_TRACE/savedModel/ \
+ --result_dir path/to/your/result_TRACE/ \
+ --ddi_data_path path/to/your/data/ddi.tsv \
+ --smiles_data_path path/to/your/data/smiles.tsv \
+ --compound_vector_path path/to/your/data/vec20_conv.csv \
+ --embedding_dim 256 \
+ --d_model 128 \
+ --nhead 8 \
+ --num_encoder_layers 6 \
+ --dim_feedforward 3072 \
+ --hidden_dim 256 \
+ --classifier_dropout 0.05 \
+ --gat_dropout 0.0107 \
+ --gat_alpha 0.3738  
 
 **Notes**
 - Use `--nhead` (not `--num_heads`) for multi-head attention.  
@@ -146,37 +146,34 @@ python trace-ddi.py \
 ## Pipeline Overview
 
 1. **Logging & Reproducibility**  
-   - Logging initialized at INFO level; random seeds fixed.
-
+ - Logging initialized at INFO level; random seeds fixed.  
 2. **Data Preparation (`utils/data.py`)**  
-   - Load DDI and SMILES tables.  
-   - Encode interaction labels.  
-   - Tokenize SMILES using regex-based tokenizer.  
-   - Construct fixed-size adjacency matrices.
-
+ - Load DDI and SMILES tables.  
+ - Encode interaction labels.  
+ - Tokenize SMILES using regex-based tokenizer.  
+ - Construct fixed-size adjacency matrices.  
 3. **Model Composition (`utils/model.py`)**  
-   - Transformer encoder for SMILES.  
-   - Multi-head GAT with decayed sinusoidal positional embedding.  
-   - Combine SMILES, GAT, and compound vectors → classification head.
-
+ - Transformer encoder for SMILES.  
+ - Multi-head GAT with decayed sinusoidal positional embedding.  
+ - Combine SMILES, GAT, and compound vectors → classification head.  
 4. **Training & Evaluation (`utils/train_eval.py`)**  
-   - Stratified K-Fold split (default: 5 folds).  
-   - Label distribution visualization per fold.  
-   - `EarlyStopping` & `ModelCheckpoint` based on `val_acc`.  
-   - Save checkpoints and evaluation reports per fold.
+ - Stratified K-Fold split (default: 5 folds).  
+ - Label distribution visualization per fold.  
+ - `EarlyStopping` & `ModelCheckpoint` based on `val_acc`.  
+ - Save checkpoints and evaluation reports per fold.  
 
 ---
 
 ## Example Outputs
 
-result_TRACE/
-├── log/
-├── savedModel/
-└── results_fold1.txt
+result_TRACE/  
+├── log/  
+├── savedModel/  
+└── results_fold1.txt  
 
-Each `results_foldk.txt` includes:
-- Accuracy, Precision, Recall, and F1 (weighted average)
-- Full `classification_report` from scikit-learn
+Each `results_foldk.txt` includes:  
+- Accuracy, Precision, Recall, and F1 (weighted average)  
+- Full `classification_report` from scikit-learn  
 
 ---
 
