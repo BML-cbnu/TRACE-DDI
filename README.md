@@ -32,39 +32,37 @@ Before executing `trace-ddi.py`, you must **run the preprocessing scripts** in `
 These scripts generate the compound vector files (`vec*.csv`) and prepare DDI/SMILES tables for model input.
 
 ### Step 1. Subgraph Construction (Random Walk Sampling)
-
-python data_preprocessing/randomwalk_mp.py \
-  --prob 0.3 \
-  --steps 2 \
-  --iteration 1 \
-  --num_workers 50 \
-  --nodes_name CGPD
+Generate compound-centered subgraphs on the biomedical knowledge graph using Random Walk with Restart (RWR).
 
 ### Step 2. Knowledge Graph Embedding Integration
-
-python data_preprocessing/KG_embedding/subG_add_info.py \
-  --embed_path ./data/drkg/embed \
-  --subG_path ./data/CGPD/hop4/steps_20000/prob_0.3 \
-  --output_node_path ./data/CGPD/subG_modify/nodes \
-  --output_edge_path ./data/CGPD/subG_modify/edges \
-  --ddi_file ./data/DDI/ddi.tsv \
-  --smiles_file ./data/DDI/smiles.tsv \
-  --ddi_output_file ./data/DDI/ddi_01.tsv \
-  --smiles_output_file ./data/DDI/smiles_01.tsv
+Merge subgraph nodes and edges with pretrained DRKG embeddings and align them with DDI and SMILES identifiers.
 
 ### Step 3. Compound Vector Generation
+Aggregate node embeddings on each subgraph to produce fixed-length compound vectors (e.g., `vec20_conv.csv`).
 
-python data_preprocessing/KG_embedding/subG_info_Extract_weight.py \
-  --base_dir ./data/CGPD/subG_modify \
-  --embed_dir ./data/drkg/embed \
-  --save_dir ./data/CGPD \
-  --vector_length 20 \
-  --method conv
-
-This produces a file such as `vec20_conv.csv`, which is used for  
-`--compound_vector_path` in the main TRACE-DDI training command.
+The generated vectors are later passed to `--compound_vector_path` in the main TRACE-DDI execution.
 
 > **Note:** All identifiers across `ddi.tsv`, `smiles.tsv`, and `vec*.csv` must be consistent.
+
+---
+
+### Data & Result Folder Configuration
+
+The preprocessing stage reads and writes multiple large files.  
+Make sure to explicitly configure both **input** and **output** directory paths before execution:
+
+- **Input paths**
+  - `/data/drkg/` → directory containing DRKG embeddings (`entities.tsv`, `relations.tsv`, `*.npy`)
+  - `/data/DDI/` → directory containing original DDI and SMILES tables (`ddi.tsv`, `smiles.tsv`)
+
+- **Output paths**
+  - `/data/CGPD/` → intermediate subgraph nodes/edges
+  - `/data/CGPD/subG_modify/` → processed subgraph data after merging embeddings
+  - `/data/CGPD/vec*.csv` → final compound vector files (used by TRACE-DDI)
+  - `/result_TRACE/` → model checkpoints, logs, and evaluation reports
+
+> **Tip:** Use absolute paths or project-root-relative paths consistently across all scripts.  
+> Missing or mismatched directory names (e.g., `result_TRACE` vs `results`) may lead to silent write failures.
 
 ---
 
