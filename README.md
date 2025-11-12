@@ -71,7 +71,7 @@ Make sure to explicitly configure both **input** and **output** directory paths 
 
 ## Data Format
 
-See `/preprocessing` for preprocessing scripts and format specifications.  
+See `/data_preprocessing` for preprocessing scripts and format specifications.  
 Each data file (TSV/CSV) must include aligned drug identifiers across SMILES and embedding tables.
 
 ---
