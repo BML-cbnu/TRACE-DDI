@@ -11,9 +11,6 @@ The main script is `CS_analysis.py`, which identifies **shared pathway candidate
 analysis/
 ├── CS_analysis.py           # Main analysis script
 ├── README.md                # Documentation
-└── examples/
-    ├── config.review.yaml   # Example configuration
-    └── run_examples.md      # Example execution guide
 ```
 
 ---
