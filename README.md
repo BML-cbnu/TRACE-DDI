@@ -74,7 +74,7 @@ Each data file (TSV/CSV) must include aligned drug identifiers across SMILES and
 ---
 
 ## Repository Structure
-
+```text
 repo-root/
 │
 ├── trace-ddi.py                  # Main launcher
