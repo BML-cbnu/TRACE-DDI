@@ -21,12 +21,12 @@ num_hop = args.num_hop
 nodes_type = args.nodes_type
 
 # Base directories
-nodes_base_path = f'/home/bml_ddi/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/nodes'
-edges_base_path = f'/home/bml_ddi/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/edges'
+nodes_base_path = f'/home/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/nodes'
+edges_base_path = f'/home/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/edges'
 
 # Output directories — created once
-output_edges_dir = f'/home/bml_ddi/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges'
-output_nodes_dir = f'/home/bml_ddi/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes'
+output_edges_dir = f'/home/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges'
+output_nodes_dir = f'/home/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes'
 
 os.makedirs(output_edges_dir, exist_ok=True)
 os.makedirs(output_nodes_dir, exist_ok=True)

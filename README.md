@@ -26,6 +26,48 @@ It integrates **SMILES-based Transformer encoders**, **graph attention networks 
 
 ---
 
+## Data Preparation
+
+Before executing `trace-ddi.py`, you must **run the preprocessing scripts** in `/data_preprocessing`.  
+These scripts generate the compound vector files (`vec*.csv`) and prepare DDI/SMILES tables for model input.
+
+### Step 1. Subgraph Construction (Random Walk Sampling)
+
+python data_preprocessing/randomwalk_mp.py \
+  --prob 0.3 \
+  --steps 2 \
+  --iteration 1 \
+  --num_workers 50 \
+  --nodes_name CGPD
+
+### Step 2. Knowledge Graph Embedding Integration
+
+python data_preprocessing/KG_embedding/subG_add_info.py \
+  --embed_path ./data/drkg/embed \
+  --subG_path ./data/CGPD/hop4/steps_20000/prob_0.3 \
+  --output_node_path ./data/CGPD/subG_modify/nodes \
+  --output_edge_path ./data/CGPD/subG_modify/edges \
+  --ddi_file ./data/DDI/ddi.tsv \
+  --smiles_file ./data/DDI/smiles.tsv \
+  --ddi_output_file ./data/DDI/ddi_01.tsv \
+  --smiles_output_file ./data/DDI/smiles_01.tsv
+
+### Step 3. Compound Vector Generation
+
+python data_preprocessing/KG_embedding/subG_info_Extract_weight.py \
+  --base_dir ./data/CGPD/subG_modify \
+  --embed_dir ./data/drkg/embed \
+  --save_dir ./data/CGPD \
+  --vector_length 20 \
+  --method conv
+
+This produces a file such as `vec20_conv.csv`, which is used for  
+`--compound_vector_path` in the main TRACE-DDI training command.
+
+> **Note:** All identifiers across `ddi.tsv`, `smiles.tsv`, and `vec*.csv` must be consistent.
+
+---
+
 ## Data Format
 
 See `/preprocessing` for preprocessing scripts and format specifications.  
@@ -35,22 +77,20 @@ Each data file (TSV/CSV) must include aligned drug identifiers across SMILES and
 
 ## Repository Structure
 
-```bash
 repo-root/
 │
 ├── trace-ddi.py                  # Main launcher
+├── data_preprocessing/           # Subgraph extraction and compound vector generation
 └── utils/
     ├── __init__.py
     ├── data.py                   # Data loading, tokenization, adjacency, dataset
     ├── model.py                  # Transformer, GAT, and classifier modules
     └── train_eval.py             # Stratified K-Fold training, evaluation, saving
-```
 
 ---
 
 ## Best-Parameter Command
 
-```bash
 python trace-ddi.py \
   --num_epochs 100 \
   --batch_size 32 \
@@ -70,7 +110,6 @@ python trace-ddi.py \
   --classifier_dropout 0.05 \
   --gat_dropout 0.0107 \
   --gat_alpha 0.3738
-```
 
 **Notes**
 - Use `--nhead` (not `--num_heads`) for multi-head attention.  
@@ -132,12 +171,10 @@ python trace-ddi.py \
 
 ## Example Outputs
 
-```text
 result_TRACE/
 ├── log/
 ├── savedModel/
 └── results_fold1.txt
-```
 
 Each `results_foldk.txt` includes:
 - Accuracy, Precision, Recall, and F1 (weighted average)
@@ -150,5 +187,3 @@ Each `results_foldk.txt` includes:
 - Ensure consistent drug IDs across `ddi_*.tsv`, `smiles_*.tsv`, and `vec*.csv`.  
 - For large datasets, increase `num_workers` in `DataLoader`.  
 - Monitor GPU memory and utilization with `pynvml`.
-
----

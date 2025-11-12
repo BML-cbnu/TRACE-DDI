@@ -21,12 +21,12 @@ parser.add_argument('--nodes_name', type=str, default='CGPD')  # Node set identi
 args = parser.parse_args()
 
 # ---------- Paths ----------
-base_dir = f'/home/bml_ddi/project/data/{args.nodes_name}/'
+base_dir = f'/home/your/project/data/{args.nodes_name}/'
 nodes_file_path = os.path.join(base_dir, f'nodes_{args.nodes_name}.tsv')
 edges_file_path = os.path.join(base_dir, f'edges_{args.nodes_name}.tsv')
 graph_file_path = os.path.join(base_dir, 'graph_drkg.pkl')
 subgraph_file_path = os.path.join(base_dir, f'subgraph_{args.nodes_name}.pkl')
-drkg_data_dir = "/home/bml_ddi/project/data/drkg"
+drkg_data_dir = "/home/your/project/data/drkg"
 
 
 # ---------- Step 1: Extract Nodes and Edges ----------
