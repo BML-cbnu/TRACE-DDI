@@ -203,14 +203,14 @@ This assumption appears explicitly in loops such as:
 
 (or equivalently `range(1706)`).
 
-- If you use the provided TRACE-DDI data as is:
+- If you use the provided TRACE-DDI data as is:  
   - You can keep this default; your compound subgraphs should be named  
     `compound0_*.tsv` through `compound1705_*.tsv`.
 
-- If you adapt the pipeline to a dataset with:
+- If you adapt the pipeline to a dataset with:  
   - a different number of compounds, or  
   - non-contiguous compound IDs,  
-  you must modify these `range(...)` statements (and the corresponding file naming convention, if needed) so that they correctly reflect:
+  you must modify these `range(...)` statements (and the corresponding file naming convention, if needed) so that they correctly reflect:  
   - the total number of compounds, and  
   - the file naming scheme of your dataset.
 
