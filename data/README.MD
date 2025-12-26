@@ -78,7 +78,7 @@ Provides a **fixed-length (20-dimensional) continuous vector representation** fo
 
 ---
 
-### Directory Layout
+## Directory Layout
 
 ```text
 data/
