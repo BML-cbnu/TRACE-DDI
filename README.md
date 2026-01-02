@@ -189,4 +189,4 @@ Each `results_foldk.txt` includes:
 ### Input Files
 
 - The precomputed compound vector files (`vec*.csv`) are provided in the `data/` directory of this GitHub repository.  
-  The Random Walk → k-hop subgraph extraction step is extremely time-consuming, so the provided files can be used directly without re-running the preprocessing.
+  ( The Random Walk → k-hop subgraph extraction step is extremely time-consuming, so the provided files can be used directly without re-running the preprocessing. )
