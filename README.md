@@ -185,3 +185,8 @@ Each `results_foldk.txt` includes:
 - Ensure consistent drug IDs across `ddi_*.tsv`, `smiles_*.tsv`, and `vec*.csv`.  
 - For large datasets, increase `num_workers` in `DataLoader`.  
 - Monitor GPU memory and utilization with `pynvml`.
+
+### Input Files
+
+- The precomputed compound vector files (`vec*.csv`) are provided in the `data/` directory of this GitHub repository.  
+  The Random Walk → k-hop subgraph extraction step is extremely time-consuming, so the provided files can be used directly without re-running the preprocessing.
