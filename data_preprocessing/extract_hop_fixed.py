@@ -1,5 +1,6 @@
 import argparse
 import os
+from typing import List, Optional, Tuple
 
 import networkx as nx
 import pandas as pd
@@ -8,149 +9,220 @@ from tqdm import tqdm
 pd.set_option("mode.chained_assignment", None)
 
 
-# --- Argument Parsing --- #
-parser = argparse.ArgumentParser()
-parser.add_argument("--prob", type=float, default=0.3)
-parser.add_argument("--steps", type=int, default=20000)
-parser.add_argument("--num_hop", type=int, default=4)
-parser.add_argument("--nodes_type", type=str, default="CGPD")
-args = parser.parse_args()
+# =========================
+# I/O utilities
+# =========================
+def load_nodes_edges(
+    nodes_base_path: str, edges_base_path: str, compound_num: int
+) -> Tuple[Optional[pd.DataFrame], Optional[pd.DataFrame], Optional[str]]:
+    """Load per-compound node/edge TSV files with safety checks."""
 
-# Params
-steps = args.steps
-prob = args.prob
-num_hop = args.num_hop
-nodes_type = args.nodes_type
+    nodes_path = os.path.join(nodes_base_path, f"compound{compound_num}_nodes.tsv")
+    edges_path = os.path.join(edges_base_path, f"compound{compound_num}_edges.tsv")
 
-# Base directories
-nodes_base_path = (
-    f"/path/to/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/nodes"
-)
-edges_base_path = (
-    f"/path/to/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/edges"
-)
+    missing = []
+    if not os.path.exists(nodes_path):
+        missing.append("nodes")
+    if not os.path.exists(edges_path):
+        missing.append("edges")
 
-# Output directories — created once
-output_edges_dir = f"/path/to/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/edges"
-output_nodes_dir = f"/path/to/your/project/data/{nodes_type}/rw_mean/steps_{steps}/prob_{prob}/hop{num_hop}/nodes"
-
-
-def load_nodes_edges(nodes_base_path, edges_base_path, compound_num):
-    nodes_file_path = os.path.join(nodes_base_path, f"compound{compound_num}_nodes.tsv")
-    edges_fil_path = os.path.join(edges_base_path, f"compound{compound_num}_edges.tsv")
-
-    if not (os.path.exists(nodes_file_path) and os.path.exists(edges_fil_path)):
-        return None, None
+    if missing:
+        return None, None, f"missing_{'+'.join(missing)}"
 
     nodes = pd.read_csv(
-        nodes_file_path,
+        nodes_path,
         sep="\t",
         names=["node_num", "node_name", "node_type", "spread_value", "visted_count"],
     )
-    edges = pd.read_csv(edges_fil_path, sep="\t", names=["head", "tail", "relation"])
-    return nodes, edges
+    edges = pd.read_csv(
+        edges_path,
+        sep="\t",
+        names=["head", "tail", "relation"],
+    )
+
+    if nodes.empty:
+        return None, None, "empty_nodes"
+    if edges.empty:
+        return None, None, "empty_edges"
+
+    return nodes, edges, None
 
 
-def build_digraph(edge_list):
+# =========================
+# Graph construction
+# =========================
+def build_digraph(edges: pd.DataFrame) -> nx.DiGraph:
+    """Build directed graph from edge list."""
     G = nx.DiGraph()
-    for head, relation, tail in edge_list:
-        G.add_edge(head, tail, relation=relation)
+    for h, t, r in edges[["head", "tail", "relation"]].itertuples(
+        index=False, name=None
+    ):
+        G.add_edge(h, t, relation=r)
     return G
 
 
-def meta_paths(G, source, target_list, num_hop):
-    meta_paths = []
-    for target in target_list:
+# =========================
+# Path search
+# =========================
+def find_paths_within_k(
+    G: nx.DiGraph, source: int, targets: List[int], num_hop: int
+) -> List[List[int]]:
+    """Find shortest paths within k hops (edge count)."""
+    paths = []
+    for target in targets:
         try:
             path = nx.shortest_path(G, source=source, target=target)
-            if len(path) <= (num_hop + 1):
-                meta_paths.append(path)
-        except nx.NetworkXNoPath:
+            if (len(path) - 1) <= num_hop:
+                paths.append(path)
+        except (nx.NetworkXNoPath, nx.NodeNotFound):
             continue
-        except nx.NodeNotFound:
-            continue
-    return meta_paths
+    return paths
 
 
-def make_meta_edges(edges, meta_paths):
-    meta_edges = set()  # (head, relation, tail)
+# =========================
+# Meta-edge extraction
+# =========================
+def make_meta_edges(edges: pd.DataFrame, paths: List[List[int]]) -> pd.DataFrame:
+    """Extract unique edges appearing in meta-paths."""
+    meta_edges = set()
 
-    for path in meta_paths:
+    for path in paths:
         for u, v in zip(path[:-1], path[1:]):
             rows = edges[(edges["head"] == u) & (edges["tail"] == v)][
                 ["head", "relation", "tail"]
             ]
-            for h, r, t in rows.itertuples(index=False):
+            for h, r, t in rows.itertuples(index=False, name=None):
                 meta_edges.add((int(h), str(r), int(t)))
-    meta_edges = pd.DataFrame(sorted(meta_edges), columns=["head", "relation", "tail"])
-    meta_edges = meta_edges.drop_duplicates(
-        subset=["head", "relation", "tail"], keep="first"
+
+    if not meta_edges:
+        return pd.DataFrame(columns=["head", "relation", "tail"])
+
+    df = pd.DataFrame(sorted(meta_edges), columns=["head", "relation", "tail"])
+    return df.drop_duplicates(subset=["head", "relation", "tail"])
+
+
+# =========================
+# Main pipeline
+# =========================
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prob", type=float, default=0.3)
+    parser.add_argument("--steps", type=int, default=20000)
+    parser.add_argument("--num_hop", type=int, default=4)
+    parser.add_argument("--nodes_type", type=str, default="CGPD")
+    parser.add_argument("--start", type=int, default=0)
+    parser.add_argument("--end", type=int, default=1705)
+    parser.add_argument("--verbose", action="store_true")
+    args = parser.parse_args()
+
+    # -------------------------
+    # Base data directories
+    # -------------------------
+    base_data_dir = "/path/to/your/data"
+
+    nodes_base_path = (
+        f"{base_data_dir}/{args.nodes_type}/rw_mean/"
+        f"steps_{args.steps}/prob_{args.prob}/nodes"
     )
-    return meta_edges
+    edges_base_path = (
+        f"{base_data_dir}/{args.nodes_type}/rw_mean/"
+        f"steps_{args.steps}/prob_{args.prob}/edges"
+    )
 
+    # -------------------------
+    # Output directories
+    # -------------------------
+    out_edges = (
+        f"{base_data_dir}/{args.nodes_type}/rw_mean/"
+        f"steps_{args.steps}/prob_{args.prob}/hop{args.num_hop}/edges"
+    )
+    out_nodes = (
+        f"{base_data_dir}/{args.nodes_type}/rw_mean/"
+        f"steps_{args.steps}/prob_{args.prob}/hop{args.num_hop}/nodes"
+    )
 
-if __name__ == "__main__":
-    os.makedirs(output_edges_dir, exist_ok=True)
-    os.makedirs(output_nodes_dir, exist_ok=True)
+    os.makedirs(out_edges, exist_ok=True)
+    os.makedirs(out_nodes, exist_ok=True)
 
-    # Missing info tracking
-    not_pathway_count = []
-    not_metapath_count = []
+    # -------------------------
+    # Diagnostics
+    # -------------------------
+    missing = {}
+    no_pathway = []
+    no_metapath = []
+    source_missing = []
+    saved = []
 
-    for compound_num in tqdm(range(0, 1705 + 1), desc="Processing compounds"):
-        nodes, edges = load_nodes_edges(nodes_base_path, edges_base_path, compound_num)
+    for compound_num in tqdm(
+        range(args.start, args.end + 1), desc="Processing compounds"
+    ):
+        nodes, edges, reason = load_nodes_edges(
+            nodes_base_path, edges_base_path, compound_num
+        )
+        if reason:
+            missing[compound_num] = reason
+            continue
 
-        # Create directed graph
-        edge_list = list(zip(edges["head"], edges["relation"], edges["tail"]))
-        kg_nx = build_digraph(edge_list)
+        G = build_digraph(edges)
 
-        pathway_list = nodes[nodes["node_name"].str.startswith("Pathway")][
+        # Skip if source node not in graph
+        if compound_num not in G:
+            source_missing.append(compound_num)
+            continue
+
+        # Select pathway nodes
+        pathway_nodes = nodes[nodes["node_name"].astype(str).str.startswith("Pathway")][
             "node_num"
-        ].tolist()  # pathway_list
+        ].tolist()
 
-        # case 1: Pathway entities are not included for compound in subgraph(random walk)
-        if not pathway_list:
-            not_pathway_count.append(compound_num)
-            not_metapath_count.append(compound_num)
+        if not pathway_nodes:
+            no_pathway.append(compound_num)
             continue
 
-        print(
-            f"Compound {compound_num} → Searching pathways (steps={steps}, prob={prob}, num_hop={num_hop})..."
-        )
-        mata_paths = meta_paths(
-            kg_nx, source=compound_num, target_list=pathway_list, num_hop=num_hop
-        )
+        # Find k-hop meta-paths
+        paths = find_paths_within_k(G, compound_num, pathway_nodes, args.num_hop)
 
-        # case 2: metapath is not extracted for compound within k-hops.
-        if not mata_paths:
-            print(
-                f"No meta-path found for compound {compound_num} within {num_hop} hops."
-            )
-            not_metapath_count.append(compound_num)
+        if not paths:
+            no_metapath.append(compound_num)
             continue
 
-        meta_edges = make_meta_edges(edges, mata_paths)
+        # Extract meta-graph
+        meta_edges = make_meta_edges(edges, paths)
+        if meta_edges.empty:
+            no_metapath.append(compound_num)
+            continue
+
         meta_nodes = nodes[
             nodes["node_num"].isin(meta_edges["head"])
             | nodes["node_num"].isin(meta_edges["tail"])
         ]
+
+        # Save results
         meta_edges.to_csv(
-            os.path.join(output_edges_dir, f"compound{compound_num}_edges.tsv"),
+            os.path.join(out_edges, f"compound{compound_num}_edges.tsv"),
             sep="\t",
             index=False,
             header=False,
         )
         meta_nodes.to_csv(
-            os.path.join(output_nodes_dir, f"compound{compound_num}_nodes.tsv"),
+            os.path.join(out_nodes, f"compound{compound_num}_nodes.tsv"),
             sep="\t",
             index=False,
             header=False,
         )
 
-    # Final report
-    print(f"\n--- Process Completed ---")
-    print(f"Total compounds processed: 1706(0-1705)")
-    print(f"Missing pathway info: {len(not_pathway_count)} compounds")
-    print(f"Missing meta-path: {len(not_metapath_count)} compounds")
-    print(f"Missing pathway compounds: {not_pathway_count}")
-    print(f"Missing meta-path compounds: {not_metapath_count}")
+        saved.append(compound_num)
+
+    # -------------------------
+    # Summary
+    # -------------------------
+    print("\n--- Process Completed ---")
+    print(f"Saved OK: {len(saved)}")
+    print(f"Missing/empty input: {len(missing)}")
+    print(f"Source not in graph: {len(source_missing)}")
+    print(f"No pathway: {len(no_pathway)}")
+    print(f"No meta-path: {len(no_metapath)}")
+
+
+if __name__ == "__main__":
+    main()
